@@ -1,0 +1,26 @@
+{
+ "source": "eval\\cache\\graz_profile__main_sampling_1.json",
+ "triples": 146191,
+ "observations": 16318,
+ "shape_violations": {},
+ "dangling_references": {},
+ "unreferenced_declarations": {},
+ "quantity_values": 16318,
+ "quantity_values_without_numericValue": 1149,
+ "quantity_values_without_unit": 0,
+ "resultTime_not_xsd_dateTime": 0,
+ "sensors": 10,
+ "properties": 7,
+ "features": 6,
+ "sampling": {
+  "sampled_files": [
+   "lab-data-samples"
+  ],
+  "samples": 53,
+  "samplings": 53,
+  "samplers": 1,
+  "sampled_observations": 318,
+  "sampled_observations_not_about_a_sample": 0,
+  "shape_violations": {}
+ }
+}

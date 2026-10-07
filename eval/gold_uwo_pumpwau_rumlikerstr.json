@@ -1,0 +1,32 @@
+{
+ "dataset": "uwo_pumpwau_rumlikerstr",
+ "root": "data\\04 - UWO\\wide\\pumpwau_rumlikerstr",
+ "observations": [
+  {
+   "type": "rainfall_intensity",
+   "file": "bn_dl800_pumpwau_rumlikerstr.csv",
+   "column": "rainfall_intensity",
+   "sensor": "bn_dl800_pumpwau_rumlikerstr",
+   "observedProperty": "ex:property/rainfall-intensity",
+   "decision": "mint",
+   "unit": "unit:MilliM-PER-HR",
+   "feature": "pumpwau_rumlikerstr",
+   "feature_gwsw": null,
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). FoI = physical sensor site (per decision); measurand is atmospheric, not the site. No QUDT/GEMET rainfall-intensity concept."
+  },
+  {
+   "type": "rainfall_cumsum",
+   "file": "bn_dl800_pumpwau_rumlikerstr.csv",
+   "column": "rainfall_cumsum",
+   "sensor": "bn_dl800_pumpwau_rumlikerstr",
+   "observedProperty": "gemet:637",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "pumpwau_rumlikerstr",
+   "feature_gwsw": null,
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). FoI = physical sensor site (per decision); measurand is atmospheric, not the site. Cumulative total — possibly derived; expert check."
+  }
+ ]
+}

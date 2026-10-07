@@ -1,0 +1,58 @@
+{
+ "dataset": "uwo_sk_ara",
+ "root": "data\\04 - UWO\\wide\\sk_ara",
+ "observations": [
+  {
+   "type": "water_level",
+   "file": "bl_dl310_sk_ara.csv",
+   "column": "water_level",
+   "sensor": "bl_dl310_sk_ara",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "sk_ara",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "overflow_temperature",
+   "file": "bm_dl328_sk_ara.csv",
+   "column": "overflow_temperature",
+   "sensor": "bm_dl328_sk_ara",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "sk_ara",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "dielectric_permittivity",
+   "file": "bm_dl328_sk_ara.csv",
+   "column": "dielectric_permittivity",
+   "sensor": "bm_dl328_sk_ara",
+   "observedProperty": "qudt:RelativePermittivity",
+   "decision": "reuse",
+   "unit": "unit:UNITLESS",
+   "feature": "sk_ara",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). dimensionless (soil-moisture proxy)"
+  },
+  {
+   "type": "water_level",
+   "file": "bl_plsRFBA1201_sk_ara.csv",
+   "column": "water_level",
+   "sensor": "bl_plsRFBA1201_sk_ara",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "sk_ara",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  }
+ ]
+}

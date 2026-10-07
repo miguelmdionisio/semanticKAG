@@ -1,0 +1,84 @@
+{
+ "dataset": "uwo_rumpisweg",
+ "root": "data\\04 - UWO\\wide\\rumpisweg",
+ "observations": [
+  {
+   "type": "soil_temperature",
+   "file": "bt_uit01_t1_rumpisweg.csv",
+   "column": "soil_temperature",
+   "sensor": "bt_uit01_t1_rumpisweg",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "rumpisweg",
+   "feature_gwsw": "gwsw:Rioolput",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "soil_temperature",
+   "file": "bt_uit01_t2_rumpisweg.csv",
+   "column": "soil_temperature",
+   "sensor": "bt_uit01_t2_rumpisweg",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "rumpisweg",
+   "feature_gwsw": "gwsw:Rioolput",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "soil_temperature",
+   "file": "bt_uit01_t3_rumpisweg.csv",
+   "column": "soil_temperature",
+   "sensor": "bt_uit01_t3_rumpisweg",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "rumpisweg",
+   "feature_gwsw": "gwsw:Rioolput",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "soil_temperature",
+   "file": "bt_uit01_t4_rumpisweg.csv",
+   "column": "soil_temperature",
+   "sensor": "bt_uit01_t4_rumpisweg",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "rumpisweg",
+   "feature_gwsw": "gwsw:Rioolput",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "soil_temperature",
+   "file": "bt_uit01_t5_rumpisweg.csv",
+   "column": "soil_temperature",
+   "sensor": "bt_uit01_t5_rumpisweg",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "rumpisweg",
+   "feature_gwsw": "gwsw:Rioolput",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "soil_temperature",
+   "file": "bt_uit01_t6_rumpisweg.csv",
+   "column": "soil_temperature",
+   "sensor": "bt_uit01_t6_rumpisweg",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "rumpisweg",
+   "feature_gwsw": "gwsw:Rioolput",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  }
+ ]
+}

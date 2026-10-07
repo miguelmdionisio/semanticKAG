@@ -1,0 +1,218 @@
+{
+ "dataset": "flowbru_belliard",
+ "root": "data/03 - FlowBru/Buffer_Basin_Streams/BT_Belliard",
+ "observations": [
+  {
+   "type": "precipitation",
+   "file": "Rainfall.tsv",
+   "column": "Pluvio Flagey[mm]",
+   "value": "0,0",
+   "resultTime": "6.3.2025 00:05:00",
+   "sensor": "rain_gauge_flagey",
+   "sensor_type": "rain gauge 'Pluvio Flagey' (another site than the basin)",
+   "observedProperty": "gemet:637",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "Rain gauge site, Flagey",
+   "feature_gwsw": null,
+   "accept": [
+    "gemet:6947"
+   ],
+   "note": "GEMET 6947 'rain' accepted (lenient)"
+  },
+  {
+   "type": "stored volume",
+   "file": "Volume.tsv",
+   "column": "Volume Bassin 1[m3]",
+   "value": "0",
+   "resultTime": "6.3.2025 00:05:00",
+   "sensor": "basin1_level",
+   "sensor_type": "level measurement of basin 1 ('moyenne' = averaged); the volume is assumed to derive from it",
+   "observedProperty": "qudt:Volume",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:M3",
+   "feature": "Buffer basin Belliard, basin 1",
+   "feature_gwsw": "gwsw:Bergingsbassin",
+   "accept": [
+    "qudt:LiquidVolume"
+   ],
+   "note": "approximate: probably computed from the basin-1 level (stage-volume curve); kept as an observation (user decision)"
+  },
+  {
+   "type": "water level",
+   "file": "Water_Level_Buffer_Basin.tsv",
+   "column": "Bassin 1 moyenne[mm]",
+   "value": "13",
+   "resultTime": "6.3.2025 00:05:00",
+   "sensor": "basin1_level",
+   "sensor_type": "level measurement of basin 1 ('moyenne' = averaged); the volume is assumed to derive from it",
+   "observedProperty": "gemet:9190",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "Buffer basin Belliard, basin 1",
+   "feature_gwsw": "gwsw:Bergingsbassin",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "water level",
+   "file": "Water_Level_Buffer_Basin.tsv",
+   "column": "Bassin 2[mm]",
+   "value": "152",
+   "resultTime": "6.3.2025 00:05:00",
+   "sensor": "basin2_level",
+   "sensor_type": "level sensor of basin 2",
+   "observedProperty": "gemet:9190",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "Buffer basin Belliard, basin 2",
+   "feature_gwsw": "gwsw:Bergingsbassin",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "water level",
+   "file": "Water_Level_Sewer_Entrance.tsv",
+   "column": "Pertuis Gauche[mm]",
+   "value": "282",
+   "resultTime": "6.3.2025 00:05:00",
+   "sensor": "entrance_left",
+   "sensor_type": "level sensor, sewer entrance, left culvert ('Pertuis Gauche')",
+   "observedProperty": "gemet:9190",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "Sewer entrance of the buffer basin",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "water level",
+   "file": "Water_Level_Sewer_Entrance.tsv",
+   "column": "Pertuis Droit[mm]",
+   "value": "229",
+   "resultTime": "6.3.2025 00:05:00",
+   "sensor": "entrance_right",
+   "sensor_type": "level sensor, sewer entrance, right culvert ('Pertuis Droit')",
+   "observedProperty": "gemet:9190",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "Sewer entrance of the buffer basin",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "water level",
+   "file": "Water_Level_Sewer_Outlet.tsv",
+   "column": "Vegason AI1 [mm]",
+   "value": "(empty)",
+   "resultTime": "",
+   "sensor": "vegason_ai1",
+   "sensor_type": "VEGASON ultrasonic level sensor, analogue input 1 (column empty in this export)",
+   "observedProperty": "gemet:9190",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "Sewer outlet of the buffer basin",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": "column empty in this export (decided from the header)"
+  },
+  {
+   "type": "water level",
+   "file": "Water_Level_Sewer_Outlet.tsv",
+   "column": "Vegapuls AI2 [mm]",
+   "value": "(empty)",
+   "resultTime": "",
+   "sensor": "vegapuls_ai2",
+   "sensor_type": "VEGAPULS radar level sensor, analogue input 2 (column empty in this export)",
+   "observedProperty": "gemet:9190",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "Sewer outlet of the buffer basin",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": "column empty in this export (decided from the header)"
+  },
+  {
+   "type": "water level",
+   "file": "Water_Level_Sewer_Outlet.tsv",
+   "column": "Fmr20 DN40 droit[mm]",
+   "value": "202,2",
+   "resultTime": "6.3.2025 00:01:00",
+   "sensor": "fmr20_dn40_right",
+   "sensor_type": "Endress+Hauser Micropilot FMR20 radar level sensor, DN40, right",
+   "observedProperty": "gemet:9190",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "Sewer outlet of the buffer basin",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "water level",
+   "file": "Water_Level_Sewer_Outlet.tsv",
+   "column": "Fmr20 DN80 gauch[mm]",
+   "value": "278,3",
+   "resultTime": "6.3.2025 00:01:00",
+   "sensor": "fmr20_dn80_left",
+   "sensor_type": "Endress+Hauser Micropilot FMR20 radar level sensor, DN80, left",
+   "observedProperty": "gemet:9190",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "Sewer outlet of the buffer basin",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": ""
+  }
+ ],
+ "features": [
+  {
+   "id": "basin_1",
+   "label": "Buffer basin Belliard, basin 1",
+   "gwsw": "gwsw:Bergingsbassin"
+  },
+  {
+   "id": "basin_2",
+   "label": "Buffer basin Belliard, basin 2",
+   "gwsw": "gwsw:Bergingsbassin"
+  },
+  {
+   "id": "sewer_entrance",
+   "label": "Sewer entrance of the buffer basin",
+   "gwsw": "gwsw:Rioolleiding"
+  },
+  {
+   "id": "sewer_outlet",
+   "label": "Sewer outlet of the buffer basin",
+   "gwsw": "gwsw:Rioolleiding"
+  },
+  {
+   "id": "rain_site_flagey",
+   "label": "Rain gauge site, Flagey",
+   "gwsw": null
+  }
+ ],
+ "sensors": {
+  "rain_gauge_flagey": "rain gauge 'Pluvio Flagey' (another site than the basin)",
+  "basin1_level": "level measurement of basin 1 ('moyenne' = averaged); the volume is assumed to derive from it",
+  "basin2_level": "level sensor of basin 2",
+  "entrance_left": "level sensor, sewer entrance, left culvert ('Pertuis Gauche')",
+  "entrance_right": "level sensor, sewer entrance, right culvert ('Pertuis Droit')",
+  "vegason_ai1": "VEGASON ultrasonic level sensor, analogue input 1 (column empty in this export)",
+  "vegapuls_ai2": "VEGAPULS radar level sensor, analogue input 2 (column empty in this export)",
+  "fmr20_dn40_right": "Endress+Hauser Micropilot FMR20 radar level sensor, DN40, right",
+  "fmr20_dn80_left": "Endress+Hauser Micropilot FMR20 radar level sensor, DN80, left"
+ }
+}

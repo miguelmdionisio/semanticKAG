@@ -1,0 +1,45 @@
+{
+ "dataset": "uwo_rubpw80sbw_industry",
+ "root": "data\\04 - UWO\\wide\\rubpw80sbw_industry",
+ "observations": [
+  {
+   "type": "water_level",
+   "file": "bl_ce769_rubpw80sbw_industry.csv",
+   "column": "water_level",
+   "sensor": "bl_ce769_rubpw80sbw_industry",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "rubpw80sbw_industry",
+   "feature_gwsw": "gwsw:Rioolgemaal",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "water_level",
+   "file": "bl_plsRKPI1201_rubpw80sbw_industry.csv",
+   "column": "water_level",
+   "sensor": "bl_plsRKPI1201_rubpw80sbw_industry",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "rubpw80sbw_industry",
+   "feature_gwsw": "gwsw:Rioolgemaal",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "flow_rate",
+   "file": "bf_plsRKPI1102_rubpw80sbw_overflow.csv",
+   "column": "flow_rate",
+   "sensor": "bf_plsRKPI1102_rubpw80sbw_overflow",
+   "observedProperty": "qudt:VolumeFlowRate",
+   "decision": "reuse",
+   "unit": "unit:L-PER-SEC",
+   "feature": "rubpw80sbw_industry",
+   "feature_gwsw": "gwsw:Rioolgemaal",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  }
+ ]
+}

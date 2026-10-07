@@ -1,0 +1,19 @@
+{
+ "dataset": "uwo_50sbw_acherm",
+ "root": "data\\04 - UWO\\wide\\50sbw_acherm",
+ "observations": [
+  {
+   "type": "water_level",
+   "file": "bl_dl314_50sbw_acherm.csv",
+   "column": "water_level",
+   "sensor": "bl_dl314_50sbw_acherm",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "50sbw_acherm",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  }
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "graz": [
+  {
+   "run": 1,
+   "sampled": [
+    "lab data/samples.csv"
+   ],
+   "expected": [
+    "lab data/samples.csv"
+   ],
+   "correct": true,
+   "detail": {
+    "lab data/samples.csv": {
+     "sampler": {
+      "id": "peristaltic_sampler",
+      "label": "American Sigma (Hach) automatic peristaltic sampler",
+      "identification": "declared",
+      "evidence_source": "meta_data.json"
+     },
+     "feature": {
+      "id": "cso_chamber",
+      "label": "CSO chamber (Graz-West R05)",
+      "gwsw": "http://data.gwsw.nl/1.6/totaal/VerbeterdeOverstortput"
+     }
+    }
+   },
+   "graph": {
+    "samples": 53,
+    "samplings": 53,
+    "samples_with_isSampleOf": 53,
+    "samplings_with_sampler": 53,
+    "observations_about_a_sample": 318,
+    "triples": 146191
+   }
+  },
+  {
+   "run": 2,
+   "sampled": [
+    "lab data/samples.csv"
+   ],
+   "expected": [
+    "lab data/samples.csv"
+   ],
+   "correct": true,
+   "detail": {
+    "lab data/samples.csv": {
+     "sampler": {
+      "id": "peristaltic_sampler",
+      "label": "Automatic peristaltic-operated grab sampler (American Sigma / Hach)",
+      "identification": "declared",
+      "evidence_source": "meta_data.json"
+     },
+     "feature": {
+      "id": "cso_chamber",
+      "label": "CSO chamber (Graz-West R05)",
+      "gwsw": "http://data.gwsw.nl/1.6/totaal/Overstortput"
+     }
+    }
+   },
+   "graph": {
+    "samples": 53,
+    "samplings": 53,
+    "samples_with_isSampleOf": 53,
+    "samplings_with_sampler": 53,
+    "observations_about_a_sample": 318,
+    "triples": 146187
+   }
+  },
+  {
+   "run": 3,
+   "sampled": [
+    "lab data/samples.csv"
+   ],
+   "expected": [
+    "lab data/samples.csv"
+   ],
+   "correct": true,
+   "detail": {
+    "lab data/samples.csv": {
+     "sampler": {
+      "id": "peristaltic_sampler",
+      "label": "American Sigma (Hach) automatic peristaltic sampler",
+      "identification": "declared",
+      "evidence_source": "meta_data.json"
+     },
+     "feature": {
+      "id": "cso_chamber",
+      "label": "CSO chamber (Graz-West R05)",
+      "gwsw": "http://data.gwsw.nl/1.6/totaal/Overstortput"
+     }
+    }
+   },
+   "graph": {
+    "samples": 53,
+    "samplings": 53,
+    "samples_with_isSampleOf": 53,
+    "samplings_with_sampler": 53,
+    "observations_about_a_sample": 318,
+    "triples": 146191
+   }
+  },
+  {
+   "run": 4,
+   "sampled": [
+    "lab data/samples.csv"
+   ],
+   "expected": [
+    "lab data/samples.csv"
+   ],
+   "correct": true,
+   "detail": {
+    "lab data/samples.csv": {
+     "sampler": {
+      "id": "peristaltic_sampler",
+      "label": "Automatic peristaltic-operated grab sampler (American Sigma/Hach)",
+      "identification": "declared",
+      "evidence_source": "meta_data.json"
+     },
+     "feature": {
+      "id": "cso_chamber",
+      "label": "CSO chamber (Graz-West R05)",
+      "gwsw": "http://data.gwsw.nl/1.6/totaal/VerbeterdeOverstortput"
+     }
+    }
+   },
+   "graph": {
+    "samples": 53,
+    "samplings": 53,
+    "samples_with_isSampleOf": 53,
+    "samplings_with_sampler": 53,
+    "observations_about_a_sample": 318,
+    "triples": 146189
+   }
+  }
+ ],
+ "flowbru_beco": [
+  {
+   "run": 1,
+   "sampled": [],
+   "expected": [],
+   "correct": true,
+   "detail": {},
+   "graph": null
+  },
+  {
+   "run": 2,
+   "sampled": [],
+   "expected": [],
+   "correct": true,
+   "detail": {},
+   "graph": null
+  }
+ ],
+ "flowbru_belliard": [
+  {
+   "run": 1,
+   "sampled": [],
+   "expected": [],
+   "correct": true,
+   "detail": {},
+   "graph": null
+  },
+  {
+   "run": 2,
+   "sampled": [],
+   "expected": [],
+   "correct": true,
+   "detail": {},
+   "graph": null
+  }
+ ],
+ "files": {
+  "true_positive": 4,
+  "false_positive": 0,
+  "false_negative": 0
+ }
+}

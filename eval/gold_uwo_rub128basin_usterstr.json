@@ -1,0 +1,84 @@
+{
+ "dataset": "uwo_rub128basin_usterstr",
+ "root": "data\\04 - UWO\\wide\\rub128basin_usterstr",
+ "observations": [
+  {
+   "type": "water_level",
+   "file": "bl_dl323_rub128basin_usterstr.csv",
+   "column": "water_level",
+   "sensor": "bl_dl323_rub128basin_usterstr",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "rub128basin_usterstr",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "overflow_temperature",
+   "file": "bm_dl329_rub128basin_usterstr.csv",
+   "column": "overflow_temperature",
+   "sensor": "bm_dl329_rub128basin_usterstr",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "rub128basin_usterstr",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "dielectric_permittivity",
+   "file": "bm_dl329_rub128basin_usterstr.csv",
+   "column": "dielectric_permittivity",
+   "sensor": "bm_dl329_rub128basin_usterstr",
+   "observedProperty": "qudt:RelativePermittivity",
+   "decision": "reuse",
+   "unit": "unit:UNITLESS",
+   "feature": "rub128basin_usterstr",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). dimensionless (soil-moisture proxy)"
+  },
+  {
+   "type": "flow_rate",
+   "file": "bf_plsRKBU1101_rub128basin_usterstr.csv",
+   "column": "flow_rate",
+   "sensor": "bf_plsRKBU1101_rub128basin_usterstr",
+   "observedProperty": "qudt:VolumeFlowRate",
+   "decision": "reuse",
+   "unit": "unit:L-PER-SEC",
+   "feature": "rub128basin_usterstr",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "water_level",
+   "file": "bl_plsRKBU1201_rub128basin_usterstr.csv",
+   "column": "water_level",
+   "sensor": "bl_plsRKBU1201_rub128basin_usterstr",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "rub128basin_usterstr",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "flow_rate",
+   "file": "bf_plsRKBU1102_rub128basin_overflow.csv",
+   "column": "flow_rate",
+   "sensor": "bf_plsRKBU1102_rub128basin_overflow",
+   "observedProperty": "qudt:VolumeFlowRate",
+   "decision": "reuse",
+   "unit": "unit:L-PER-SEC",
+   "feature": "rub128basin_usterstr",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  }
+ ]
+}

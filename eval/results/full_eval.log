@@ -1,0 +1,168 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1790530784.776426   37180 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1790530790.842715   37180 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING:tensorflow:From <python-env>\Lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+[baseline run 1 cached] L0 52%  L1 62%  reuse/mint 76%  unit 100%  sensorF1 84%  feat 0%  cov 100%  spurious 16  demoted 0 (wrong 0)
+[baseline run 2 cached] L0 52%  L1 62%  reuse/mint 76%  unit 100%  sensorF1 77%  feat 52%  cov 100%  spurious 16  demoted 0 (wrong 0)
+[baseline run 3 cached] L0 52%  L1 62%  reuse/mint 76%  unit 100%  sensorF1 100%  feat 52%  cov 100%  spurious 16  demoted 0 (wrong 0)
+[stage1] Found 25 CSV files, 1 companion files, 9 skipped files
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:213: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  parsed = pd.to_datetime(dt_series.dropna().astype(str).head(100), **kwargs)
+[stage1] Resolving (sensors + observedProperty + units) ...
+[stage1] 11 sensors, 10 properties
+[noenrich_k30 run 1] L0 62%  L1 62%  reuse/mint 67%  unit 100%  sensorF1 95%  feat 52%  cov 100%  spurious 16  demoted 0 (wrong 0)
+[stage1] Found 25 CSV files, 1 companion files, 9 skipped files
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:213: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  parsed = pd.to_datetime(dt_series.dropna().astype(str).head(100), **kwargs)
+[stage1] Resolving (sensors + observedProperty + units) ...
+[stage1] 12 sensors, 9 properties
+[noenrich_k30 run 2] L0 62%  L1 76%  reuse/mint 81%  unit 100%  sensorF1 84%  feat 52%  cov 100%  spurious 16  demoted 0 (wrong 0)
+[stage1] Found 25 CSV files, 1 companion files, 9 skipped files
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:213: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  parsed = pd.to_datetime(dt_series.dropna().astype(str).head(100), **kwargs)
+[stage1] Resolving (sensors + observedProperty + units) ...
+[stage1] 10 sensors, 9 properties
+[noenrich_k30 run 3] L0 62%  L1 76%  reuse/mint 81%  unit 100%  sensorF1 100%  feat 0%  cov 100%  spurious 16  demoted 0 (wrong 0)
+[stage1] Found 25 CSV files, 1 companion files, 9 skipped files
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:213: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  parsed = pd.to_datetime(dt_series.dropna().astype(str).head(100), **kwargs)
+[stage1] Resolving (sensors + observedProperty + units) ...
+[stage1] 10 sensors, 9 properties
+[enrich_k10 run 1] L0 81%  L1 57%  reuse/mint 81%  unit 100%  sensorF1 100%  feat 52%  cov 100%  spurious 16  demoted 0 (wrong 0)
+[stage1] Found 25 CSV files, 1 companion files, 9 skipped files
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:213: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  parsed = pd.to_datetime(dt_series.dropna().astype(str).head(100), **kwargs)
+[stage1] Resolving (sensors + observedProperty + units) ...
+[stage1] 11 sensors, 9 properties
+[enrich_k10 run 2] L0 81%  L1 57%  reuse/mint 81%  unit 100%  sensorF1 84%  feat 0%  cov 100%  spurious 16  demoted 0 (wrong 0)
+[stage1] Found 25 CSV files, 1 companion files, 9 skipped files
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:213: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  parsed = pd.to_datetime(dt_series.dropna().astype(str).head(100), **kwargs)
+[stage1] Resolving (sensors + observedProperty + units) ...
+[stage1] 11 sensors, 9 properties
+[enrich_k10 run 3] L0 81%  L1 57%  reuse/mint 81%  unit 100%  sensorF1 84%  feat 52%  cov 100%  spurious 16  demoted 0 (wrong 0)
+[stage1] Found 25 CSV files, 1 companion files, 9 skipped files
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:213: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  parsed = pd.to_datetime(dt_series.dropna().astype(str).head(100), **kwargs)
+[stage1] Resolving (sensors + observedProperty + units) ...
+[stage1] 10 sensors, 9 properties
+[enrich_k30 run 1] L0 100%  L1 71%  reuse/mint 81%  unit 100%  sensorF1 100%  feat 0%  cov 100%  spurious 16  demoted 0 (wrong 0)
+[stage1] Found 25 CSV files, 1 companion files, 9 skipped files
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:213: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  parsed = pd.to_datetime(dt_series.dropna().astype(str).head(100), **kwargs)
+[stage1] Resolving (sensors + observedProperty + units) ...
+[stage1] 10 sensors, 9 properties
+[enrich_k30 run 2] L0 100%  L1 71%  reuse/mint 81%  unit 100%  sensorF1 100%  feat 0%  cov 100%  spurious 16  demoted 0 (wrong 0)
+[stage1] Found 25 CSV files, 1 companion files, 9 skipped files
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:213: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  parsed = pd.to_datetime(dt_series.dropna().astype(str).head(100), **kwargs)
+[stage1] Resolving (sensors + observedProperty + units) ...
+[stage1] 11 sensors, 9 properties
+[enrich_k30 run 3] L0 100%  L1 71%  reuse/mint 81%  unit 100%  sensorF1 95%  feat 0%  cov 100%  spurious 16  demoted 0 (wrong 0)
+[stage1] Found 25 CSV files, 1 companion files, 9 skipped files
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:213: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  parsed = pd.to_datetime(dt_series.dropna().astype(str).head(100), **kwargs)
+[stage1] Resolving (sensors + observedProperty + units) ...
+[resolve] 15 column(s) demoted (not measurements)
+[resolve] dropped sensor(s) with no measurement columns: ['rain_gauge_0033931602', 'rain_gauge_0033970301']
+[stage1] 9 sensors, 7 properties
+[main run 1] L0 100%  L1 71%  reuse/mint 81%  unit 100%  sensorF1 84%  feat 52%  cov 100%  spurious 1  demoted 15 (wrong 0)
+[stage1] Found 25 CSV files, 1 companion files, 9 skipped files
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:213: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  parsed = pd.to_datetime(dt_series.dropna().astype(str).head(100), **kwargs)
+[stage1] Resolving (sensors + observedProperty + units) ...
+[resolve] 15 column(s) demoted (not measurements)
+[resolve] dropped sensor(s) with no measurement columns: ['rain_gauge_0033931602', 'rain_gauge_0033970301']
+[stage1] 9 sensors, 7 properties
+[main run 2] L0 100%  L1 71%  reuse/mint 81%  unit 100%  sensorF1 84%  feat 52%  cov 100%  spurious 1  demoted 15 (wrong 0)
+[stage1] Found 25 CSV files, 1 companion files, 9 skipped files
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:40: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  pd.to_datetime(sample, format=fmt)   # raises if any value fails
+stage1\profiler.py:213: FutureWarning: In a future version of pandas, parsing datetimes with mixed time zones will raise an error unless `utc=True`. Please specify `utc=True` to opt in to the new behaviour and silence this warning. To create a `Series` with mixed offsets and `object` dtype, please use `apply` and `datetime.datetime.strptime`
+  parsed = pd.to_datetime(dt_series.dropna().astype(str).head(100), **kwargs)
+[stage1] Resolving (sensors + observedProperty + units) ...
+[resolve] 15 column(s) demoted (not measurements)
+[resolve] dropped sensor(s) with no measurement columns: ['rain_gauge_0033931602', 'rain_gauge_0033970301']
+[stage1] 9 sensors, 7 properties
+[main run 3] L0 100%  L1 71%  reuse/mint 81%  unit 100%  sensorF1 84%  feat 0%  cov 100%  spurious 1  demoted 15 (wrong 0)
+
+config                   L0           L1    L1 strict   reuse/mint         unit    sensor F1      feature     spurious
+baseline             52%±0%       62%±0%       65%±0%       76%±0%      100%±0%      87%±10%      35%±25%     16.0±0.0
+noenrich_k30         62%±0%       71%±7%       75%±7%       76%±7%      100%±0%       93%±7%      35%±25%     16.0±0.0
+enrich_k10           81%±0%       57%±0%       60%±0%       81%±0%      100%±0%       89%±8%      35%±25%     16.0±0.0
+enrich_k30          100%±0%       71%±0%       75%±0%       81%±0%      100%±0%       98%±2%        0%±0%     16.0±0.0
+main                100%±0%       71%±0%       75%±0%       81%±0%      100%±0%       84%±0%      35%±25%      1.0±0.0
+
+wrote eval\results\full_eval_graz.json  (usage: eval\results\usage_graz.json)

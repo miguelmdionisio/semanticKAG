@@ -1,0 +1,38 @@
+[
+ {
+  "model": "claude-sonnet-4-6",
+  "tool": "enrich_queries",
+  "seconds": 10.9,
+  "input_tokens": 25,
+  "output_tokens": 924,
+  "cache_write": 8266,
+  "cache_read": 0
+ },
+ {
+  "model": "claude-opus-4-6",
+  "tool": "resolve_dataset",
+  "seconds": 56.1,
+  "input_tokens": 24,
+  "output_tokens": 5353,
+  "cache_write": 97394,
+  "cache_read": 0
+ },
+ {
+  "model": "claude-sonnet-4-6",
+  "tool": "enrich_queries",
+  "seconds": 11.2,
+  "input_tokens": 25,
+  "output_tokens": 924,
+  "cache_write": 8266,
+  "cache_read": 0
+ },
+ {
+  "model": "claude-opus-4-6",
+  "tool": "resolve_dataset",
+  "seconds": 54.9,
+  "input_tokens": 24,
+  "output_tokens": 5209,
+  "cache_write": 97394,
+  "cache_read": 0
+ }
+]

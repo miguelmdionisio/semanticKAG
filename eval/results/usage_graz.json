@@ -1,0 +1,342 @@
+[
+ {
+  "config": "baseline",
+  "run": 1,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 56.7,
+  "input_tokens": 40008,
+  "output_tokens": 5401,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "baseline",
+  "run": 2,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 55.2,
+  "input_tokens": 40008,
+  "output_tokens": 5405,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "baseline",
+  "run": 3,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 54.5,
+  "input_tokens": 40008,
+  "output_tokens": 5332,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "noenrich_k30",
+  "run": 1,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 63.0,
+  "input_tokens": 97459,
+  "output_tokens": 5497,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "noenrich_k30",
+  "run": 2,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 59.8,
+  "input_tokens": 97459,
+  "output_tokens": 5720,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "noenrich_k30",
+  "run": 3,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 56.4,
+  "input_tokens": 97459,
+  "output_tokens": 5484,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "enrich_k10",
+  "run": 1,
+  "tool": "enrich_queries",
+  "model": "claude-sonnet-4-6",
+  "seconds": 11.8,
+  "input_tokens": 8291,
+  "output_tokens": 929,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "enrich_k10",
+  "run": 1,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 53.8,
+  "input_tokens": 39863,
+  "output_tokens": 5263,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "enrich_k10",
+  "run": 2,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 55.4,
+  "input_tokens": 39863,
+  "output_tokens": 5366,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "enrich_k10",
+  "run": 3,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 54.6,
+  "input_tokens": 39863,
+  "output_tokens": 5335,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "enrich_k30",
+  "run": 1,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 58.1,
+  "input_tokens": 97060,
+  "output_tokens": 5455,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "enrich_k30",
+  "run": 2,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 55.6,
+  "input_tokens": 97060,
+  "output_tokens": 5395,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "enrich_k30",
+  "run": 3,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 56.4,
+  "input_tokens": 97060,
+  "output_tokens": 5491,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "main",
+  "run": 1,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 62.4,
+  "input_tokens": 97273,
+  "output_tokens": 5822,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "main",
+  "run": 2,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 63.5,
+  "input_tokens": 97273,
+  "output_tokens": 5791,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "main",
+  "run": 3,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 57.0,
+  "input_tokens": 97273,
+  "output_tokens": 5555,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "baseline",
+  "run": 1,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 60.4,
+  "input_tokens": 40008,
+  "output_tokens": 5633,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "baseline",
+  "run": 2,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 53.6,
+  "input_tokens": 40008,
+  "output_tokens": 5233,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "baseline",
+  "run": 3,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 54.5,
+  "input_tokens": 40008,
+  "output_tokens": 5398,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "baseline",
+  "run": 4,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 53.6,
+  "input_tokens": 40008,
+  "output_tokens": 5279,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "baseline",
+  "run": 5,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 55.7,
+  "input_tokens": 40008,
+  "output_tokens": 5468,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "noenrich_k30",
+  "run": 1,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 61.5,
+  "input_tokens": 97459,
+  "output_tokens": 5346,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "enrich_k30",
+  "run": 1,
+  "tool": "enrich_queries",
+  "model": "claude-sonnet-4-6",
+  "seconds": 11.4,
+  "input_tokens": 25,
+  "output_tokens": 924,
+  "cache_write": 8266,
+  "cache_read": 0,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "enrich_k30",
+  "run": 1,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 59.6,
+  "input_tokens": 24,
+  "output_tokens": 5526,
+  "cache_write": 97181,
+  "cache_read": 0,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "enrich_k30",
+  "run": 2,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 56.6,
+  "input_tokens": 24,
+  "output_tokens": 5601,
+  "cache_write": 0,
+  "cache_read": 97181,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "enrich_k30",
+  "run": 3,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 54.6,
+  "input_tokens": 24,
+  "output_tokens": 5360,
+  "cache_write": 0,
+  "cache_read": 97181,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "enrich_k30",
+  "run": 4,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 60.0,
+  "input_tokens": 24,
+  "output_tokens": 5806,
+  "cache_write": 0,
+  "cache_read": 97181,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "main",
+  "run": 1,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 60.9,
+  "input_tokens": 24,
+  "output_tokens": 5792,
+  "cache_write": 97394,
+  "cache_read": 0,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "main",
+  "run": 2,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 57.7,
+  "input_tokens": 24,
+  "output_tokens": 5722,
+  "cache_write": 0,
+  "cache_read": 97394,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "main",
+  "run": 3,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 58.5,
+  "input_tokens": 24,
+  "output_tokens": 5736,
+  "cache_write": 0,
+  "cache_read": 97394,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "main",
+  "run": 4,
+  "tool": "resolve_dataset",
+  "model": "claude-sonnet-4-6",
+  "seconds": 59.2,
+  "input_tokens": 24,
+  "output_tokens": 5809,
+  "cache_write": 0,
+  "cache_read": 97394,
+  "stop_reason": "tool_use"
+ },
+ {
+  "config": "enrich_k30",
+  "run": "menus",
+  "tool": "enrich_queries",
+  "model": "claude-sonnet-4-6",
+  "seconds": 14.7,
+  "input_tokens": 25,
+  "output_tokens": 929,
+  "cache_write": 8266,
+  "cache_read": 0,
+  "stop_reason": "tool_use"
+ }
+]

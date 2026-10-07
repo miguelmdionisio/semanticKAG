@@ -1,0 +1,32 @@
+{
+ "dataset": "uwo_rw22a_bahnhofstr",
+ "root": "data\\04 - UWO\\wide\\rw22a_bahnhofstr",
+ "observations": [
+  {
+   "type": "water_temperature",
+   "file": "bt_dl949_rw22a_bahnhofstr.csv",
+   "column": "water_temperature",
+   "sensor": "bt_dl949_rw22a_bahnhofstr",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "rw22a_bahnhofstr",
+   "feature_gwsw": "gwsw:Rioolput",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "water_temperature2",
+   "file": "bt_dl949_rw22a_bahnhofstr.csv",
+   "column": "water_temperature2",
+   "sensor": "bt_dl949_rw22a_bahnhofstr",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "rw22a_bahnhofstr",
+   "feature_gwsw": "gwsw:Rioolput",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  }
+ ]
+}

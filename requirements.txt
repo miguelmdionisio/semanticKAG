@@ -1,0 +1,15 @@
+anthropic>=0.86
+python-dotenv>=1.0
+pydantic>=2.0
+pandas>=2.0
+numpy>=1.26
+pypdf>=6.0
+rdflib>=7.0
+morph-kgc>=2.10
+chromadb>=1.5
+sentence-transformers>=5.0
+torch>=2.0
+rank-bm25>=0.2.2
+
+# evaluation only
+psutil>=5.9

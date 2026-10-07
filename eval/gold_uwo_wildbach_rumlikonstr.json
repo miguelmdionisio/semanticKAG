@@ -1,0 +1,19 @@
+{
+ "dataset": "uwo_wildbach_rumlikonstr",
+ "root": "data\\04 - UWO\\wide\\wildbach_rumlikonstr",
+ "observations": [
+  {
+   "type": "water_level",
+   "file": "bl_dl319_wildbach_rumlikonstr.csv",
+   "column": "water_level",
+   "sensor": "bl_dl319_wildbach_rumlikonstr",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "wildbach_rumlikonstr",
+   "feature_gwsw": "gwsw:Beek",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  }
+ ]
+}

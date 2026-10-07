@@ -1,0 +1,239 @@
+{
+ "dataset": "flowbru_beco",
+ "root": "data/03 - FlowBru/Water_Quality/Canal_Beco",
+ "observations": [
+  {
+   "type": "chlorophyll",
+   "file": "Chlorophyll.tsv",
+   "column": "EXO2 Chlorophyll [µg/l][µg/L]",
+   "value": "3,27",
+   "resultTime": "6.3.2025 00:05:00",
+   "sensor": "exo2_sonde",
+   "sensor_type": "YSI EXO2 multiparameter sonde (in situ). Only the chlorophyll and phycocyanin headers name EXO2; the other quality parameters are assumed to be the same sonde",
+   "observedProperty": "gemet:1391",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MicroGM-PER-L",
+   "feature": "Canal, Bassin Béco",
+   "feature_gwsw": "gwsw:Kanaal",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "chlorophyll (fluorescence)",
+   "file": "Chlorophyll.tsv",
+   "column": "EXO2 Chlorophyll [RFU][RFU]",
+   "value": "0,79",
+   "resultTime": "6.3.2025 00:05:00",
+   "sensor": "exo2_sonde",
+   "sensor_type": "YSI EXO2 multiparameter sonde (in situ). Only the chlorophyll and phycocyanin headers name EXO2; the other quality parameters are assumed to be the same sonde",
+   "observedProperty": "gemet:1391",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": null,
+   "feature": "Canal, Bassin Béco",
+   "feature_gwsw": "gwsw:Kanaal",
+   "accept": [
+    "mint:*"
+   ],
+   "note": "approximate: RFU = relative fluorescence units, not a QUDT unit; a minted 'chlorophyll fluorescence' is accepted (lenient)"
+  },
+  {
+   "type": "electrical conductivity",
+   "file": "Conductivity.tsv",
+   "column": "Conductivity[µS/cm]",
+   "value": "517,49",
+   "resultTime": "6.3.2025 00:05:00",
+   "sensor": "exo2_sonde",
+   "sensor_type": "YSI EXO2 multiparameter sonde (in situ). Only the chlorophyll and phycocyanin headers name EXO2; the other quality parameters are assumed to be the same sonde",
+   "observedProperty": "qudt:ElectrolyticConductivity",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:MicroS-PER-CM",
+   "feature": "Canal, Bassin Béco",
+   "feature_gwsw": "gwsw:Kanaal",
+   "accept": [
+    "qudt:Conductivity",
+    "qudt:ElectricConductivity",
+    "gemet:1686"
+   ],
+   "note": "approximate: QUDT has three near-synonyms; ElectrolyticConductivity = conductivity of an electrolyte solution"
+  },
+  {
+   "type": "dissolved oxygen",
+   "file": "dissolved_oxygen.tsv",
+   "column": "Dissolved Oxygen [mg/l][mg/L]",
+   "value": "10,44",
+   "resultTime": "6.3.2025 00:05:00",
+   "sensor": "exo2_sonde",
+   "sensor_type": "YSI EXO2 multiparameter sonde (in situ). Only the chlorophyll and phycocyanin headers name EXO2; the other quality parameters are assumed to be the same sonde",
+   "observedProperty": "gemet:11788",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliGM-PER-L",
+   "feature": "Canal, Bassin Béco",
+   "feature_gwsw": "gwsw:Kanaal",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "pH",
+   "file": "pH.tsv",
+   "column": "pH[]",
+   "value": "8,17",
+   "resultTime": "6.3.2025 00:05:00",
+   "sensor": "exo2_sonde",
+   "sensor_type": "YSI EXO2 multiparameter sonde (in situ). Only the chlorophyll and phycocyanin headers name EXO2; the other quality parameters are assumed to be the same sonde",
+   "observedProperty": "gemet:14636",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:PH",
+   "feature": "Canal, Bassin Béco",
+   "feature_gwsw": "gwsw:Kanaal",
+   "accept": [
+    "qudt:Acidity"
+   ],
+   "note": "GEMET 'pH-value'; QUDT models pH as quantitykind:Acidity (unit:PH applies to it)"
+  },
+  {
+   "type": "phycocyanin",
+   "file": "phycocyanin.tsv",
+   "column": "EXO2 Phycocyanin [µg/l][µg/L]",
+   "value": "0,13",
+   "resultTime": "6.3.2025 00:05:00",
+   "sensor": "exo2_sonde",
+   "sensor_type": "YSI EXO2 multiparameter sonde (in situ). Only the chlorophyll and phycocyanin headers name EXO2; the other quality parameters are assumed to be the same sonde",
+   "observedProperty": "ex:property/phycocyanin",
+   "property_source": "minted",
+   "decision": "mint",
+   "unit": "unit:MicroGM-PER-L",
+   "feature": "Canal, Bassin Béco",
+   "feature_gwsw": "gwsw:Kanaal",
+   "accept": [],
+   "note": "no phycocyanin concept in QUDT/GEMET (nearest: GEMET 939 'blue-green alga', an organism, not the pigment)"
+  },
+  {
+   "type": "phycocyanin (fluorescence)",
+   "file": "phycocyanin.tsv",
+   "column": "EXO2 Phycocyanin [RFU][RFU]",
+   "value": "0,13",
+   "resultTime": "6.3.2025 00:05:00",
+   "sensor": "exo2_sonde",
+   "sensor_type": "YSI EXO2 multiparameter sonde (in situ). Only the chlorophyll and phycocyanin headers name EXO2; the other quality parameters are assumed to be the same sonde",
+   "observedProperty": "ex:property/phycocyanin",
+   "property_source": "minted",
+   "decision": "mint",
+   "unit": null,
+   "feature": "Canal, Bassin Béco",
+   "feature_gwsw": "gwsw:Kanaal",
+   "accept": [],
+   "note": "RFU = relative fluorescence units, not a QUDT unit"
+  },
+  {
+   "type": "water temperature",
+   "file": "Temperature.tsv",
+   "column": "Temperature[°C]",
+   "value": "7,96",
+   "resultTime": "6.3.2025 00:05:00",
+   "sensor": "exo2_sonde",
+   "sensor_type": "YSI EXO2 multiparameter sonde (in situ). Only the chlorophyll and phycocyanin headers name EXO2; the other quality parameters are assumed to be the same sonde",
+   "observedProperty": "qudt:Temperature",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "Canal, Bassin Béco",
+   "feature_gwsw": "gwsw:Kanaal",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "turbidity",
+   "file": "Turbidity.tsv",
+   "column": "Turbidity[NTU]",
+   "value": "7,22",
+   "resultTime": "6.3.2025 00:05:00",
+   "sensor": "exo2_sonde",
+   "sensor_type": "YSI EXO2 multiparameter sonde (in situ). Only the chlorophyll and phycocyanin headers name EXO2; the other quality parameters are assumed to be the same sonde",
+   "observedProperty": "qudt:Turbidity",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:NTU",
+   "feature": "Canal, Bassin Béco",
+   "feature_gwsw": "gwsw:Kanaal",
+   "accept": [
+    "gemet:8711"
+   ],
+   "note": ""
+  },
+  {
+   "type": "water level",
+   "file": "Water_Level.tsv",
+   "column": "Level[mm]",
+   "value": "820",
+   "resultTime": "6.3.2025 00:05:00",
+   "sensor": "beco_level_sensor",
+   "sensor_type": "water level sensor (relative level and level above MSL)",
+   "observedProperty": "gemet:9190",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "Canal, Bassin Béco",
+   "feature_gwsw": "gwsw:Kanaal",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "water level (above mean sea level)",
+   "file": "Water_Level.tsv",
+   "column": "Level (MSL)[m]",
+   "value": "13,290",
+   "resultTime": "6.3.2025 00:05:00",
+   "sensor": "beco_level_sensor",
+   "sensor_type": "water level sensor (relative level and level above MSL)",
+   "observedProperty": "gemet:9190",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:M",
+   "feature": "Canal, Bassin Béco",
+   "feature_gwsw": "gwsw:Kanaal",
+   "accept": [],
+   "note": "datum: mean sea level (unit metre, datum not expressible in QUDT)"
+  },
+  {
+   "type": "precipitation",
+   "file": "Water_Level.tsv",
+   "column": "Pluvio Ecluse[mm]",
+   "value": "0,0",
+   "resultTime": "6.3.2025 00:05:00",
+   "sensor": "rain_gauge_ecluse",
+   "sensor_type": "rain gauge 'Pluvio Ecluse' (at the lock), stored in the level file",
+   "observedProperty": "gemet:637",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "Rain gauge site, Ecluse",
+   "feature_gwsw": null,
+   "accept": [
+    "gemet:6947"
+   ],
+   "note": "a rain gauge stored in the water-level file; GEMET 6947 'rain' accepted (lenient)"
+  }
+ ],
+ "features": [
+  {
+   "id": "canal_beco",
+   "label": "Canal, Bassin Béco",
+   "gwsw": "gwsw:Kanaal"
+  },
+  {
+   "id": "rain_site_ecluse",
+   "label": "Rain gauge site, Ecluse",
+   "gwsw": null
+  }
+ ],
+ "sensors": {
+  "exo2_sonde": "YSI EXO2 multiparameter sonde (in situ). Only the chlorophyll and phycocyanin headers name EXO2; the other quality parameters are assumed to be the same sonde",
+  "beco_level_sensor": "water level sensor (relative level and level above MSL)",
+  "rain_gauge_ecluse": "rain gauge 'Pluvio Ecluse' (at the lock), stored in the level file"
+ }
+}

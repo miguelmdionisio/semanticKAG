@@ -1,0 +1,946 @@
+{
+ "runs": [
+  {
+   "columns": {
+    "evaluations/precipitation_events.csv::sum_0033970301": {
+     "sensor_id": "rain_gauge_0033970301",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "property_label": "precipitation",
+     "unit": "mm",
+     "feature_id": "rain_station_0033970301",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::sum_0033900601": {
+     "sensor_id": "rain_gauge_0033900601",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "property_label": "precipitation",
+     "unit": "mm",
+     "feature_id": "rain_station_0033900601",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::sum_0033901401": {
+     "sensor_id": "rain_gauge_0033901401",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "property_label": "precipitation",
+     "unit": "mm",
+     "feature_id": "rain_station_0033901401",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::sum_0033901601": {
+     "sensor_id": "rain_gauge_0033901601",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "property_label": "precipitation",
+     "unit": "mm",
+     "feature_id": "rain_station_0033901601",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::sum_0033931602": {
+     "sensor_id": "rain_gauge_0033931602",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "property_label": "precipitation",
+     "unit": "mm",
+     "feature_id": "rain_station_0033931602",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::max_return_period_0033901401": {
+     "sensor_id": "rain_gauge_0033901401",
+     "property_uri": "MINT",
+     "property_label": "precipitation return period",
+     "unit": "a",
+     "feature_id": "rain_station_0033901401",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901401": {
+     "sensor_id": "rain_gauge_0033901401",
+     "property_uri": "http://qudt.org/vocab/quantitykind/Time",
+     "property_label": "Time",
+     "unit": "min",
+     "feature_id": "rain_station_0033901401",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::max_return_period_0033900601": {
+     "sensor_id": "rain_gauge_0033900601",
+     "property_uri": "MINT",
+     "property_label": "precipitation return period",
+     "unit": "a",
+     "feature_id": "rain_station_0033900601",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::duration_at_max_return_period_0033900601": {
+     "sensor_id": "rain_gauge_0033900601",
+     "property_uri": "http://qudt.org/vocab/quantitykind/Time",
+     "property_label": "Time",
+     "unit": "min",
+     "feature_id": "rain_station_0033900601",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::max_return_period_0033901601": {
+     "sensor_id": "rain_gauge_0033901601",
+     "property_uri": "MINT",
+     "property_label": "precipitation return period",
+     "unit": "a",
+     "feature_id": "rain_station_0033901601",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901601": {
+     "sensor_id": "rain_gauge_0033901601",
+     "property_uri": "http://qudt.org/vocab/quantitykind/Time",
+     "property_label": "Time",
+     "unit": "min",
+     "feature_id": "rain_station_0033901601",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::max_return_period_0033931602": {
+     "sensor_id": "rain_gauge_0033931602",
+     "property_uri": "MINT",
+     "property_label": "precipitation return period",
+     "unit": "a",
+     "feature_id": "rain_station_0033931602",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::duration_at_max_return_period_0033931602": {
+     "sensor_id": "rain_gauge_0033931602",
+     "property_uri": "http://qudt.org/vocab/quantitykind/Time",
+     "property_label": "Time",
+     "unit": "min",
+     "feature_id": "rain_station_0033931602",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::max_return_period_0033970301": {
+     "sensor_id": "rain_gauge_0033970301",
+     "property_uri": "MINT",
+     "property_label": "precipitation return period",
+     "unit": "a",
+     "feature_id": "rain_station_0033970301",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::duration_at_max_return_period_0033970301": {
+     "sensor_id": "rain_gauge_0033970301",
+     "property_uri": "http://qudt.org/vocab/quantitykind/Time",
+     "property_label": "Time",
+     "unit": "min",
+     "feature_id": "rain_station_0033970301",
+     "column_class": "derived"
+    },
+    "hydraulic data/chamber.csv::water_level": {
+     "sensor_id": "chamber_ultrasound_sensor",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/9236",
+     "property_label": "water level",
+     "unit": "m",
+     "feature_id": "cso_chamber",
+     "column_class": "measurement"
+    },
+    "hydraulic data/inflow-analogue.csv::flow_rate": {
+     "sensor_id": "inflow_flodar",
+     "property_uri": "http://qudt.org/vocab/quantitykind/VolumeFlowRate",
+     "property_label": "VolumeFlowRate",
+     "unit": "L/s",
+     "feature_id": "inflow_channel",
+     "column_class": "measurement"
+    },
+    "hydraulic data/inflow-analogue.csv::flow_velocity": {
+     "sensor_id": "inflow_flodar",
+     "property_uri": "http://qudt.org/vocab/quantitykind/Velocity",
+     "property_label": "Velocity",
+     "unit": "m/s",
+     "feature_id": "inflow_channel",
+     "column_class": "measurement"
+    },
+    "hydraulic data/inflow-analogue.csv::water_level": {
+     "sensor_id": "inflow_flodar",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/9236",
+     "property_label": "water level",
+     "unit": "m",
+     "feature_id": "inflow_channel",
+     "column_class": "measurement"
+    },
+    "hydraulic data/inflow-digital.csv::flow_rate": {
+     "sensor_id": "inflow_flodar",
+     "property_uri": "http://qudt.org/vocab/quantitykind/VolumeFlowRate",
+     "property_label": "VolumeFlowRate",
+     "unit": "L/s",
+     "feature_id": "inflow_channel",
+     "column_class": "measurement"
+    },
+    "hydraulic data/inflow-digital.csv::flow_velocity": {
+     "sensor_id": "inflow_flodar",
+     "property_uri": "http://qudt.org/vocab/quantitykind/Velocity",
+     "property_label": "Velocity",
+     "unit": "m/s",
+     "feature_id": "inflow_channel",
+     "column_class": "measurement"
+    },
+    "hydraulic data/inflow-digital.csv::water_level": {
+     "sensor_id": "inflow_flodar",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/9236",
+     "property_label": "water level",
+     "unit": "m",
+     "feature_id": "inflow_channel",
+     "column_class": "measurement"
+    },
+    "hydraulic data/overflow.csv::flow_rate": {
+     "sensor_id": "overflow_ocm",
+     "property_uri": "http://qudt.org/vocab/quantitykind/VolumeFlowRate",
+     "property_label": "VolumeFlowRate",
+     "unit": "L/s",
+     "feature_id": "overflow_channel",
+     "column_class": "measurement"
+    },
+    "hydraulic data/overflow.csv::water_level": {
+     "sensor_id": "overflow_ocm",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/9236",
+     "property_label": "water level",
+     "unit": "m",
+     "feature_id": "overflow_channel",
+     "column_class": "measurement"
+    },
+    "lab data/samples.csv::COD1": {
+     "sensor_id": "lab_analyser",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/1598",
+     "property_label": "chemical oxygen demand",
+     "unit": "mg/L",
+     "feature_id": "cso_chamber",
+     "column_class": "measurement"
+    },
+    "lab data/samples.csv::COD2": {
+     "sensor_id": "lab_analyser",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/1598",
+     "property_label": "chemical oxygen demand",
+     "unit": "mg/L",
+     "feature_id": "cso_chamber",
+     "column_class": "measurement"
+    },
+    "lab data/samples.csv::COD3": {
+     "sensor_id": "lab_analyser",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/1598",
+     "property_label": "chemical oxygen demand",
+     "unit": "mg/L",
+     "feature_id": "cso_chamber",
+     "column_class": "measurement"
+    },
+    "lab data/samples.csv::TSS1": {
+     "sensor_id": "lab_analyser",
+     "property_uri": "MINT",
+     "property_label": "total suspended solids",
+     "unit": "mg/L",
+     "feature_id": "cso_chamber",
+     "column_class": "measurement"
+    },
+    "lab data/samples.csv::TSS2": {
+     "sensor_id": "lab_analyser",
+     "property_uri": "MINT",
+     "property_label": "total suspended solids",
+     "unit": "mg/L",
+     "feature_id": "cso_chamber",
+     "column_class": "measurement"
+    },
+    "lab data/samples.csv::TSS3": {
+     "sensor_id": "lab_analyser",
+     "property_uri": "MINT",
+     "property_label": "total suspended solids",
+     "unit": "mg/L",
+     "feature_id": "cso_chamber",
+     "column_class": "measurement"
+    },
+    "pollutant data/calibrated.csv::COD": {
+     "sensor_id": "scan_spectrometer",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/1598",
+     "property_label": "chemical oxygen demand",
+     "unit": "mg/L",
+     "feature_id": "cso_chamber",
+     "column_class": "derived"
+    },
+    "pollutant data/spectrometer.csv::COD": {
+     "sensor_id": "scan_spectrometer",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/1598",
+     "property_label": "chemical oxygen demand",
+     "unit": "mg/L",
+     "feature_id": "cso_chamber",
+     "column_class": "measurement"
+    },
+    "pollutant data/spectrometer.csv::TSS": {
+     "sensor_id": "scan_spectrometer",
+     "property_uri": "MINT",
+     "property_label": "total suspended solids",
+     "unit": "mg/L",
+     "feature_id": "cso_chamber",
+     "column_class": "measurement"
+    },
+    "pollutant data/spectrometer.csv::temperature": {
+     "sensor_id": "scan_spectrometer",
+     "property_uri": "http://qudt.org/vocab/quantitykind/Temperature",
+     "property_label": "Temperature",
+     "unit": "°C",
+     "feature_id": "cso_chamber",
+     "column_class": "measurement"
+    },
+    "precipitation data/0033900601.csv::0033900601": {
+     "sensor_id": "rain_gauge_0033900601",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "property_label": "precipitation",
+     "unit": "mm",
+     "feature_id": "rain_station_0033900601",
+     "column_class": "measurement"
+    },
+    "precipitation data/0033901401.csv::0033901401": {
+     "sensor_id": "rain_gauge_0033901401",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "property_label": "precipitation",
+     "unit": "mm",
+     "feature_id": "rain_station_0033901401",
+     "column_class": "measurement"
+    },
+    "precipitation data/0033901601.csv::0033901601": {
+     "sensor_id": "rain_gauge_0033901601",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "property_label": "precipitation",
+     "unit": "mm",
+     "feature_id": "rain_station_0033901601",
+     "column_class": "measurement"
+    }
+   },
+   "usage": {
+    "input_tokens": 11851,
+    "output_tokens": 5874
+   }
+  },
+  {
+   "columns": {
+    "evaluations/precipitation_events.csv::sum_0033970301": {
+     "sensor_id": "rain_gauge_0033970301",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "property_label": "precipitation",
+     "unit": "mm",
+     "feature_id": "rain_site_0033970301",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::sum_0033900601": {
+     "sensor_id": "rain_gauge_0033900601",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "property_label": "precipitation",
+     "unit": "mm",
+     "feature_id": "rain_site_0033900601",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::sum_0033901401": {
+     "sensor_id": "rain_gauge_0033901401",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "property_label": "precipitation",
+     "unit": "mm",
+     "feature_id": "rain_site_0033901401",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::sum_0033901601": {
+     "sensor_id": "rain_gauge_0033901601",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "property_label": "precipitation",
+     "unit": "mm",
+     "feature_id": "rain_site_0033901601",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::sum_0033931602": {
+     "sensor_id": "rain_gauge_0033931602",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "property_label": "precipitation",
+     "unit": "mm",
+     "feature_id": "rain_site_0033931602",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::max_return_period_0033901401": {
+     "sensor_id": "rain_gauge_0033901401",
+     "property_uri": "MINT",
+     "property_label": "maximum return period of precipitation event",
+     "unit": "a",
+     "feature_id": "rain_site_0033901401",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901401": {
+     "sensor_id": "rain_gauge_0033901401",
+     "property_uri": "http://qudt.org/vocab/quantitykind/Time",
+     "property_label": "Time",
+     "unit": "min",
+     "feature_id": "rain_site_0033901401",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::max_return_period_0033900601": {
+     "sensor_id": "rain_gauge_0033900601",
+     "property_uri": "MINT",
+     "property_label": "maximum return period of precipitation event",
+     "unit": "a",
+     "feature_id": "rain_site_0033900601",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::duration_at_max_return_period_0033900601": {
+     "sensor_id": "rain_gauge_0033900601",
+     "property_uri": "http://qudt.org/vocab/quantitykind/Time",
+     "property_label": "Time",
+     "unit": "min",
+     "feature_id": "rain_site_0033900601",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::max_return_period_0033901601": {
+     "sensor_id": "rain_gauge_0033901601",
+     "property_uri": "MINT",
+     "property_label": "maximum return period of precipitation event",
+     "unit": "a",
+     "feature_id": "rain_site_0033901601",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901601": {
+     "sensor_id": "rain_gauge_0033901601",
+     "property_uri": "http://qudt.org/vocab/quantitykind/Time",
+     "property_label": "Time",
+     "unit": "min",
+     "feature_id": "rain_site_0033901601",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::max_return_period_0033931602": {
+     "sensor_id": "rain_gauge_0033931602",
+     "property_uri": "MINT",
+     "property_label": "maximum return period of precipitation event",
+     "unit": "a",
+     "feature_id": "rain_site_0033931602",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::duration_at_max_return_period_0033931602": {
+     "sensor_id": "rain_gauge_0033931602",
+     "property_uri": "http://qudt.org/vocab/quantitykind/Time",
+     "property_label": "Time",
+     "unit": "min",
+     "feature_id": "rain_site_0033931602",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::max_return_period_0033970301": {
+     "sensor_id": "rain_gauge_0033970301",
+     "property_uri": "MINT",
+     "property_label": "maximum return period of precipitation event",
+     "unit": "a",
+     "feature_id": "rain_site_0033970301",
+     "column_class": "derived"
+    },
+    "evaluations/precipitation_events.csv::duration_at_max_return_period_0033970301": {
+     "sensor_id": "rain_gauge_0033970301",
+     "property_uri": "http://qudt.org/vocab/quantitykind/Time",
+     "property_label": "Time",
+     "unit": "min",
+     "feature_id": "rain_site_0033970301",
+     "column_class": "derived"
+    },
+    "hydraulic data/chamber.csv::water_level": {
+     "sensor_id": "chamber_ultrasound_sensor",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/9236",
+     "property_label": "water level",
+     "unit": "m",
+     "feature_id": "cso_chamber",
+     "column_class": "measurement"
+    },
+    "hydraulic data/inflow-analogue.csv::flow_rate": {
+     "sensor_id": "inflow_flodar_analogue",
+     "property_uri": "http://qudt.org/vocab/quantitykind/VolumeFlowRate",
+     "property_label": "VolumeFlowRate",
+     "unit": "L/s",
+     "feature_id": "inflow_channel",
+     "column_class": "measurement"
+    },
+    "hydraulic data/inflow-analogue.csv::flow_velocity": {
+     "sensor_id": "inflow_flodar_analogue",
+     "property_uri": "http://qudt.org/vocab/quantitykind/Velocity",
+     "property_label": "Velocity",
+     "unit": "m/s",
+     "feature_id": "inflow_channel",
+     "column_class": "measurement"
+    },
+    "hydraulic data/inflow-analogue.csv::water_level": {
+     "sensor_id": "inflow_flodar_analogue",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/9236",
+     "property_label": "water level",
+     "unit": "m",
+     "feature_id": "inflow_channel",
+     "column_class": "measurement"
+    },
+    "hydraulic data/inflow-digital.csv::flow_rate": {
+     "sensor_id": "inflow_flodar_digital",
+     "property_uri": "http://qudt.org/vocab/quantitykind/VolumeFlowRate",
+     "property_label": "VolumeFlowRate",
+     "unit": "L/s",
+     "feature_id": "inflow_channel",
+     "column_class": "measurement"
+    },
+    "hydraulic data/inflow-digital.csv::flow_velocity": {
+     "sensor_id": "inflow_flodar_digital",
+     "property_uri": "http://qudt.org/vocab/quantitykind/Velocity",
+     "property_label": "Velocity",
+     "unit": "m/s",
+     "feature_id": "inflow_channel",
+     "column_class": "measurement"
+    },
+    "hydraulic data/inflow-digital.csv::water_level": {
+     "sensor_id": "inflow_flodar_digital",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/9236",
+     "property_label": "water level",
+     "unit": "m",
+     "feature_id": "inflow_channel",
+     "column_class": "measurement"
+    },
+    "hydraulic data/overflow.csv::flow_rate": {
+     "sensor_id": "overflow_nivus_ocm",
+     "property_uri": "http://qudt.org/vocab/quantitykind/VolumeFlowRate",
+     "property_label": "VolumeFlowRate",
+     "unit": "L/s",
+     "feature_id": "overflow_channel",
+     "column_class": "measurement"
+    },
+    "hydraulic data/overflow.csv::water_level": {
+     "sensor_id": "overflow_nivus_ocm",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/9236",
+     "property_label": "water level",
+     "unit": "m",
+     "feature_id": "overflow_channel",
+     "column_class": "measurement"
+    },
+    "lab data/samples.csv::COD1": {
+     "sensor_id": "lab_analyser_hach",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/1598",
+     "property_label": "chemical oxygen demand",
+     "unit": "mg/L",
+     "feature_id": "cso_chamber",
+     "column_class": "measurement"
+    },
+    "lab data/samples.csv::COD2": {
+     "sensor_id": "lab_analyser_hach",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/1598",
+     "property_label": "chemical oxygen demand",
+     "unit": "mg/L",
+     "feature_id": "cso_chamber",
+     "column_class": "measurement"
+    },
+    "lab data/samples.csv::COD3": {
+     "sensor_id": "lab_analyser_hach",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/1598",
+     "property_label": "chemical oxygen demand",
+     "unit": "mg/L",
+     "feature_id": "cso_chamber",
+     "column_class": "measurement"
+    },
+    "lab data/samples.csv::TSS1": {
+     "sensor_id": "lab_analyser_hach",
+     "property_uri": "MINT",
+     "property_label": "total suspended solids",
+     "unit": "mg/L",
+     "feature_id": "cso_chamber",
+     "column_class": "measurement"
+    },
+    "lab data/samples.csv::TSS2": {
+     "sensor_id": "lab_analyser_hach",
+     "property_uri": "MINT",
+     "property_label": "total suspended solids",
+     "unit": "mg/L",
+     "feature_id": "cso_chamber",
+     "column_class": "measurement"
+    },
+    "lab data/samples.csv::TSS3": {
+     "sensor_id": "lab_analyser_hach",
+     "property_uri": "MINT",
+     "property_label": "total suspended solids",
+     "unit": "mg/L",
+     "feature_id": "cso_chamber",
+     "column_class": "measurement"
+    },
+    "pollutant data/calibrated.csv::COD": {
+     "sensor_id": "scan_spectrometer_calibrated",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/1598",
+     "property_label": "chemical oxygen demand",
+     "unit": "mg/L",
+     "feature_id": "cso_chamber",
+     "column_class": "measurement"
+    },
+    "pollutant data/spectrometer.csv::COD": {
+     "sensor_id": "scan_spectrometer",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/1598",
+     "property_label": "chemical oxygen demand",
+     "unit": "mg/L",
+     "feature_id": "cso_chamber",
+     "column_class": "measurement"
+    },
+    "pollutant data/spectrometer.csv::TSS": {
+     "sensor_id": "scan_spectrometer",
+     "property_uri": "MINT",
+     "property_label": "total suspended solids",
+     "unit": "mg/L",
+     "feature_id": "cso_chamber",
+     "column_class": "measurement"
+    },
+    "pollutant data/spectrometer.csv::temperature": {
+     "sensor_id": "scan_spectrometer",
+     "property_uri": "http://qudt.org/vocab/quantitykind/Temperature",
+     "property_label": "Temperature",
+     "unit": "°C",
+     "feature_id": "cso_chamber",
+     "column_class": "measurement"
+    },
+    "precipitation data/0033900601.csv::0033900601": {
+     "sensor_id": "rain_gauge_0033900601",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "property_label": "precipitation",
+     "unit": "mm",
+     "feature_id": "rain_site_0033900601",
+     "column_class": "measurement"
+    },
+    "precipitation data/0033901401.csv::0033901401": {
+     "sensor_id": "rain_gauge_0033901401",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "property_label": "precipitation",
+     "unit": "mm",
+     "feature_id": "rain_site_0033901401",
+     "column_class": "measurement"
+    },
+    "precipitation data/0033901601.csv::0033901601": {
+     "sensor_id": "rain_gauge_0033901601",
+     "property_uri": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "property_label": "precipitation",
+     "unit": "mm",
+     "feature_id": "rain_site_0033901601",
+     "column_class": "measurement"
+    }
+   },
+   "usage": {
+    "input_tokens": 11851,
+    "output_tokens": 6175
+   }
+  }
+ ],
+ "summary": [
+  {
+   "run": 1,
+   "n": 21,
+   "L1": 0.19047619047619047,
+   "reuse_mint": 0.8095238095238095,
+   "minted": 4,
+   "hallucinated_gold_cols": 5,
+   "uris_total": 28,
+   "uris_hallucinated": 5,
+   "hallucinated_examples": [
+    "http://www.eionet.europa.eu/gemet/concept/1598"
+   ],
+   "usage": {
+    "input_tokens": 11851,
+    "output_tokens": 5874
+   },
+   "detail": [
+    {
+     "key": "hydraulic data/chamber.csv::water_level",
+     "gold": "gemet:9190",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/9236",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "hydraulic data/inflow-analogue.csv::water_level",
+     "gold": "gemet:9190",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/9236",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "hydraulic data/inflow-digital.csv::water_level",
+     "gold": "gemet:9190",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/9236",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "hydraulic data/overflow.csv::water_level",
+     "gold": "gemet:9190",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/9236",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "hydraulic data/inflow-analogue.csv::flow_rate",
+     "gold": "qudt:VolumeFlowRate",
+     "pred": "http://qudt.org/vocab/quantitykind/VolumeFlowRate",
+     "correct": true,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "hydraulic data/inflow-digital.csv::flow_rate",
+     "gold": "qudt:VolumeFlowRate",
+     "pred": "http://qudt.org/vocab/quantitykind/VolumeFlowRate",
+     "correct": true,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "hydraulic data/overflow.csv::flow_rate",
+     "gold": "qudt:VolumeFlowRate",
+     "pred": "http://qudt.org/vocab/quantitykind/VolumeFlowRate",
+     "correct": true,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "hydraulic data/inflow-analogue.csv::flow_velocity",
+     "gold": "qudt:LinearVelocity",
+     "pred": "http://qudt.org/vocab/quantitykind/Velocity",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "pollutant data/spectrometer.csv::COD",
+     "gold": "gemet:1536",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/1598",
+     "correct": false,
+     "exists_in_vocab": false
+    },
+    {
+     "key": "pollutant data/calibrated.csv::COD",
+     "gold": "gemet:1536",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/1598",
+     "correct": false,
+     "exists_in_vocab": false
+    },
+    {
+     "key": "lab data/samples.csv::COD1",
+     "gold": "gemet:1536",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/1598",
+     "correct": false,
+     "exists_in_vocab": false
+    },
+    {
+     "key": "lab data/samples.csv::COD2",
+     "gold": "gemet:1536",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/1598",
+     "correct": false,
+     "exists_in_vocab": false
+    },
+    {
+     "key": "lab data/samples.csv::COD3",
+     "gold": "gemet:1536",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/1598",
+     "correct": false,
+     "exists_in_vocab": false
+    },
+    {
+     "key": "pollutant data/spectrometer.csv::TSS",
+     "gold": "gemet:12220",
+     "pred": "MINT",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "lab data/samples.csv::TSS1",
+     "gold": "gemet:12220",
+     "pred": "MINT",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "lab data/samples.csv::TSS2",
+     "gold": "gemet:12220",
+     "pred": "MINT",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "lab data/samples.csv::TSS3",
+     "gold": "gemet:12220",
+     "pred": "MINT",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "pollutant data/spectrometer.csv::temperature",
+     "gold": "qudt:Temperature",
+     "pred": "http://qudt.org/vocab/quantitykind/Temperature",
+     "correct": true,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "precipitation data/0033900601.csv::0033900601",
+     "gold": "gemet:637",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "precipitation data/0033901401.csv::0033901401",
+     "gold": "gemet:637",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "precipitation data/0033901601.csv::0033901601",
+     "gold": "gemet:637",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "correct": false,
+     "exists_in_vocab": true
+    }
+   ]
+  },
+  {
+   "run": 2,
+   "n": 21,
+   "L1": 0.19047619047619047,
+   "reuse_mint": 0.8095238095238095,
+   "minted": 4,
+   "hallucinated_gold_cols": 5,
+   "uris_total": 28,
+   "uris_hallucinated": 5,
+   "hallucinated_examples": [
+    "http://www.eionet.europa.eu/gemet/concept/1598"
+   ],
+   "usage": {
+    "input_tokens": 11851,
+    "output_tokens": 6175
+   },
+   "detail": [
+    {
+     "key": "hydraulic data/chamber.csv::water_level",
+     "gold": "gemet:9190",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/9236",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "hydraulic data/inflow-analogue.csv::water_level",
+     "gold": "gemet:9190",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/9236",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "hydraulic data/inflow-digital.csv::water_level",
+     "gold": "gemet:9190",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/9236",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "hydraulic data/overflow.csv::water_level",
+     "gold": "gemet:9190",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/9236",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "hydraulic data/inflow-analogue.csv::flow_rate",
+     "gold": "qudt:VolumeFlowRate",
+     "pred": "http://qudt.org/vocab/quantitykind/VolumeFlowRate",
+     "correct": true,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "hydraulic data/inflow-digital.csv::flow_rate",
+     "gold": "qudt:VolumeFlowRate",
+     "pred": "http://qudt.org/vocab/quantitykind/VolumeFlowRate",
+     "correct": true,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "hydraulic data/overflow.csv::flow_rate",
+     "gold": "qudt:VolumeFlowRate",
+     "pred": "http://qudt.org/vocab/quantitykind/VolumeFlowRate",
+     "correct": true,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "hydraulic data/inflow-analogue.csv::flow_velocity",
+     "gold": "qudt:LinearVelocity",
+     "pred": "http://qudt.org/vocab/quantitykind/Velocity",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "pollutant data/spectrometer.csv::COD",
+     "gold": "gemet:1536",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/1598",
+     "correct": false,
+     "exists_in_vocab": false
+    },
+    {
+     "key": "pollutant data/calibrated.csv::COD",
+     "gold": "gemet:1536",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/1598",
+     "correct": false,
+     "exists_in_vocab": false
+    },
+    {
+     "key": "lab data/samples.csv::COD1",
+     "gold": "gemet:1536",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/1598",
+     "correct": false,
+     "exists_in_vocab": false
+    },
+    {
+     "key": "lab data/samples.csv::COD2",
+     "gold": "gemet:1536",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/1598",
+     "correct": false,
+     "exists_in_vocab": false
+    },
+    {
+     "key": "lab data/samples.csv::COD3",
+     "gold": "gemet:1536",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/1598",
+     "correct": false,
+     "exists_in_vocab": false
+    },
+    {
+     "key": "pollutant data/spectrometer.csv::TSS",
+     "gold": "gemet:12220",
+     "pred": "MINT",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "lab data/samples.csv::TSS1",
+     "gold": "gemet:12220",
+     "pred": "MINT",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "lab data/samples.csv::TSS2",
+     "gold": "gemet:12220",
+     "pred": "MINT",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "lab data/samples.csv::TSS3",
+     "gold": "gemet:12220",
+     "pred": "MINT",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "pollutant data/spectrometer.csv::temperature",
+     "gold": "qudt:Temperature",
+     "pred": "http://qudt.org/vocab/quantitykind/Temperature",
+     "correct": true,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "precipitation data/0033900601.csv::0033900601",
+     "gold": "gemet:637",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "precipitation data/0033901401.csv::0033901401",
+     "gold": "gemet:637",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "correct": false,
+     "exists_in_vocab": true
+    },
+    {
+     "key": "precipitation data/0033901601.csv::0033901601",
+     "gold": "gemet:637",
+     "pred": "http://www.eionet.europa.eu/gemet/concept/6636",
+     "correct": false,
+     "exists_in_vocab": true
+    }
+   ]
+  }
+ ]
+}

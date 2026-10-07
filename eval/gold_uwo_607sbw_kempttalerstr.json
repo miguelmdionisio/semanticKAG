@@ -1,0 +1,19 @@
+{
+ "dataset": "uwo_607sbw_kempttalerstr",
+ "root": "data\\04 - UWO\\wide\\607sbw_kempttalerstr",
+ "observations": [
+  {
+   "type": "water_level",
+   "file": "bl_lm073_607sbw_kempttalerstr.csv",
+   "column": "water_level",
+   "sensor": "bl_lm073_607sbw_kempttalerstr",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "607sbw_kempttalerstr",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "dataset": "uwo_rub128inflow_usterstr",
+ "root": "data\\04 - UWO\\wide\\rub128inflow_usterstr",
+ "observations": [
+  {
+   "type": "water_level",
+   "file": "bl_dl322_rub128inflow_usterstr.csv",
+   "column": "water_level",
+   "sensor": "bl_dl322_rub128inflow_usterstr",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "rub128inflow_usterstr",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "overflow_temperature",
+   "file": "bm_dl330_rub128inflow_usterstr.csv",
+   "column": "overflow_temperature",
+   "sensor": "bm_dl330_rub128inflow_usterstr",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "rub128inflow_usterstr",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "dielectric_permittivity",
+   "file": "bm_dl330_rub128inflow_usterstr.csv",
+   "column": "dielectric_permittivity",
+   "sensor": "bm_dl330_rub128inflow_usterstr",
+   "observedProperty": "qudt:RelativePermittivity",
+   "decision": "reuse",
+   "unit": "unit:UNITLESS",
+   "feature": "rub128inflow_usterstr",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). dimensionless (soil-moisture proxy)"
+  },
+  {
+   "type": "water_temperature",
+   "file": "bt_dl948_rub128inflow_usterstr.csv",
+   "column": "water_temperature",
+   "sensor": "bt_dl948_rub128inflow_usterstr",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "rub128inflow_usterstr",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "headspace_temperature",
+   "file": "bt_dl948_rub128inflow_usterstr.csv",
+   "column": "headspace_temperature",
+   "sensor": "bt_dl948_rub128inflow_usterstr",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "rub128inflow_usterstr",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). sewer headspace air temperature"
+  }
+ ]
+}

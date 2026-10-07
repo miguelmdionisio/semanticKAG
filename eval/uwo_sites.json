@@ -1,0 +1,727 @@
+{
+ "window": [
+  "2021-01-01",
+  "2021-01-03"
+ ],
+ "sites": {
+  "uwo_115a_chueferistr": {
+   "site": "115a_chueferistr",
+   "path": "data/04 - UWO/wide/115a_chueferistr",
+   "gold": "gold_uwo_115a_chueferistr.json",
+   "files": 1,
+   "columns": 7,
+   "gold_columns": 1,
+   "gold_variables": [
+    "water_level"
+   ]
+  },
+  "uwo_11e_russikerstr": {
+   "site": "11e_russikerstr",
+   "path": "data/04 - UWO/wide/11e_russikerstr",
+   "gold": "gold_uwo_11e_russikerstr.json",
+   "files": 2,
+   "columns": 17,
+   "gold_columns": 7,
+   "gold_variables": [
+    "average_velocity",
+    "distance",
+    "flow_rate",
+    "headspace_temperature",
+    "surface_velocity",
+    "water_level",
+    "water_temperature"
+   ]
+  },
+  "uwo_11h_veloweg": {
+   "site": "11h_veloweg",
+   "path": "data/04 - UWO/wide/11h_veloweg",
+   "gold": "gold_uwo_11h_veloweg.json",
+   "files": 1,
+   "columns": 7,
+   "gold_columns": 2,
+   "gold_variables": [
+    "headspace_temperature",
+    "water_temperature"
+   ]
+  },
+  "uwo_124a_chueferi": {
+   "site": "124a_chueferi",
+   "path": "data/04 - UWO/wide/124a_chueferi",
+   "gold": "gold_uwo_124a_chueferi.json",
+   "files": 2,
+   "columns": 14,
+   "gold_columns": 3,
+   "gold_variables": [
+    "headspace_temperature",
+    "water_level",
+    "water_temperature"
+   ]
+  },
+  "uwo_137_schutzengasse": {
+   "site": "137_schutzengasse",
+   "path": "data/04 - UWO/wide/137_schutzengasse",
+   "gold": "gold_uwo_137_schutzengasse.json",
+   "files": 3,
+   "columns": 20,
+   "gold_columns": 4,
+   "gold_variables": [
+    "headspace_temperature",
+    "water_level",
+    "water_temperature"
+   ]
+  },
+  "uwo_138a_venturi": {
+   "site": "138a_venturi",
+   "path": "data/04 - UWO/wide/138a_venturi",
+   "gold": "gold_uwo_138a_venturi.json",
+   "files": 1,
+   "columns": 8,
+   "gold_columns": 1,
+   "gold_variables": [
+    "water_level"
+   ]
+  },
+  "uwo_156a_geerenstr": {
+   "site": "156a_geerenstr",
+   "path": "data/04 - UWO/wide/156a_geerenstr",
+   "gold": "gold_uwo_156a_geerenstr.json",
+   "files": 2,
+   "columns": 14,
+   "gold_columns": 3,
+   "gold_variables": [
+    "headspace_temperature",
+    "water_level",
+    "water_temperature"
+   ]
+  },
+  "uwo_15a_russikerstr": {
+   "site": "15a_russikerstr",
+   "path": "data/04 - UWO/wide/15a_russikerstr",
+   "gold": "gold_uwo_15a_russikerstr.json",
+   "files": 2,
+   "columns": 14,
+   "gold_columns": 3,
+   "gold_variables": [
+    "headspace_temperature",
+    "water_level",
+    "water_temperature"
+   ]
+  },
+  "uwo_162_luppmenweg": {
+   "site": "162_luppmenweg",
+   "path": "data/04 - UWO/wide/162_luppmenweg",
+   "gold": "gold_uwo_162_luppmenweg.json",
+   "files": 1,
+   "columns": 7,
+   "gold_columns": 2,
+   "gold_variables": [
+    "headspace_temperature",
+    "water_temperature"
+   ]
+  },
+  "uwo_164_luppmenweg": {
+   "site": "164_luppmenweg",
+   "path": "data/04 - UWO/wide/164_luppmenweg",
+   "gold": "gold_uwo_164_luppmenweg.json",
+   "files": 1,
+   "columns": 6,
+   "gold_columns": 2,
+   "gold_variables": [
+    "headspace_temperature",
+    "water_temperature"
+   ]
+  },
+  "uwo_166_luppmenweg": {
+   "site": "166_luppmenweg",
+   "path": "data/04 - UWO/wide/166_luppmenweg",
+   "gold": "gold_uwo_166_luppmenweg.json",
+   "files": 2,
+   "columns": 15,
+   "gold_columns": 6,
+   "gold_variables": [
+    "average_velocity",
+    "flow_rate",
+    "headspace_temperature",
+    "water_level",
+    "water_temperature"
+   ]
+  },
+  "uwo_23_bahnhofstr": {
+   "site": "23_bahnhofstr",
+   "path": "data/04 - UWO/wide/23_bahnhofstr",
+   "gold": "gold_uwo_23_bahnhofstr.json",
+   "files": 1,
+   "columns": 9,
+   "gold_columns": 3,
+   "gold_variables": [
+    "flow_rate",
+    "surface_velocity",
+    "water_level"
+   ]
+  },
+  "uwo_3r_rub_morg_overflow": {
+   "site": "3r_rub_morg_overflow",
+   "path": "data/04 - UWO/wide/3r_rub_morg_overflow",
+   "gold": "gold_uwo_3r_rub_morg_overflow.json",
+   "files": 1,
+   "columns": 1,
+   "gold_columns": 1,
+   "gold_variables": [
+    "flow_rate"
+   ]
+  },
+  "uwo_40d_imberg": {
+   "site": "40d_imberg",
+   "path": "data/04 - UWO/wide/40d_imberg",
+   "gold": "gold_uwo_40d_imberg.json",
+   "files": 2,
+   "columns": 13,
+   "gold_columns": 3,
+   "gold_variables": [
+    "headspace_temperature",
+    "water_level",
+    "water_temperature"
+   ]
+  },
+  "uwo_40g_csovoland": {
+   "site": "40g_csovoland",
+   "path": "data/04 - UWO/wide/40g_csovoland",
+   "gold": "gold_uwo_40g_csovoland.json",
+   "files": 1,
+   "columns": 7,
+   "gold_columns": 1,
+   "gold_variables": [
+    "water_level"
+   ]
+  },
+  "uwo_47a_zurcherstr": {
+   "site": "47a_zurcherstr",
+   "path": "data/04 - UWO/wide/47a_zurcherstr",
+   "gold": "gold_uwo_47a_zurcherstr.json",
+   "files": 2,
+   "columns": 13,
+   "gold_columns": 3,
+   "gold_variables": [
+    "flow_rate",
+    "surface_velocity",
+    "water_level"
+   ]
+  },
+  "uwo_48sbw_notuberlauf": {
+   "site": "48sbw_notuberlauf",
+   "path": "data/04 - UWO/wide/48sbw_notuberlauf",
+   "gold": "gold_uwo_48sbw_notuberlauf.json",
+   "files": 1,
+   "columns": 7,
+   "gold_columns": 1,
+   "gold_variables": [
+    "water_level"
+   ]
+  },
+  "uwo_50sbw_acherm": {
+   "site": "50sbw_acherm",
+   "path": "data/04 - UWO/wide/50sbw_acherm",
+   "gold": "gold_uwo_50sbw_acherm.json",
+   "files": 1,
+   "columns": 7,
+   "gold_columns": 1,
+   "gold_variables": [
+    "water_level"
+   ]
+  },
+  "uwo_555_mesikerstr": {
+   "site": "555_mesikerstr",
+   "path": "data/04 - UWO/wide/555_mesikerstr",
+   "gold": "gold_uwo_555_mesikerstr.json",
+   "files": 2,
+   "columns": 18,
+   "gold_columns": 7,
+   "gold_variables": [
+    "average_velocity",
+    "distance",
+    "flow_rate",
+    "headspace_temperature",
+    "surface_velocity",
+    "water_level",
+    "water_temperature"
+   ]
+  },
+  "uwo_585sbw_amwildbach": {
+   "site": "585sbw_amwildbach",
+   "path": "data/04 - UWO/wide/585sbw_amwildbach",
+   "gold": "gold_uwo_585sbw_amwildbach.json",
+   "files": 2,
+   "columns": 13,
+   "gold_columns": 3,
+   "gold_variables": [
+    "headspace_temperature",
+    "water_level",
+    "water_temperature"
+   ]
+  },
+  "uwo_58sbw_undermulistr": {
+   "site": "58sbw_undermulistr",
+   "path": "data/04 - UWO/wide/58sbw_undermulistr",
+   "gold": "gold_uwo_58sbw_undermulistr.json",
+   "files": 3,
+   "columns": 21,
+   "gold_columns": 5,
+   "gold_variables": [
+    "dielectric_permittivity",
+    "headspace_temperature",
+    "overflow_temperature",
+    "water_level",
+    "water_temperature"
+   ]
+  },
+  "uwo_597sbw_ara": {
+   "site": "597sbw_ara",
+   "path": "data/04 - UWO/wide/597sbw_ara",
+   "gold": "gold_uwo_597sbw_ara.json",
+   "files": 2,
+   "columns": 13,
+   "gold_columns": 3,
+   "gold_variables": [
+    "headspace_temperature",
+    "water_level",
+    "water_temperature"
+   ]
+  },
+  "uwo_607sbw_kempttalerstr": {
+   "site": "607sbw_kempttalerstr",
+   "path": "data/04 - UWO/wide/607sbw_kempttalerstr",
+   "gold": "gold_uwo_607sbw_kempttalerstr.json",
+   "files": 1,
+   "columns": 7,
+   "gold_columns": 1,
+   "gold_variables": [
+    "water_level"
+   ]
+  },
+  "uwo_7_kempttalstr": {
+   "site": "7_kempttalstr",
+   "path": "data/04 - UWO/wide/7_kempttalstr",
+   "gold": "gold_uwo_7_kempttalstr.json",
+   "files": 2,
+   "columns": 13,
+   "gold_columns": 3,
+   "gold_variables": [
+    "headspace_temperature",
+    "water_level",
+    "water_temperature"
+   ]
+  },
+  "uwo_airport_speck": {
+   "site": "airport_speck",
+   "path": "data/04 - UWO/wide/airport_speck",
+   "gold": "gold_uwo_airport_speck.json",
+   "files": 1,
+   "columns": 4,
+   "gold_columns": 1,
+   "gold_variables": [
+    "rainfall_intensity"
+   ]
+  },
+  "uwo_ara_flatroof": {
+   "site": "ara_flatroof",
+   "path": "data/04 - UWO/wide/ara_flatroof",
+   "gold": "gold_uwo_ara_flatroof.json",
+   "files": 2,
+   "columns": 20,
+   "gold_columns": 13,
+   "gold_variables": [
+    "absolute_air_pressure",
+    "absolute_humidity",
+    "ambient_air_temperature",
+    "global_radiation",
+    "precipitation_type",
+    "rainfall_cumsum",
+    "rainfall_intensity",
+    "relative_air_pressure",
+    "relative_humidity",
+    "wind_direction",
+    "wind_speed"
+   ]
+  },
+  "uwo_coop_grundstr": {
+   "site": "coop_grundstr",
+   "path": "data/04 - UWO/wide/coop_grundstr",
+   "gold": "gold_uwo_coop_grundstr.json",
+   "files": 1,
+   "columns": 7,
+   "gold_columns": 2,
+   "gold_variables": [
+    "rainfall_cumsum",
+    "rainfall_intensity"
+   ]
+  },
+  "uwo_electrosuisse_luppmenstr": {
+   "site": "electrosuisse_luppmenstr",
+   "path": "data/04 - UWO/wide/electrosuisse_luppmenstr",
+   "gold": "gold_uwo_electrosuisse_luppmenstr.json",
+   "files": 1,
+   "columns": 7,
+   "gold_columns": 2,
+   "gold_variables": [
+    "rainfall_cumsum",
+    "rainfall_intensity"
+   ]
+  },
+  "uwo_gerber_zurcherstr": {
+   "site": "gerber_zurcherstr",
+   "path": "data/04 - UWO/wide/gerber_zurcherstr",
+   "gold": "gold_uwo_gerber_zurcherstr.json",
+   "files": 1,
+   "columns": 7,
+   "gold_columns": 2,
+   "gold_variables": [
+    "rainfall_cumsum",
+    "rainfall_intensity"
+   ]
+  },
+  "uwo_inflow_ara": {
+   "site": "inflow_ara",
+   "path": "data/04 - UWO/wide/inflow_ara",
+   "gold": "gold_uwo_inflow_ara.json",
+   "files": 4,
+   "columns": 15,
+   "gold_columns": 5,
+   "gold_variables": [
+    "flow_rate",
+    "headspace_temperature",
+    "water_level",
+    "water_temperature"
+   ]
+  },
+  "uwo_luppmen_usterstr": {
+   "site": "luppmen_usterstr",
+   "path": "data/04 - UWO/wide/luppmen_usterstr",
+   "gold": "gold_uwo_luppmen_usterstr.json",
+   "files": 1,
+   "columns": 6,
+   "gold_columns": 2,
+   "gold_variables": [
+    "pressure",
+    "water_temperature"
+   ]
+  },
+  "uwo_pumpwau_rumlikerstr": {
+   "site": "pumpwau_rumlikerstr",
+   "path": "data/04 - UWO/wide/pumpwau_rumlikerstr",
+   "gold": "gold_uwo_pumpwau_rumlikerstr.json",
+   "files": 1,
+   "columns": 7,
+   "gold_columns": 2,
+   "gold_variables": [
+    "rainfall_cumsum",
+    "rainfall_intensity"
+   ]
+  },
+  "uwo_pumpwgeeren_geerenstr": {
+   "site": "pumpwgeeren_geerenstr",
+   "path": "data/04 - UWO/wide/pumpwgeeren_geerenstr",
+   "gold": "gold_uwo_pumpwgeeren_geerenstr.json",
+   "files": 2,
+   "columns": 14,
+   "gold_columns": 4,
+   "gold_variables": [
+    "ambient_air_temperature",
+    "rainfall_cumsum",
+    "rainfall_intensity",
+    "relative_humidity"
+   ]
+  },
+  "uwo_ra40a_sbwvoland": {
+   "site": "ra40a_sbwvoland",
+   "path": "data/04 - UWO/wide/ra40a_sbwvoland",
+   "gold": "gold_uwo_ra40a_sbwvoland.json",
+   "files": 2,
+   "columns": 14,
+   "gold_columns": 2,
+   "gold_variables": [
+    "dielectric_permittivity",
+    "water_level"
+   ]
+  },
+  "uwo_rohrbach_fehraltorferstr": {
+   "site": "rohrbach_fehraltorferstr",
+   "path": "data/04 - UWO/wide/rohrbach_fehraltorferstr",
+   "gold": "gold_uwo_rohrbach_fehraltorferstr.json",
+   "files": 1,
+   "columns": 7,
+   "gold_columns": 1,
+   "gold_variables": [
+    "water_level"
+   ]
+  },
+  "uwo_rub128basin_usterstr": {
+   "site": "rub128basin_usterstr",
+   "path": "data/04 - UWO/wide/rub128basin_usterstr",
+   "gold": "gold_uwo_rub128basin_usterstr.json",
+   "files": 5,
+   "columns": 17,
+   "gold_columns": 6,
+   "gold_variables": [
+    "dielectric_permittivity",
+    "flow_rate",
+    "overflow_temperature",
+    "water_level"
+   ]
+  },
+  "uwo_rub128inflow_usterstr": {
+   "site": "rub128inflow_usterstr",
+   "path": "data/04 - UWO/wide/rub128inflow_usterstr",
+   "gold": "gold_uwo_rub128inflow_usterstr.json",
+   "files": 3,
+   "columns": 20,
+   "gold_columns": 5,
+   "gold_variables": [
+    "dielectric_permittivity",
+    "headspace_temperature",
+    "overflow_temperature",
+    "water_level",
+    "water_temperature"
+   ]
+  },
+  "uwo_rub_morg": {
+   "site": "rub_morg",
+   "path": "data/04 - UWO/wide/rub_morg",
+   "gold": "gold_uwo_rub_morg.json",
+   "files": 8,
+   "columns": 54,
+   "gold_columns": 22,
+   "gold_variables": [
+    "absolute_air_pressure",
+    "absolute_humidity",
+    "ambient_air_temperature",
+    "dielectric_permittivity",
+    "global_radiation",
+    "overflow_temperature",
+    "precipitation_type",
+    "rainfall_cumsum",
+    "rainfall_intensity",
+    "relative_air_pressure",
+    "relative_humidity",
+    "water_level",
+    "wind_direction",
+    "wind_speed"
+   ]
+  },
+  "uwo_rubbasin_ara": {
+   "site": "rubbasin_ara",
+   "path": "data/04 - UWO/wide/rubbasin_ara",
+   "gold": "gold_uwo_rubbasin_ara.json",
+   "files": 6,
+   "columns": 28,
+   "gold_columns": 6,
+   "gold_variables": [
+    "dielectric_permittivity",
+    "flow_rate",
+    "overflow_temperature",
+    "water_level"
+   ]
+  },
+  "uwo_rubmorg_inflow": {
+   "site": "rubmorg_inflow",
+   "path": "data/04 - UWO/wide/rubmorg_inflow",
+   "gold": "gold_uwo_rubmorg_inflow.json",
+   "files": 2,
+   "columns": 13,
+   "gold_columns": 3,
+   "gold_variables": [
+    "headspace_temperature",
+    "water_level",
+    "water_temperature"
+   ]
+  },
+  "uwo_rubpw80sbw_industry": {
+   "site": "rubpw80sbw_industry",
+   "path": "data/04 - UWO/wide/rubpw80sbw_industry",
+   "gold": "gold_uwo_rubpw80sbw_industry.json",
+   "files": 3,
+   "columns": 10,
+   "gold_columns": 3,
+   "gold_variables": [
+    "flow_rate",
+    "water_level"
+   ]
+  },
+  "uwo_rubpw80sbwbasin_industry": {
+   "site": "rubpw80sbwbasin_industry",
+   "path": "data/04 - UWO/wide/rubpw80sbwbasin_industry",
+   "gold": "gold_uwo_rubpw80sbwbasin_industry.json",
+   "files": 2,
+   "columns": 13,
+   "gold_columns": 2,
+   "gold_variables": [
+    "dielectric_permittivity",
+    "water_level"
+   ]
+  },
+  "uwo_rumpisweg": {
+   "site": "rumpisweg",
+   "path": "data/04 - UWO/wide/rumpisweg",
+   "gold": "gold_uwo_rumpisweg.json",
+   "files": 6,
+   "columns": 6,
+   "gold_columns": 6,
+   "gold_variables": [
+    "soil_temperature"
+   ]
+  },
+  "uwo_rw22a_bahnhofstr": {
+   "site": "rw22a_bahnhofstr",
+   "path": "data/04 - UWO/wide/rw22a_bahnhofstr",
+   "gold": "gold_uwo_rw22a_bahnhofstr.json",
+   "files": 1,
+   "columns": 7,
+   "gold_columns": 2,
+   "gold_variables": [
+    "water_temperature",
+    "water_temperature2"
+   ]
+  },
+  "uwo_rw47a_zurcherstr": {
+   "site": "rw47a_zurcherstr",
+   "path": "data/04 - UWO/wide/rw47a_zurcherstr",
+   "gold": "gold_uwo_rw47a_zurcherstr.json",
+   "files": 1,
+   "columns": 7,
+   "gold_columns": 2,
+   "gold_variables": [
+    "water_temperature",
+    "water_temperature2"
+   ]
+  },
+  "uwo_school_chatzenrainstr": {
+   "site": "school_chatzenrainstr",
+   "path": "data/04 - UWO/wide/school_chatzenrainstr",
+   "gold": "gold_uwo_school_chatzenrainstr.json",
+   "files": 1,
+   "columns": 4,
+   "gold_columns": 1,
+   "gold_variables": [
+    "rainfall_intensity"
+   ]
+  },
+  "uwo_schutzenhaus_burgweg": {
+   "site": "schutzenhaus_burgweg",
+   "path": "data/04 - UWO/wide/schutzenhaus_burgweg",
+   "gold": "gold_uwo_schutzenhaus_burgweg.json",
+   "files": 1,
+   "columns": 4,
+   "gold_columns": 1,
+   "gold_variables": [
+    "rainfall_intensity"
+   ]
+  },
+  "uwo_sk102_wermatswilstr": {
+   "site": "sk102_wermatswilstr",
+   "path": "data/04 - UWO/wide/sk102_wermatswilstr",
+   "gold": "gold_uwo_sk102_wermatswilstr.json",
+   "files": 1,
+   "columns": 7,
+   "gold_columns": 2,
+   "gold_variables": [
+    "headspace_temperature",
+    "water_temperature"
+   ]
+  },
+  "uwo_sk_ara": {
+   "site": "sk_ara",
+   "path": "data/04 - UWO/wide/sk_ara",
+   "gold": "gold_uwo_sk_ara.json",
+   "files": 3,
+   "columns": 15,
+   "gold_columns": 4,
+   "gold_variables": [
+    "dielectric_permittivity",
+    "overflow_temperature",
+    "water_level"
+   ]
+  },
+  "uwo_voland_unterdorf": {
+   "site": "voland_unterdorf",
+   "path": "data/04 - UWO/wide/voland_unterdorf",
+   "gold": "gold_uwo_voland_unterdorf.json",
+   "files": 1,
+   "columns": 7,
+   "gold_columns": 2,
+   "gold_variables": [
+    "headspace_temperature",
+    "relative_humidity"
+   ]
+  },
+  "uwo_vs22_kempttalstr": {
+   "site": "vs22_kempttalstr",
+   "path": "data/04 - UWO/wide/vs22_kempttalstr",
+   "gold": "gold_uwo_vs22_kempttalstr.json",
+   "files": 3,
+   "columns": 21,
+   "gold_columns": 5,
+   "gold_variables": [
+    "dielectric_permittivity",
+    "headspace_temperature",
+    "overflow_temperature",
+    "water_level",
+    "water_temperature"
+   ]
+  },
+  "uwo_wildbach_kempttalstr": {
+   "site": "wildbach_kempttalstr",
+   "path": "data/04 - UWO/wide/wildbach_kempttalstr",
+   "gold": "gold_uwo_wildbach_kempttalstr.json",
+   "files": 1,
+   "columns": 6,
+   "gold_columns": 2,
+   "gold_variables": [
+    "pressure",
+    "water_temperature"
+   ]
+  },
+  "uwo_wildbach_rumlikonstr": {
+   "site": "wildbach_rumlikonstr",
+   "path": "data/04 - UWO/wide/wildbach_rumlikonstr",
+   "gold": "gold_uwo_wildbach_rumlikonstr.json",
+   "files": 1,
+   "columns": 7,
+   "gold_columns": 1,
+   "gold_variables": [
+    "water_level"
+   ]
+  }
+ },
+ "cover": [
+  "uwo_rub_morg",
+  "uwo_11e_russikerstr",
+  "uwo_luppmen_usterstr",
+  "uwo_rumpisweg",
+  "uwo_rw22a_bahnhofstr"
+ ],
+ "measurement_variables_in_window": [
+  "absolute_air_pressure",
+  "absolute_humidity",
+  "ambient_air_temperature",
+  "average_velocity",
+  "dielectric_permittivity",
+  "distance",
+  "flow_rate",
+  "global_radiation",
+  "headspace_temperature",
+  "overflow_temperature",
+  "precipitation_type",
+  "pressure",
+  "rainfall_cumsum",
+  "rainfall_intensity",
+  "relative_air_pressure",
+  "relative_humidity",
+  "soil_temperature",
+  "surface_velocity",
+  "water_level",
+  "water_temperature",
+  "water_temperature2",
+  "wind_direction",
+  "wind_speed"
+ ],
+ "unknown_variables": []
+}

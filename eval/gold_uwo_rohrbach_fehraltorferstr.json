@@ -1,0 +1,19 @@
+{
+ "dataset": "uwo_rohrbach_fehraltorferstr",
+ "root": "data\\04 - UWO\\wide\\rohrbach_fehraltorferstr",
+ "observations": [
+  {
+   "type": "water_level",
+   "file": "bl_lm076_rohrbach_fehraltorferstr.csv",
+   "column": "water_level",
+   "sensor": "bl_lm076_rohrbach_fehraltorferstr",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "rohrbach_fehraltorferstr",
+   "feature_gwsw": "gwsw:Beek",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  }
+ ]
+}

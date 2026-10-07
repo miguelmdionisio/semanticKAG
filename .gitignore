@@ -1,0 +1,24 @@
+data/
+out/
+
+__pycache__/
+*.pyc
+
+.env
+.claude/
+CLAUDE.md
+
+# generated graphs
+/*.ttl
+/*.nt
+
+# evaluation: cached API responses and regenerable reports
+eval/cache/
+eval/README.md
+eval/*_scorecard.html
+eval/*_review.html
+eval/scores_*.json
+eval/gold_review.docx
+
+# unreported experiments, kept locally
+eval/archive/

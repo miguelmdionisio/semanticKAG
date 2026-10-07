@@ -1,0 +1,475 @@
+{
+ "dataset": "graz-west",
+ "observations": [
+  {
+   "type": "water level",
+   "file": "hydraulic data/chamber.csv",
+   "column": "water_level",
+   "value": "0.23",
+   "resultTime": "2008-08-28T14:21:00+01:00",
+   "sensor": "chamber_ultrasound",
+   "sensor_type": "ultrasonic water-level sensor",
+   "observedProperty": "gemet:9190",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:M",
+   "feature": "CSO chamber",
+   "feature_gwsw": "gwsw:Overstortput",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "water level",
+   "file": "hydraulic data/inflow-analogue.csv",
+   "column": "water_level",
+   "value": "0.178",
+   "resultTime": "2008-08-28T14:21:00+01:00",
+   "sensor": "inflow_flodar",
+   "sensor_type": "radar flow sensor (FLO-DAR)",
+   "observedProperty": "gemet:9190",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:M",
+   "feature": "Inflow channel of CSO",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "water level",
+   "file": "hydraulic data/inflow-digital.csv",
+   "column": "water_level",
+   "value": "0.1068",
+   "resultTime": "2008-06-19T00:55:00+01:00",
+   "sensor": "inflow_flodar",
+   "sensor_type": "radar flow sensor (FLO-DAR)",
+   "observedProperty": "gemet:9190",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:M",
+   "feature": "Inflow channel of CSO",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "water level",
+   "file": "hydraulic data/overflow.csv",
+   "column": "water_level",
+   "value": "0.011",
+   "resultTime": "2008-08-28T14:21:00+01:00",
+   "sensor": "overflow_ocmpro",
+   "sensor_type": "ultrasonic cross-correlation flow sensor (OCM Pro)",
+   "observedProperty": "gemet:9190",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:M",
+   "feature": "Overflow channel downstream CSO",
+   "feature_gwsw": "gwsw:Overstortleiding",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "flow rate",
+   "file": "hydraulic data/inflow-analogue.csv",
+   "column": "flow_rate",
+   "value": "39.2",
+   "resultTime": "2008-08-28T14:21:00+01:00",
+   "sensor": "inflow_flodar",
+   "sensor_type": "radar flow sensor (FLO-DAR)",
+   "observedProperty": "qudt:VolumeFlowRate",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:L-PER-SEC",
+   "feature": "Inflow channel of CSO",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "flow rate",
+   "file": "hydraulic data/inflow-digital.csv",
+   "column": "flow_rate",
+   "value": "183.0",
+   "resultTime": "2008-06-19T00:55:00+01:00",
+   "sensor": "inflow_flodar",
+   "sensor_type": "radar flow sensor (FLO-DAR)",
+   "observedProperty": "qudt:VolumeFlowRate",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:L-PER-SEC",
+   "feature": "Inflow channel of CSO",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "flow rate",
+   "file": "hydraulic data/overflow.csv",
+   "column": "flow_rate",
+   "value": "0.5",
+   "resultTime": "2008-08-28T14:21:00+01:00",
+   "sensor": "overflow_ocmpro",
+   "sensor_type": "ultrasonic cross-correlation flow sensor (OCM Pro)",
+   "observedProperty": "qudt:VolumeFlowRate",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:L-PER-SEC",
+   "feature": "Overflow channel downstream CSO",
+   "feature_gwsw": "gwsw:Overstortleiding",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "flow velocity",
+   "file": "hydraulic data/inflow-analogue.csv",
+   "column": "flow_velocity",
+   "value": "0.519",
+   "resultTime": "2008-08-28T14:21:00+01:00",
+   "sensor": "inflow_flodar",
+   "sensor_type": "radar flow sensor (FLO-DAR)",
+   "observedProperty": "qudt:Velocity",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:M-PER-SEC",
+   "feature": "Inflow channel of CSO",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": "Expert: Velocity (not LinearVelocity). inflow-digital values (mean 200.6, max 1706) look like mm/s despite the documented m/s."
+  },
+  {
+   "type": "flow velocity",
+   "file": "hydraulic data/inflow-digital.csv",
+   "column": "flow_velocity",
+   "value": "329.0",
+   "resultTime": "2008-06-19T00:55:00+01:00",
+   "sensor": "inflow_flodar",
+   "sensor_type": "radar flow sensor (FLO-DAR)",
+   "observedProperty": "qudt:Velocity",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:M-PER-SEC",
+   "feature": "Inflow channel of CSO",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": "Expert: Velocity (not LinearVelocity). inflow-digital values (mean 200.6, max 1706) look like mm/s despite the documented m/s."
+  },
+  {
+   "type": "chemical oxygen demand (COD)",
+   "file": "pollutant data/spectrometer.csv",
+   "column": "COD",
+   "value": "616.9",
+   "resultTime": "2008-08-28T14:21:00+01:00",
+   "sensor": "scan_spectrometer",
+   "sensor_type": "UV/VIS spectrometer (s::can)",
+   "observedProperty": "gemet:1536",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliGM-PER-L",
+   "feature": "CSO chamber",
+   "feature_gwsw": "gwsw:Overstortput",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "chemical oxygen demand (COD)",
+   "file": "pollutant data/calibrated.csv",
+   "column": "COD",
+   "value": "972.3921",
+   "resultTime": "2008-08-28T14:21:00+01:00",
+   "sensor": "scan_spectrometer",
+   "sensor_type": "UV/VIS spectrometer (s::can)",
+   "observedProperty": "gemet:1536",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliGM-PER-L",
+   "feature": "CSO chamber",
+   "feature_gwsw": "gwsw:Overstortput",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "chemical oxygen demand (COD)",
+   "file": "lab data/samples.csv",
+   "column": "COD1",
+   "value": "874",
+   "resultTime": "2008-09-25T14:33:01+02:00",
+   "sensor": "hach_lab_photometer",
+   "sensor_type": "cuvette photometer (DR3900 / DR6000)",
+   "observedProperty": "gemet:1536",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliGM-PER-L",
+   "feature": "CSO chamber",
+   "feature_gwsw": "gwsw:Overstortput",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "chemical oxygen demand (COD)",
+   "file": "lab data/samples.csv",
+   "column": "COD2",
+   "value": "902",
+   "resultTime": "2008-09-25T14:33:01+02:00",
+   "sensor": "hach_lab_photometer",
+   "sensor_type": "cuvette photometer (DR3900 / DR6000)",
+   "observedProperty": "gemet:1536",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliGM-PER-L",
+   "feature": "CSO chamber",
+   "feature_gwsw": "gwsw:Overstortput",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "chemical oxygen demand (COD)",
+   "file": "lab data/samples.csv",
+   "column": "COD3",
+   "value": "956",
+   "resultTime": "2008-09-25T14:33:01+02:00",
+   "sensor": "hach_lab_photometer",
+   "sensor_type": "cuvette photometer (DR3900 / DR6000)",
+   "observedProperty": "gemet:1536",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliGM-PER-L",
+   "feature": "CSO chamber",
+   "feature_gwsw": "gwsw:Overstortput",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "total suspended solids (TSS)",
+   "file": "pollutant data/spectrometer.csv",
+   "column": "TSS",
+   "value": "303.8",
+   "resultTime": "2008-08-28T14:21:00+01:00",
+   "sensor": "scan_spectrometer",
+   "sensor_type": "UV/VIS spectrometer (s::can)",
+   "observedProperty": "gemet:12220",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliGM-PER-L",
+   "feature": "CSO chamber",
+   "feature_gwsw": "gwsw:Overstortput",
+   "accept": [
+    "mint:*"
+   ],
+   "note": "GEMET has no 'total suspended solids'; 12220 = 'suspended matter' (approximate). Expert: reuse this or mint ex:property/total-suspended-solids?"
+  },
+  {
+   "type": "total suspended solids (TSS)",
+   "file": "lab data/samples.csv",
+   "column": "TSS1",
+   "value": "296",
+   "resultTime": "2008-09-25T14:33:01+02:00",
+   "sensor": "lab_tss_gravimetric",
+   "sensor_type": "gravimetric TSS analysis (filtration, drying, weighing); instrument not stated",
+   "observedProperty": "gemet:12220",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliGM-PER-L",
+   "feature": "CSO chamber",
+   "feature_gwsw": "gwsw:Overstortput",
+   "accept": [
+    "mint:*"
+   ],
+   "note": "Same 'suspended matter' approximation as above. Sensor: gravimetric analysis, not the photometer (fixed 2026-10-02)."
+  },
+  {
+   "type": "total suspended solids (TSS)",
+   "file": "lab data/samples.csv",
+   "column": "TSS2",
+   "value": "304",
+   "resultTime": "2008-09-25T14:33:01+02:00",
+   "sensor": "lab_tss_gravimetric",
+   "sensor_type": "gravimetric TSS analysis (filtration, drying, weighing); instrument not stated",
+   "observedProperty": "gemet:12220",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliGM-PER-L",
+   "feature": "CSO chamber",
+   "feature_gwsw": "gwsw:Overstortput",
+   "accept": [
+    "mint:*"
+   ],
+   "note": "Same 'suspended matter' approximation as above. Sensor: gravimetric analysis, not the photometer (fixed 2026-10-02)."
+  },
+  {
+   "type": "total suspended solids (TSS)",
+   "file": "lab data/samples.csv",
+   "column": "TSS3",
+   "value": "308",
+   "resultTime": "2008-09-25T14:33:01+02:00",
+   "sensor": "lab_tss_gravimetric",
+   "sensor_type": "gravimetric TSS analysis (filtration, drying, weighing); instrument not stated",
+   "observedProperty": "gemet:12220",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliGM-PER-L",
+   "feature": "CSO chamber",
+   "feature_gwsw": "gwsw:Overstortput",
+   "accept": [
+    "mint:*"
+   ],
+   "note": "Same 'suspended matter' approximation as above. Sensor: gravimetric analysis, not the photometer (fixed 2026-10-02)."
+  },
+  {
+   "type": "water temperature",
+   "file": "pollutant data/spectrometer.csv",
+   "column": "temperature",
+   "value": "",
+   "resultTime": "2008-08-28T14:21:00+01:00",
+   "sensor": "scan_spectrometer",
+   "sensor_type": "UV/VIS spectrometer (s::can)",
+   "observedProperty": "qudt:Temperature",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "CSO chamber",
+   "feature_gwsw": "gwsw:Overstortput",
+   "accept": [],
+   "note": ""
+  },
+  {
+   "type": "precipitation",
+   "file": "precipitation data/0033900601.csv",
+   "column": "0033900601",
+   "value": "0.1",
+   "resultTime": "2008-06-01T20:16:12+01:00",
+   "sensor": "rain_gauge_stremayrgasse",
+   "sensor_type": "tipping-bucket rain gauge (0.1 mm)",
+   "observedProperty": "gemet:637",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "Rain gauge — Graz-Stremayrgasse",
+   "feature_gwsw": null,
+   "accept": [
+    "gemet:6947"
+   ],
+   "note": "GEMET 637 = 'atmospheric precipitation' (chosen over 6947 'rain' — measures precipitation depth)."
+  },
+  {
+   "type": "precipitation",
+   "file": "precipitation data/0033901401.csv",
+   "column": "0033901401",
+   "value": "0.1",
+   "resultTime": "2008-11-28T19:17:52+01:00",
+   "sensor": "rain_gauge_0033901401",
+   "sensor_type": "tipping-bucket rain gauge (0.1 mm)",
+   "observedProperty": "gemet:637",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "Rain gauge — 0033901401",
+   "feature_gwsw": null,
+   "accept": [
+    "gemet:6947"
+   ],
+   "note": ""
+  },
+  {
+   "type": "precipitation",
+   "file": "precipitation data/0033901601.csv",
+   "column": "0033901601",
+   "value": "0.1",
+   "resultTime": "2008-06-01T18:20:16+01:00",
+   "sensor": "rain_gauge_0033901601",
+   "sensor_type": "tipping-bucket rain gauge (0.1 mm)",
+   "observedProperty": "gemet:637",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "Rain gauge — 0033901601",
+   "feature_gwsw": null,
+   "accept": [
+    "gemet:6947"
+   ],
+   "note": ""
+  }
+ ],
+ "features": [
+  {
+   "id": "cso_chamber",
+   "label": "CSO chamber",
+   "evidence": "meta: \"chamber of the CSO structure, above dry-weather-flow path\"",
+   "gwsw": "gwsw:Overstortput",
+   "options": "Overstortput | Overstortconstructie | Rioolput"
+  },
+  {
+   "id": "inflow_channel",
+   "label": "Inflow channel of CSO",
+   "evidence": "meta: \"inflow chanel of CSO structure\"",
+   "gwsw": "gwsw:Rioolleiding",
+   "options": "Rioolleiding | Leiding | Transportleiding"
+  },
+  {
+   "id": "overflow_channel",
+   "label": "Overflow channel downstream CSO",
+   "evidence": "meta: \"overflow chanel downstream the CSO structure\"",
+   "gwsw": "gwsw:Overstortleiding",
+   "options": "Overstortleiding | Uitlaatconstructie | Leiding"
+  },
+  {
+   "id": "rain_gauge_stremayrgasse",
+   "label": "Rain gauge — Graz-Stremayrgasse",
+   "evidence": "meta internal-label \"Graz-Stremayrgasse\"; 47.0647,15.4517",
+   "gwsw": null,
+   "options": "untyped (GWSW is sewer-asset scoped; rain gauge likely out of scope)"
+  },
+  {
+   "id": "rain_gauge_0033901401",
+   "label": "Rain gauge — 0033901401",
+   "evidence": "precipitation data/0033901401.csv",
+   "gwsw": null,
+   "options": "untyped"
+  },
+  {
+   "id": "rain_gauge_0033901601",
+   "label": "Rain gauge — 0033901601",
+   "evidence": "precipitation data/0033901601.csv",
+   "gwsw": null,
+   "options": "untyped"
+  }
+ ],
+ "sensors": {
+  "chamber_ultrasound": {
+   "type": "ultrasonic water-level sensor",
+   "manufacturer": "Sommer"
+  },
+  "inflow_flodar": {
+   "type": "radar flow sensor (FLO-DAR)",
+   "manufacturer": "Hach / Marsh McBirney"
+  },
+  "overflow_ocmpro": {
+   "type": "ultrasonic cross-correlation flow sensor (OCM Pro)",
+   "manufacturer": "NIVUS"
+  },
+  "scan_spectrometer": {
+   "type": "UV/VIS spectrometer (s::can)",
+   "manufacturer": "s::can"
+  },
+  "hach_lab_photometer": {
+   "type": "cuvette photometer (DR3900 / DR6000)",
+   "manufacturer": "Hach"
+  },
+  "lab_tss_gravimetric": {
+   "type": "gravimetric TSS analysis (filtration, drying, weighing); instrument not stated",
+   "manufacturer": "(unspecified)"
+  },
+  "rain_gauge_stremayrgasse": {
+   "type": "tipping-bucket rain gauge (0.1 mm)",
+   "manufacturer": "(unspecified)"
+  },
+  "rain_gauge_0033901401": {
+   "type": "tipping-bucket rain gauge (0.1 mm)",
+   "manufacturer": "(unspecified)"
+  },
+  "rain_gauge_0033901601": {
+   "type": "tipping-bucket rain gauge (0.1 mm)",
+   "manufacturer": "(unspecified)"
+  }
+ }
+}

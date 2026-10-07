@@ -1,0 +1,2831 @@
+{
+ "graz/baseline": {
+  "dataset": "graz",
+  "n_gold": 22,
+  "runs": 4,
+  "agg": {
+   "l1": {
+    "mean": 13,
+    "runs": [
+     13,
+     13,
+     13,
+     13
+    ]
+   },
+   "l1_len": {
+    "mean": 20,
+    "runs": [
+     20,
+     20,
+     20,
+     20
+    ]
+   },
+   "reuse_mint": {
+    "mean": 16,
+    "runs": [
+     16,
+     16,
+     16,
+     16
+    ]
+   },
+   "unit": {
+    "mean": 22,
+    "runs": [
+     22,
+     22,
+     22,
+     22
+    ]
+   },
+   "feature": {
+    "mean": 5.5,
+    "runs": [
+     11,
+     0,
+     0,
+     11
+    ]
+   },
+   "n_matched": {
+    "mean": 22,
+    "runs": [
+     22,
+     22,
+     22,
+     22
+    ]
+   },
+   "n_spurious": {
+    "mean": 15,
+    "runs": [
+     15,
+     15,
+     15,
+     15
+    ]
+   },
+   "sensor_f1": {
+    "mean": 0.8142003158132192,
+    "runs": [
+     0.7272727272727273,
+     0.8615384615384616,
+     0.806451612903226,
+     0.8615384615384616
+    ]
+   }
+  },
+  "run_detail": [
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 15,
+    "l1": 13,
+    "l1_len": 20,
+    "reuse_mint": 16,
+    "unit": 22,
+    "feature": 11,
+    "sensor_f1": 0.7272727272727273,
+    "errors": [
+     {
+      "key": "hydraulic data/inflow-analogue.csv::flow_velocity",
+      "gold": "qudt:Velocity",
+      "pred": "mint:velocity",
+      "lenient_ok": false
+     },
+     {
+      "key": "hydraulic data/inflow-digital.csv::flow_velocity",
+      "gold": "qudt:Velocity",
+      "pred": "mint:velocity",
+      "lenient_ok": false
+     },
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "precipitation data/0033900601.csv::0033900601",
+      "gold": "gemet:637",
+      "pred": "gemet:6947",
+      "lenient_ok": true
+     },
+     {
+      "key": "precipitation data/0033901401.csv::0033901401",
+      "gold": "gemet:637",
+      "pred": "gemet:6947",
+      "lenient_ok": true
+     },
+     {
+      "key": "precipitation data/0033901601.csv::0033901601",
+      "gold": "gemet:637",
+      "pred": "gemet:6947",
+      "lenient_ok": true
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   },
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 15,
+    "l1": 13,
+    "l1_len": 20,
+    "reuse_mint": 16,
+    "unit": 22,
+    "feature": 0,
+    "sensor_f1": 0.8615384615384616,
+    "errors": [
+     {
+      "key": "hydraulic data/inflow-analogue.csv::flow_velocity",
+      "gold": "qudt:Velocity",
+      "pred": "mint:flow-velocity",
+      "lenient_ok": false
+     },
+     {
+      "key": "hydraulic data/inflow-digital.csv::flow_velocity",
+      "gold": "qudt:Velocity",
+      "pred": "mint:flow-velocity",
+      "lenient_ok": false
+     },
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "precipitation data/0033900601.csv::0033900601",
+      "gold": "gemet:637",
+      "pred": "gemet:6947",
+      "lenient_ok": true
+     },
+     {
+      "key": "precipitation data/0033901401.csv::0033901401",
+      "gold": "gemet:637",
+      "pred": "gemet:6947",
+      "lenient_ok": true
+     },
+     {
+      "key": "precipitation data/0033901601.csv::0033901601",
+      "gold": "gemet:637",
+      "pred": "gemet:6947",
+      "lenient_ok": true
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   },
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 15,
+    "l1": 13,
+    "l1_len": 20,
+    "reuse_mint": 16,
+    "unit": 22,
+    "feature": 0,
+    "sensor_f1": 0.806451612903226,
+    "errors": [
+     {
+      "key": "hydraulic data/inflow-analogue.csv::flow_velocity",
+      "gold": "qudt:Velocity",
+      "pred": "mint:flow-velocity",
+      "lenient_ok": false
+     },
+     {
+      "key": "hydraulic data/inflow-digital.csv::flow_velocity",
+      "gold": "qudt:Velocity",
+      "pred": "mint:flow-velocity",
+      "lenient_ok": false
+     },
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "precipitation data/0033900601.csv::0033900601",
+      "gold": "gemet:637",
+      "pred": "gemet:6947",
+      "lenient_ok": true
+     },
+     {
+      "key": "precipitation data/0033901401.csv::0033901401",
+      "gold": "gemet:637",
+      "pred": "gemet:6947",
+      "lenient_ok": true
+     },
+     {
+      "key": "precipitation data/0033901601.csv::0033901601",
+      "gold": "gemet:637",
+      "pred": "gemet:6947",
+      "lenient_ok": true
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   },
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 15,
+    "l1": 13,
+    "l1_len": 20,
+    "reuse_mint": 16,
+    "unit": 22,
+    "feature": 11,
+    "sensor_f1": 0.8615384615384616,
+    "errors": [
+     {
+      "key": "hydraulic data/inflow-analogue.csv::flow_velocity",
+      "gold": "qudt:Velocity",
+      "pred": "mint:velocity",
+      "lenient_ok": false
+     },
+     {
+      "key": "hydraulic data/inflow-digital.csv::flow_velocity",
+      "gold": "qudt:Velocity",
+      "pred": "mint:velocity",
+      "lenient_ok": false
+     },
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "precipitation data/0033900601.csv::0033900601",
+      "gold": "gemet:637",
+      "pred": "gemet:6947",
+      "lenient_ok": true
+     },
+     {
+      "key": "precipitation data/0033901401.csv::0033901401",
+      "gold": "gemet:637",
+      "pred": "gemet:6947",
+      "lenient_ok": true
+     },
+     {
+      "key": "precipitation data/0033901601.csv::0033901601",
+      "gold": "gemet:637",
+      "pred": "gemet:6947",
+      "lenient_ok": true
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   }
+  ]
+ },
+ "graz/enrich_k30": {
+  "dataset": "graz",
+  "n_gold": 22,
+  "runs": 4,
+  "agg": {
+   "l1": {
+    "mean": 17.25,
+    "runs": [
+     17,
+     18,
+     17,
+     17
+    ]
+   },
+   "l1_len": {
+    "mean": 21.25,
+    "runs": [
+     21,
+     22,
+     21,
+     21
+    ]
+   },
+   "reuse_mint": {
+    "mean": 18,
+    "runs": [
+     18,
+     18,
+     18,
+     18
+    ]
+   },
+   "unit": {
+    "mean": 22,
+    "runs": [
+     22,
+     22,
+     22,
+     22
+    ]
+   },
+   "feature": {
+    "mean": 2.75,
+    "runs": [
+     0,
+     0,
+     11,
+     0
+    ]
+   },
+   "n_matched": {
+    "mean": 22,
+    "runs": [
+     22,
+     22,
+     22,
+     22
+    ]
+   },
+   "n_spurious": {
+    "mean": 15,
+    "runs": [
+     15,
+     15,
+     15,
+     15
+    ]
+   },
+   "sensor_f1": {
+    "mean": 0.732656023222061,
+    "runs": [
+     0.8615384615384616,
+     0.6037735849056605,
+     0.8615384615384616,
+     0.6037735849056605
+    ]
+   }
+  },
+  "run_detail": [
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 15,
+    "l1": 17,
+    "l1_len": 21,
+    "reuse_mint": 18,
+    "unit": 22,
+    "feature": 0,
+    "sensor_f1": 0.8615384615384616,
+    "errors": [
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::temperature",
+      "gold": "qudt:Temperature",
+      "pred": "qudt:CelsiusTemperature",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   },
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 15,
+    "l1": 18,
+    "l1_len": 22,
+    "reuse_mint": 18,
+    "unit": 22,
+    "feature": 0,
+    "sensor_f1": 0.6037735849056605,
+    "errors": [
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   },
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 15,
+    "l1": 17,
+    "l1_len": 21,
+    "reuse_mint": 18,
+    "unit": 22,
+    "feature": 11,
+    "sensor_f1": 0.8615384615384616,
+    "errors": [
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::temperature",
+      "gold": "qudt:Temperature",
+      "pred": "qudt:CelsiusTemperature",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   },
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 15,
+    "l1": 17,
+    "l1_len": 21,
+    "reuse_mint": 18,
+    "unit": 22,
+    "feature": 0,
+    "sensor_f1": 0.6037735849056605,
+    "errors": [
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::temperature",
+      "gold": "qudt:Temperature",
+      "pred": "qudt:CelsiusTemperature",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   }
+  ]
+ },
+ "graz/sonnet46": {
+  "dataset": "graz",
+  "n_gold": 22,
+  "runs": 4,
+  "agg": {
+   "l1": {
+    "mean": 17,
+    "runs": [
+     17,
+     17,
+     17,
+     17
+    ]
+   },
+   "l1_len": {
+    "mean": 21,
+    "runs": [
+     21,
+     21,
+     21,
+     21
+    ]
+   },
+   "reuse_mint": {
+    "mean": 18,
+    "runs": [
+     18,
+     18,
+     18,
+     18
+    ]
+   },
+   "unit": {
+    "mean": 22,
+    "runs": [
+     22,
+     22,
+     22,
+     22
+    ]
+   },
+   "feature": {
+    "mean": 11,
+    "runs": [
+     11,
+     11,
+     11,
+     11
+    ]
+   },
+   "n_matched": {
+    "mean": 22,
+    "runs": [
+     22,
+     22,
+     22,
+     22
+    ]
+   },
+   "n_spurious": {
+    "mean": 0,
+    "runs": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "sensor_f1": {
+    "mean": 0.9653846153846154,
+    "runs": [
+     1.0,
+     1.0,
+     0.8615384615384616,
+     1.0
+    ]
+   }
+  },
+  "run_detail": [
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 0,
+    "l1": 17,
+    "l1_len": 21,
+    "reuse_mint": 18,
+    "unit": 22,
+    "feature": 11,
+    "sensor_f1": 1.0,
+    "errors": [
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::temperature",
+      "gold": "qudt:Temperature",
+      "pred": "qudt:CelsiusTemperature",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   },
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 0,
+    "l1": 17,
+    "l1_len": 21,
+    "reuse_mint": 18,
+    "unit": 22,
+    "feature": 11,
+    "sensor_f1": 1.0,
+    "errors": [
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::temperature",
+      "gold": "qudt:Temperature",
+      "pred": "qudt:CelsiusTemperature",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   },
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 0,
+    "l1": 17,
+    "l1_len": 21,
+    "reuse_mint": 18,
+    "unit": 22,
+    "feature": 11,
+    "sensor_f1": 0.8615384615384616,
+    "errors": [
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::temperature",
+      "gold": "qudt:Temperature",
+      "pred": "qudt:CelsiusTemperature",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   },
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 0,
+    "l1": 17,
+    "l1_len": 21,
+    "reuse_mint": 18,
+    "unit": 22,
+    "feature": 11,
+    "sensor_f1": 1.0,
+    "errors": [
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::temperature",
+      "gold": "qudt:Temperature",
+      "pred": "qudt:CelsiusTemperature",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   }
+  ]
+ },
+ "graz/haiku45": {
+  "dataset": "graz",
+  "n_gold": 22,
+  "runs": 2,
+  "agg": {
+   "l1": {
+    "mean": 15,
+    "runs": [
+     15,
+     15
+    ]
+   },
+   "l1_len": {
+    "mean": 19,
+    "runs": [
+     19,
+     19
+    ]
+   },
+   "reuse_mint": {
+    "mean": 18,
+    "runs": [
+     18,
+     18
+    ]
+   },
+   "unit": {
+    "mean": 22,
+    "runs": [
+     22,
+     22
+    ]
+   },
+   "feature": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "n_matched": {
+    "mean": 22,
+    "runs": [
+     22,
+     22
+    ]
+   },
+   "n_spurious": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "sensor_f1": {
+    "mean": 0.6785714285714286,
+    "runs": [
+     0.6785714285714286,
+     0.6785714285714286
+    ]
+   }
+  },
+  "run_detail": [
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 0,
+    "l1": 15,
+    "l1_len": 19,
+    "reuse_mint": 18,
+    "unit": 22,
+    "feature": 0,
+    "sensor_f1": 0.6785714285714286,
+    "errors": [
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "precipitation data/0033900601.csv::0033900601",
+      "gold": "gemet:637",
+      "pred": "qudt:Depth",
+      "lenient_ok": false
+     },
+     {
+      "key": "precipitation data/0033901401.csv::0033901401",
+      "gold": "gemet:637",
+      "pred": "qudt:Depth",
+      "lenient_ok": false
+     },
+     {
+      "key": "precipitation data/0033901601.csv::0033901601",
+      "gold": "gemet:637",
+      "pred": "qudt:Depth",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   },
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 0,
+    "l1": 15,
+    "l1_len": 19,
+    "reuse_mint": 18,
+    "unit": 22,
+    "feature": 0,
+    "sensor_f1": 0.6785714285714286,
+    "errors": [
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "precipitation data/0033900601.csv::0033900601",
+      "gold": "gemet:637",
+      "pred": "qudt:Depth",
+      "lenient_ok": false
+     },
+     {
+      "key": "precipitation data/0033901401.csv::0033901401",
+      "gold": "gemet:637",
+      "pred": "qudt:Depth",
+      "lenient_ok": false
+     },
+     {
+      "key": "precipitation data/0033901601.csv::0033901601",
+      "gold": "gemet:637",
+      "pred": "qudt:Depth",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   }
+  ]
+ },
+ "graz/opus46": {
+  "dataset": "graz",
+  "n_gold": 22,
+  "runs": 2,
+  "agg": {
+   "l1": {
+    "mean": 18,
+    "runs": [
+     18,
+     18
+    ]
+   },
+   "l1_len": {
+    "mean": 22,
+    "runs": [
+     22,
+     22
+    ]
+   },
+   "reuse_mint": {
+    "mean": 18,
+    "runs": [
+     18,
+     18
+    ]
+   },
+   "unit": {
+    "mean": 22,
+    "runs": [
+     22,
+     22
+    ]
+   },
+   "feature": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "n_matched": {
+    "mean": 22,
+    "runs": [
+     22,
+     22
+    ]
+   },
+   "n_spurious": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "sensor_f1": {
+    "mean": 0.9716981132075473,
+    "runs": [
+     0.9433962264150945,
+     1.0
+    ]
+   }
+  },
+  "run_detail": [
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 0,
+    "l1": 18,
+    "l1_len": 22,
+    "reuse_mint": 18,
+    "unit": 22,
+    "feature": 0,
+    "sensor_f1": 0.9433962264150945,
+    "errors": [
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   },
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 0,
+    "l1": 18,
+    "l1_len": 22,
+    "reuse_mint": 18,
+    "unit": 22,
+    "feature": 0,
+    "sensor_f1": 1.0,
+    "errors": [
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   }
+  ]
+ },
+ "flowbru_beco/sonnet46": {
+  "dataset": "flowbru_beco",
+  "n_gold": 12,
+  "runs": 2,
+  "agg": {
+   "l1": {
+    "mean": 9,
+    "runs": [
+     9,
+     9
+    ]
+   },
+   "l1_len": {
+    "mean": 10,
+    "runs": [
+     10,
+     10
+    ]
+   },
+   "reuse_mint": {
+    "mean": 12,
+    "runs": [
+     12,
+     12
+    ]
+   },
+   "unit": {
+    "mean": 11,
+    "runs": [
+     11,
+     11
+    ]
+   },
+   "feature": {
+    "mean": 11,
+    "runs": [
+     11,
+     11
+    ]
+   },
+   "n_matched": {
+    "mean": 12,
+    "runs": [
+     12,
+     12
+    ]
+   },
+   "n_spurious": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "sensor_f1": {
+    "mean": 0.38825757575757575,
+    "runs": [
+     0.4583333333333333,
+     0.3181818181818182
+    ]
+   }
+  },
+  "run_detail": [
+   {
+    "n_gold": 12,
+    "n_matched": 12,
+    "n_spurious": 0,
+    "l1": 9,
+    "l1_len": 10,
+    "reuse_mint": 12,
+    "unit": 11,
+    "feature": 11,
+    "sensor_f1": 0.4583333333333333,
+    "errors": [
+     {
+      "key": "Conductivity.tsv::Conductivity[µS/cm]",
+      "gold": "qudt:ElectrolyticConductivity",
+      "pred": "qudt:ElectricConductivity",
+      "lenient_ok": true
+     },
+     {
+      "key": "Temperature.tsv::Temperature[°C]",
+      "gold": "qudt:Temperature",
+      "pred": "qudt:CelsiusTemperature",
+      "lenient_ok": false
+     },
+     {
+      "key": "Water_Level.tsv::Level (MSL)[m]",
+      "gold": "gemet:9190",
+      "pred": "gemet:7513",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [
+     {
+      "key": "pH.tsv::pH[]",
+      "gold": "unit:PH",
+      "pred": null
+     }
+    ],
+    "missed": []
+   },
+   {
+    "n_gold": 12,
+    "n_matched": 12,
+    "n_spurious": 0,
+    "l1": 9,
+    "l1_len": 10,
+    "reuse_mint": 12,
+    "unit": 11,
+    "feature": 11,
+    "sensor_f1": 0.3181818181818182,
+    "errors": [
+     {
+      "key": "Conductivity.tsv::Conductivity[µS/cm]",
+      "gold": "qudt:ElectrolyticConductivity",
+      "pred": "qudt:ElectricConductivity",
+      "lenient_ok": true
+     },
+     {
+      "key": "Temperature.tsv::Temperature[°C]",
+      "gold": "qudt:Temperature",
+      "pred": "qudt:CelsiusTemperature",
+      "lenient_ok": false
+     },
+     {
+      "key": "Water_Level.tsv::Level (MSL)[m]",
+      "gold": "gemet:9190",
+      "pred": "gemet:7513",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [
+     {
+      "key": "pH.tsv::pH[]",
+      "gold": "unit:PH",
+      "pred": null
+     }
+    ],
+    "missed": []
+   }
+  ]
+ },
+ "flowbru_beco/haiku45": {
+  "dataset": "flowbru_beco",
+  "n_gold": 12,
+  "runs": 2,
+  "agg": {
+   "l1": {
+    "mean": 9,
+    "runs": [
+     9,
+     9
+    ]
+   },
+   "l1_len": {
+    "mean": 11,
+    "runs": [
+     11,
+     11
+    ]
+   },
+   "reuse_mint": {
+    "mean": 11,
+    "runs": [
+     11,
+     11
+    ]
+   },
+   "unit": {
+    "mean": 11,
+    "runs": [
+     11,
+     11
+    ]
+   },
+   "feature": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "n_matched": {
+    "mean": 12,
+    "runs": [
+     12,
+     12
+    ]
+   },
+   "n_spurious": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "sensor_f1": {
+    "mean": 0.6037735849056604,
+    "runs": [
+     0.6037735849056604,
+     0.6037735849056604
+    ]
+   }
+  },
+  "run_detail": [
+   {
+    "n_gold": 12,
+    "n_matched": 12,
+    "n_spurious": 0,
+    "l1": 9,
+    "l1_len": 11,
+    "reuse_mint": 11,
+    "unit": 11,
+    "feature": 0,
+    "sensor_f1": 0.6037735849056604,
+    "errors": [
+     {
+      "key": "Chlorophyll.tsv::EXO2 Chlorophyll [RFU][RFU]",
+      "gold": "gemet:1391",
+      "pred": "mint:chlorophyll-fluorescence",
+      "lenient_ok": true
+     },
+     {
+      "key": "Conductivity.tsv::Conductivity[µS/cm]",
+      "gold": "qudt:ElectrolyticConductivity",
+      "pred": "qudt:ElectricConductivity",
+      "lenient_ok": true
+     },
+     {
+      "key": "Temperature.tsv::Temperature[°C]",
+      "gold": "qudt:Temperature",
+      "pred": "qudt:CelsiusTemperature",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [
+     {
+      "key": "pH.tsv::pH[]",
+      "gold": "unit:PH",
+      "pred": null
+     }
+    ],
+    "missed": []
+   },
+   {
+    "n_gold": 12,
+    "n_matched": 12,
+    "n_spurious": 0,
+    "l1": 9,
+    "l1_len": 11,
+    "reuse_mint": 11,
+    "unit": 11,
+    "feature": 0,
+    "sensor_f1": 0.6037735849056604,
+    "errors": [
+     {
+      "key": "Chlorophyll.tsv::EXO2 Chlorophyll [RFU][RFU]",
+      "gold": "gemet:1391",
+      "pred": "mint:chlorophyll-fluorescence",
+      "lenient_ok": true
+     },
+     {
+      "key": "Conductivity.tsv::Conductivity[µS/cm]",
+      "gold": "qudt:ElectrolyticConductivity",
+      "pred": "qudt:ElectricConductivity",
+      "lenient_ok": true
+     },
+     {
+      "key": "Temperature.tsv::Temperature[°C]",
+      "gold": "qudt:Temperature",
+      "pred": "qudt:CelsiusTemperature",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [
+     {
+      "key": "pH.tsv::pH[]",
+      "gold": "unit:PH",
+      "pred": null
+     }
+    ],
+    "missed": []
+   }
+  ]
+ },
+ "flowbru_beco/opus46": {
+  "dataset": "flowbru_beco",
+  "n_gold": 12,
+  "runs": 2,
+  "agg": {
+   "l1": {
+    "mean": 11,
+    "runs": [
+     11,
+     11
+    ]
+   },
+   "l1_len": {
+    "mean": 12,
+    "runs": [
+     12,
+     12
+    ]
+   },
+   "reuse_mint": {
+    "mean": 12,
+    "runs": [
+     12,
+     12
+    ]
+   },
+   "unit": {
+    "mean": 11,
+    "runs": [
+     11,
+     11
+    ]
+   },
+   "feature": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "n_matched": {
+    "mean": 12,
+    "runs": [
+     12,
+     12
+    ]
+   },
+   "n_spurious": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "sensor_f1": {
+    "mean": 0.4583333333333333,
+    "runs": [
+     0.4583333333333333,
+     0.4583333333333333
+    ]
+   }
+  },
+  "run_detail": [
+   {
+    "n_gold": 12,
+    "n_matched": 12,
+    "n_spurious": 0,
+    "l1": 11,
+    "l1_len": 12,
+    "reuse_mint": 12,
+    "unit": 11,
+    "feature": 0,
+    "sensor_f1": 0.4583333333333333,
+    "errors": [
+     {
+      "key": "Conductivity.tsv::Conductivity[µS/cm]",
+      "gold": "qudt:ElectrolyticConductivity",
+      "pred": "qudt:ElectricConductivity",
+      "lenient_ok": true
+     }
+    ],
+    "unit_errors": [
+     {
+      "key": "pH.tsv::pH[]",
+      "gold": "unit:PH",
+      "pred": null
+     }
+    ],
+    "missed": []
+   },
+   {
+    "n_gold": 12,
+    "n_matched": 12,
+    "n_spurious": 0,
+    "l1": 11,
+    "l1_len": 12,
+    "reuse_mint": 12,
+    "unit": 11,
+    "feature": 0,
+    "sensor_f1": 0.4583333333333333,
+    "errors": [
+     {
+      "key": "Conductivity.tsv::Conductivity[µS/cm]",
+      "gold": "qudt:ElectrolyticConductivity",
+      "pred": "qudt:ElectricConductivity",
+      "lenient_ok": true
+     }
+    ],
+    "unit_errors": [
+     {
+      "key": "pH.tsv::pH[]",
+      "gold": "unit:PH",
+      "pred": null
+     }
+    ],
+    "missed": []
+   }
+  ]
+ },
+ "flowbru_beco/shared_menu": {
+  "dataset": "flowbru_beco",
+  "n_gold": 12,
+  "runs": 2,
+  "agg": {
+   "l1": {
+    "mean": 10,
+    "runs": [
+     10,
+     10
+    ]
+   },
+   "l1_len": {
+    "mean": 11,
+    "runs": [
+     11,
+     11
+    ]
+   },
+   "reuse_mint": {
+    "mean": 12,
+    "runs": [
+     12,
+     12
+    ]
+   },
+   "unit": {
+    "mean": 11,
+    "runs": [
+     11,
+     11
+    ]
+   },
+   "feature": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "n_matched": {
+    "mean": 12,
+    "runs": [
+     12,
+     12
+    ]
+   },
+   "n_spurious": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "sensor_f1": {
+    "mean": 0.3181818181818182,
+    "runs": [
+     0.3181818181818182,
+     0.3181818181818182
+    ]
+   }
+  },
+  "run_detail": [
+   {
+    "n_gold": 12,
+    "n_matched": 12,
+    "n_spurious": 0,
+    "l1": 10,
+    "l1_len": 11,
+    "reuse_mint": 12,
+    "unit": 11,
+    "feature": 0,
+    "sensor_f1": 0.3181818181818182,
+    "errors": [
+     {
+      "key": "Conductivity.tsv::Conductivity[µS/cm]",
+      "gold": "qudt:ElectrolyticConductivity",
+      "pred": "qudt:ElectricConductivity",
+      "lenient_ok": true
+     },
+     {
+      "key": "Temperature.tsv::Temperature[°C]",
+      "gold": "qudt:Temperature",
+      "pred": "qudt:CelsiusTemperature",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [
+     {
+      "key": "pH.tsv::pH[]",
+      "gold": "unit:PH",
+      "pred": null
+     }
+    ],
+    "missed": []
+   },
+   {
+    "n_gold": 12,
+    "n_matched": 12,
+    "n_spurious": 0,
+    "l1": 10,
+    "l1_len": 11,
+    "reuse_mint": 12,
+    "unit": 11,
+    "feature": 0,
+    "sensor_f1": 0.3181818181818182,
+    "errors": [
+     {
+      "key": "Conductivity.tsv::Conductivity[µS/cm]",
+      "gold": "qudt:ElectrolyticConductivity",
+      "pred": "qudt:ElectricConductivity",
+      "lenient_ok": true
+     },
+     {
+      "key": "Temperature.tsv::Temperature[°C]",
+      "gold": "qudt:Temperature",
+      "pred": "qudt:CelsiusTemperature",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [
+     {
+      "key": "pH.tsv::pH[]",
+      "gold": "unit:PH",
+      "pred": null
+     }
+    ],
+    "missed": []
+   }
+  ]
+ },
+ "flowbru_belliard/sonnet46": {
+  "dataset": "flowbru_belliard",
+  "n_gold": 10,
+  "runs": 2,
+  "agg": {
+   "l1": {
+    "mean": 9,
+    "runs": [
+     9,
+     9
+    ]
+   },
+   "l1_len": {
+    "mean": 9,
+    "runs": [
+     9,
+     9
+    ]
+   },
+   "reuse_mint": {
+    "mean": 9,
+    "runs": [
+     9,
+     9
+    ]
+   },
+   "unit": {
+    "mean": 9,
+    "runs": [
+     9,
+     9
+    ]
+   },
+   "feature": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "n_matched": {
+    "mean": 9,
+    "runs": [
+     9,
+     9
+    ]
+   },
+   "n_spurious": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "sensor_f1": {
+    "mean": 1.0,
+    "runs": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  "run_detail": [
+   {
+    "n_gold": 10,
+    "n_matched": 9,
+    "n_spurious": 0,
+    "l1": 9,
+    "l1_len": 9,
+    "reuse_mint": 9,
+    "unit": 9,
+    "feature": 0,
+    "sensor_f1": 1.0,
+    "errors": [],
+    "unit_errors": [],
+    "missed": [
+     "Volume.tsv::Volume Bassin 1[m3]"
+    ]
+   },
+   {
+    "n_gold": 10,
+    "n_matched": 9,
+    "n_spurious": 0,
+    "l1": 9,
+    "l1_len": 9,
+    "reuse_mint": 9,
+    "unit": 9,
+    "feature": 0,
+    "sensor_f1": 1.0,
+    "errors": [],
+    "unit_errors": [],
+    "missed": [
+     "Volume.tsv::Volume Bassin 1[m3]"
+    ]
+   }
+  ]
+ },
+ "flowbru_belliard/haiku45": {
+  "dataset": "flowbru_belliard",
+  "n_gold": 10,
+  "runs": 2,
+  "agg": {
+   "l1": {
+    "mean": 9,
+    "runs": [
+     9,
+     9
+    ]
+   },
+   "l1_len": {
+    "mean": 10,
+    "runs": [
+     10,
+     10
+    ]
+   },
+   "reuse_mint": {
+    "mean": 10,
+    "runs": [
+     10,
+     10
+    ]
+   },
+   "unit": {
+    "mean": 10,
+    "runs": [
+     10,
+     10
+    ]
+   },
+   "feature": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "n_matched": {
+    "mean": 10,
+    "runs": [
+     10,
+     10
+    ]
+   },
+   "n_spurious": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "sensor_f1": {
+    "mean": 0.0,
+    "runs": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "run_detail": [
+   {
+    "n_gold": 10,
+    "n_matched": 10,
+    "n_spurious": 0,
+    "l1": 9,
+    "l1_len": 10,
+    "reuse_mint": 10,
+    "unit": 10,
+    "feature": 0,
+    "sensor_f1": 0.0,
+    "errors": [
+     {
+      "key": "Rainfall.tsv::Pluvio Flagey[mm]",
+      "gold": "gemet:637",
+      "pred": "gemet:6947",
+      "lenient_ok": true
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   },
+   {
+    "n_gold": 10,
+    "n_matched": 10,
+    "n_spurious": 0,
+    "l1": 9,
+    "l1_len": 10,
+    "reuse_mint": 10,
+    "unit": 10,
+    "feature": 0,
+    "sensor_f1": 0.0,
+    "errors": [
+     {
+      "key": "Rainfall.tsv::Pluvio Flagey[mm]",
+      "gold": "gemet:637",
+      "pred": "gemet:6947",
+      "lenient_ok": true
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   }
+  ]
+ },
+ "flowbru_belliard/opus46": {
+  "dataset": "flowbru_belliard",
+  "n_gold": 10,
+  "runs": 2,
+  "agg": {
+   "l1": {
+    "mean": 10,
+    "runs": [
+     10,
+     10
+    ]
+   },
+   "l1_len": {
+    "mean": 10,
+    "runs": [
+     10,
+     10
+    ]
+   },
+   "reuse_mint": {
+    "mean": 10,
+    "runs": [
+     10,
+     10
+    ]
+   },
+   "unit": {
+    "mean": 10,
+    "runs": [
+     10,
+     10
+    ]
+   },
+   "feature": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "n_matched": {
+    "mean": 10,
+    "runs": [
+     10,
+     10
+    ]
+   },
+   "n_spurious": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "sensor_f1": {
+    "mean": 0.0,
+    "runs": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "run_detail": [
+   {
+    "n_gold": 10,
+    "n_matched": 10,
+    "n_spurious": 0,
+    "l1": 10,
+    "l1_len": 10,
+    "reuse_mint": 10,
+    "unit": 10,
+    "feature": 0,
+    "sensor_f1": 0.0,
+    "errors": [],
+    "unit_errors": [],
+    "missed": []
+   },
+   {
+    "n_gold": 10,
+    "n_matched": 10,
+    "n_spurious": 0,
+    "l1": 10,
+    "l1_len": 10,
+    "reuse_mint": 10,
+    "unit": 10,
+    "feature": 0,
+    "sensor_f1": 0.0,
+    "errors": [],
+    "unit_errors": [],
+    "missed": []
+   }
+  ]
+ },
+ "flowbru_belliard/shared_menu": {
+  "dataset": "flowbru_belliard",
+  "n_gold": 10,
+  "runs": 2,
+  "agg": {
+   "l1": {
+    "mean": 9.5,
+    "runs": [
+     9,
+     10
+    ]
+   },
+   "l1_len": {
+    "mean": 9.5,
+    "runs": [
+     9,
+     10
+    ]
+   },
+   "reuse_mint": {
+    "mean": 9.5,
+    "runs": [
+     9,
+     10
+    ]
+   },
+   "unit": {
+    "mean": 9.5,
+    "runs": [
+     9,
+     10
+    ]
+   },
+   "feature": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "n_matched": {
+    "mean": 9.5,
+    "runs": [
+     9,
+     10
+    ]
+   },
+   "n_spurious": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "sensor_f1": {
+    "mean": 0.5,
+    "runs": [
+     1.0,
+     0.0
+    ]
+   }
+  },
+  "run_detail": [
+   {
+    "n_gold": 10,
+    "n_matched": 9,
+    "n_spurious": 0,
+    "l1": 9,
+    "l1_len": 9,
+    "reuse_mint": 9,
+    "unit": 9,
+    "feature": 0,
+    "sensor_f1": 1.0,
+    "errors": [],
+    "unit_errors": [],
+    "missed": [
+     "Volume.tsv::Volume Bassin 1[m3]"
+    ]
+   },
+   {
+    "n_gold": 10,
+    "n_matched": 10,
+    "n_spurious": 0,
+    "l1": 10,
+    "l1_len": 10,
+    "reuse_mint": 10,
+    "unit": 10,
+    "feature": 0,
+    "sensor_f1": 0.0,
+    "errors": [],
+    "unit_errors": [],
+    "missed": []
+   }
+  ]
+ },
+ "graz/shared_menu": {
+  "dataset": "graz",
+  "n_gold": 22,
+  "runs": 4,
+  "agg": {
+   "l1": {
+    "mean": 18,
+    "runs": [
+     17,
+     17,
+     21,
+     17
+    ]
+   },
+   "l1_len": {
+    "mean": 21,
+    "runs": [
+     21,
+     21,
+     21,
+     21
+    ]
+   },
+   "reuse_mint": {
+    "mean": 19,
+    "runs": [
+     18,
+     18,
+     22,
+     18
+    ]
+   },
+   "unit": {
+    "mean": 22,
+    "runs": [
+     22,
+     22,
+     22,
+     22
+    ]
+   },
+   "feature": {
+    "mean": 11,
+    "runs": [
+     11,
+     11,
+     11,
+     11
+    ]
+   },
+   "n_matched": {
+    "mean": 22,
+    "runs": [
+     22,
+     22,
+     22,
+     22
+    ]
+   },
+   "n_spurious": {
+    "mean": 0,
+    "runs": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "sensor_f1": {
+    "mean": 0.8961538461538462,
+    "runs": [
+     0.8615384615384616,
+     0.8615384615384616,
+     1.0,
+     0.8615384615384616
+    ]
+   }
+  },
+  "run_detail": [
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 0,
+    "l1": 17,
+    "l1_len": 21,
+    "reuse_mint": 18,
+    "unit": 22,
+    "feature": 11,
+    "sensor_f1": 0.8615384615384616,
+    "errors": [
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::temperature",
+      "gold": "qudt:Temperature",
+      "pred": "qudt:CelsiusTemperature",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   },
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 0,
+    "l1": 17,
+    "l1_len": 21,
+    "reuse_mint": 18,
+    "unit": 22,
+    "feature": 11,
+    "sensor_f1": 0.8615384615384616,
+    "errors": [
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::temperature",
+      "gold": "qudt:Temperature",
+      "pred": "qudt:CelsiusTemperature",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   },
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 0,
+    "l1": 21,
+    "l1_len": 21,
+    "reuse_mint": 22,
+    "unit": 22,
+    "feature": 11,
+    "sensor_f1": 1.0,
+    "errors": [
+     {
+      "key": "pollutant data/spectrometer.csv::temperature",
+      "gold": "qudt:Temperature",
+      "pred": "qudt:CelsiusTemperature",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   },
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 0,
+    "l1": 17,
+    "l1_len": 21,
+    "reuse_mint": 18,
+    "unit": 22,
+    "feature": 11,
+    "sensor_f1": 0.8615384615384616,
+    "errors": [
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::temperature",
+      "gold": "qudt:Temperature",
+      "pred": "qudt:CelsiusTemperature",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   }
+  ]
+ },
+ "graz/main_sampling": {
+  "dataset": "graz",
+  "n_gold": 22,
+  "runs": 4,
+  "agg": {
+   "l1": {
+    "mean": 17.75,
+    "runs": [
+     18,
+     18,
+     17,
+     18
+    ]
+   },
+   "l1_len": {
+    "mean": 21.75,
+    "runs": [
+     22,
+     22,
+     21,
+     22
+    ]
+   },
+   "reuse_mint": {
+    "mean": 18,
+    "runs": [
+     18,
+     18,
+     18,
+     18
+    ]
+   },
+   "unit": {
+    "mean": 22,
+    "runs": [
+     22,
+     22,
+     22,
+     22
+    ]
+   },
+   "feature": {
+    "mean": 5.5,
+    "runs": [
+     0,
+     11,
+     11,
+     0
+    ]
+   },
+   "n_matched": {
+    "mean": 22,
+    "runs": [
+     22,
+     22,
+     22,
+     22
+    ]
+   },
+   "n_spurious": {
+    "mean": 0,
+    "runs": [
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "sensor_f1": {
+    "mean": 0.9370827285921626,
+    "runs": [
+     0.9433962264150945,
+     0.8615384615384616,
+     0.9433962264150945,
+     1.0
+    ]
+   }
+  },
+  "run_detail": [
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 0,
+    "l1": 18,
+    "l1_len": 22,
+    "reuse_mint": 18,
+    "unit": 22,
+    "feature": 0,
+    "sensor_f1": 0.9433962264150945,
+    "errors": [
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   },
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 0,
+    "l1": 18,
+    "l1_len": 22,
+    "reuse_mint": 18,
+    "unit": 22,
+    "feature": 11,
+    "sensor_f1": 0.8615384615384616,
+    "errors": [
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   },
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 0,
+    "l1": 17,
+    "l1_len": 21,
+    "reuse_mint": 18,
+    "unit": 22,
+    "feature": 11,
+    "sensor_f1": 0.9433962264150945,
+    "errors": [
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::temperature",
+      "gold": "qudt:Temperature",
+      "pred": "qudt:CelsiusTemperature",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   },
+   {
+    "n_gold": 22,
+    "n_matched": 22,
+    "n_spurious": 0,
+    "l1": 18,
+    "l1_len": 22,
+    "reuse_mint": 18,
+    "unit": 22,
+    "feature": 0,
+    "sensor_f1": 1.0,
+    "errors": [
+     {
+      "key": "lab data/samples.csv::TSS1",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS2",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "lab data/samples.csv::TSS3",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     },
+     {
+      "key": "pollutant data/spectrometer.csv::TSS",
+      "gold": "gemet:12220",
+      "pred": "mint:total-suspended-solids",
+      "lenient_ok": true
+     }
+    ],
+    "unit_errors": [],
+    "missed": []
+   }
+  ]
+ },
+ "flowbru_beco/main_sampling": {
+  "dataset": "flowbru_beco",
+  "n_gold": 12,
+  "runs": 2,
+  "agg": {
+   "l1": {
+    "mean": 10,
+    "runs": [
+     10,
+     10
+    ]
+   },
+   "l1_len": {
+    "mean": 11,
+    "runs": [
+     11,
+     11
+    ]
+   },
+   "reuse_mint": {
+    "mean": 12,
+    "runs": [
+     12,
+     12
+    ]
+   },
+   "unit": {
+    "mean": 11,
+    "runs": [
+     11,
+     11
+    ]
+   },
+   "feature": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "n_matched": {
+    "mean": 12,
+    "runs": [
+     12,
+     12
+    ]
+   },
+   "n_spurious": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "sensor_f1": {
+    "mean": 0.3181818181818182,
+    "runs": [
+     0.3181818181818182,
+     0.3181818181818182
+    ]
+   }
+  },
+  "run_detail": [
+   {
+    "n_gold": 12,
+    "n_matched": 12,
+    "n_spurious": 0,
+    "l1": 10,
+    "l1_len": 11,
+    "reuse_mint": 12,
+    "unit": 11,
+    "feature": 0,
+    "sensor_f1": 0.3181818181818182,
+    "errors": [
+     {
+      "key": "Conductivity.tsv::Conductivity[µS/cm]",
+      "gold": "qudt:ElectrolyticConductivity",
+      "pred": "qudt:ElectricConductivity",
+      "lenient_ok": true
+     },
+     {
+      "key": "Temperature.tsv::Temperature[°C]",
+      "gold": "qudt:Temperature",
+      "pred": "qudt:CelsiusTemperature",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [
+     {
+      "key": "pH.tsv::pH[]",
+      "gold": "unit:PH",
+      "pred": null
+     }
+    ],
+    "missed": []
+   },
+   {
+    "n_gold": 12,
+    "n_matched": 12,
+    "n_spurious": 0,
+    "l1": 10,
+    "l1_len": 11,
+    "reuse_mint": 12,
+    "unit": 11,
+    "feature": 0,
+    "sensor_f1": 0.3181818181818182,
+    "errors": [
+     {
+      "key": "Conductivity.tsv::Conductivity[µS/cm]",
+      "gold": "qudt:ElectrolyticConductivity",
+      "pred": "qudt:ElectricConductivity",
+      "lenient_ok": true
+     },
+     {
+      "key": "Temperature.tsv::Temperature[°C]",
+      "gold": "qudt:Temperature",
+      "pred": "qudt:CelsiusTemperature",
+      "lenient_ok": false
+     }
+    ],
+    "unit_errors": [
+     {
+      "key": "pH.tsv::pH[]",
+      "gold": "unit:PH",
+      "pred": null
+     }
+    ],
+    "missed": []
+   }
+  ]
+ },
+ "flowbru_belliard/main_sampling": {
+  "dataset": "flowbru_belliard",
+  "n_gold": 10,
+  "runs": 2,
+  "agg": {
+   "l1": {
+    "mean": 9.5,
+    "runs": [
+     10,
+     9
+    ]
+   },
+   "l1_len": {
+    "mean": 9.5,
+    "runs": [
+     10,
+     9
+    ]
+   },
+   "reuse_mint": {
+    "mean": 9.5,
+    "runs": [
+     10,
+     9
+    ]
+   },
+   "unit": {
+    "mean": 9.5,
+    "runs": [
+     10,
+     9
+    ]
+   },
+   "feature": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "n_matched": {
+    "mean": 9.5,
+    "runs": [
+     10,
+     9
+    ]
+   },
+   "n_spurious": {
+    "mean": 0,
+    "runs": [
+     0,
+     0
+    ]
+   },
+   "sensor_f1": {
+    "mean": 1.0,
+    "runs": [
+     1.0,
+     1.0
+    ]
+   }
+  },
+  "run_detail": [
+   {
+    "n_gold": 10,
+    "n_matched": 10,
+    "n_spurious": 0,
+    "l1": 10,
+    "l1_len": 10,
+    "reuse_mint": 10,
+    "unit": 10,
+    "feature": 0,
+    "sensor_f1": 1.0,
+    "errors": [],
+    "unit_errors": [],
+    "missed": []
+   },
+   {
+    "n_gold": 10,
+    "n_matched": 9,
+    "n_spurious": 0,
+    "l1": 9,
+    "l1_len": 9,
+    "reuse_mint": 9,
+    "unit": 9,
+    "feature": 0,
+    "sensor_f1": 1.0,
+    "errors": [],
+    "unit_errors": [],
+    "missed": [
+     "Volume.tsv::Volume Bassin 1[m3]"
+    ]
+   }
+  ]
+ }
+}

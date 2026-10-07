@@ -1,0 +1,86 @@
+{
+ "profile": "graz_profile__main_sampling_1.json",
+ "processes": 1,
+ "rows_total": 3093395,
+ "files": [
+  {
+   "file": "hydraulic-data-chamber",
+   "rows": 443542,
+   "columns": 1,
+   "values": 443542
+  },
+  {
+   "file": "hydraulic-data-inflow-analogue",
+   "rows": 443484,
+   "columns": 3,
+   "values": 1311091
+  },
+  {
+   "file": "hydraulic-data-inflow-digital",
+   "rows": 794851,
+   "columns": 3,
+   "values": 2368044
+  },
+  {
+   "file": "hydraulic-data-overflow",
+   "rows": 443770,
+   "columns": 2,
+   "values": 886830
+  },
+  {
+   "file": "lab-data-samples",
+   "rows": 53,
+   "columns": 6,
+   "values": 318
+  },
+  {
+   "file": "pollutant-data-calibrated",
+   "rows": 448175,
+   "columns": 1,
+   "values": 448175
+  },
+  {
+   "file": "pollutant-data-spectrometer",
+   "rows": 453014,
+   "columns": 3,
+   "values": 1326989
+  },
+  {
+   "file": "precipitation-data-0033900601",
+   "rows": 17809,
+   "columns": 1,
+   "values": 17809
+  },
+  {
+   "file": "precipitation-data-0033901401",
+   "rows": 23858,
+   "columns": 1,
+   "values": 23858
+  },
+  {
+   "file": "precipitation-data-0033901601",
+   "rows": 24839,
+   "columns": 1,
+   "values": 24839
+  }
+ ],
+ "seconds": {
+  "normalization": 82.4,
+  "materialization": 641.2,
+  "declarations": 0.1
+ },
+ "peak_memory_gb_morph": 1.02,
+ "triples": 62212997,
+ "declaration_triples": 54,
+ "observations": 6920128,
+ "result_values": 6851495,
+ "numeric_values": 6851495,
+ "simple_results": 0,
+ "nt_size_gb": 10.89,
+ "checks": {
+  "observations_expected": 6920128,
+  "observations_match": true,
+  "values_expected": 6851495,
+  "values_match": true
+ }
+}

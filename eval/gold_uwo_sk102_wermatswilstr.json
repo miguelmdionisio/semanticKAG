@@ -1,0 +1,32 @@
+{
+ "dataset": "uwo_sk102_wermatswilstr",
+ "root": "data\\04 - UWO\\wide\\sk102_wermatswilstr",
+ "observations": [
+  {
+   "type": "water_temperature",
+   "file": "bt_dl943_sk102_wermatswilstr.csv",
+   "column": "water_temperature",
+   "sensor": "bt_dl943_sk102_wermatswilstr",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "sk102_wermatswilstr",
+   "feature_gwsw": "gwsw:Overstortput",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "headspace_temperature",
+   "file": "bt_dl943_sk102_wermatswilstr.csv",
+   "column": "headspace_temperature",
+   "sensor": "bt_dl943_sk102_wermatswilstr",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "sk102_wermatswilstr",
+   "feature_gwsw": "gwsw:Overstortput",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). sewer headspace air temperature"
+  }
+ ]
+}

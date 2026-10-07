@@ -1,0 +1,11 @@
+[
+ {
+  "model": "claude-sonnet-4-6",
+  "tool": "enrich_queries",
+  "seconds": 16.2,
+  "input_tokens": 25,
+  "output_tokens": 1429,
+  "cache_write": 6382,
+  "cache_read": 0
+ }
+]

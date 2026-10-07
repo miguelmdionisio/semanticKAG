@@ -1,0 +1,998 @@
+{
+ "dataset": "uwo",
+ "observations": [
+  {
+   "variable": "absolute_air_pressure",
+   "unit_symbol": "hPa",
+   "value": 942.2,
+   "resultTime": "2021-01-01T00:00:00.000000",
+   "sensor": "bx_ws700_ara_flatroof",
+   "sensor_type": "Lufft_WS-700",
+   "site": "ara_flatroof",
+   "observedProperty": "qudt:AtmosphericPressure",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:HectoPA",
+   "feature_gwsw": null,
+   "note": "FoI = physical sensor site (per decision); measurand is atmospheric, not the site."
+  },
+  {
+   "variable": "absolute_humidity",
+   "unit_symbol": "g/m3",
+   "value": 5.0,
+   "resultTime": "2021-01-01T00:00:00.000000",
+   "sensor": "bx_ws700_ara_flatroof",
+   "sensor_type": "Lufft_WS-700",
+   "site": "ara_flatroof",
+   "observedProperty": "qudt:AbsoluteHumidity",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:GM-PER-M3",
+   "feature_gwsw": null,
+   "note": "FoI = physical sensor site (per decision); measurand is atmospheric, not the site."
+  },
+  {
+   "variable": "ambient_air_temperature",
+   "unit_symbol": "°C",
+   "value": 1.72397,
+   "resultTime": "2021-01-01T09:01:18.000000",
+   "sensor": "bt_dl907_rub_morg",
+   "sensor_type": "Sensirion_SHT21",
+   "site": "rub_morg",
+   "observedProperty": "qudt:Temperature",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "note": "FoI = physical sensor site (per decision); measurand is atmospheric, not the site."
+  },
+  {
+   "variable": "average_velocity",
+   "unit_symbol": "m/s",
+   "value": 1.55786328,
+   "resultTime": "2021-01-01T00:00:00.000000",
+   "sensor": "bf_f03_11e_russikerstr",
+   "sensor_type": "Hach_Flo-Dar",
+   "site": "11e_russikerstr",
+   "observedProperty": "qudt:Velocity",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:M-PER-SEC",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "note": "Velocity, not LinearVelocity: expert decision on Graz (2026-10-02), applied here 2026-10-04"
+  },
+  {
+   "variable": "dielectric_permittivity",
+   "unit_symbol": "-",
+   "value": 3.55868438900002,
+   "resultTime": "2021-01-01T00:01:02.000000",
+   "sensor": "bm_dl290_rubbasin_ara",
+   "sensor_type": "Decagon_ECTM",
+   "site": "rubbasin_ara",
+   "observedProperty": "qudt:RelativePermittivity",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:UNITLESS",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "note": "dimensionless (soil-moisture proxy)"
+  },
+  {
+   "variable": "distance",
+   "unit_symbol": "mm",
+   "value": 563.03164,
+   "resultTime": "2021-01-01T00:00:00.000000",
+   "sensor": "bf_f03_11e_russikerstr",
+   "sensor_type": "Hach_Flo-Dar",
+   "site": "11e_russikerstr",
+   "observedProperty": "qudt:Distance",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "note": "raw sensor-to-surface distance (intermediate for water_level)"
+  },
+  {
+   "variable": "flow_rate",
+   "unit_symbol": "l/s",
+   "value": 18.727,
+   "resultTime": "2021-01-01T00:00:00.000000",
+   "sensor": "bf_f07_23_bahnhofstr",
+   "sensor_type": "Sommer_SQ3",
+   "site": "23_bahnhofstr",
+   "observedProperty": "qudt:VolumeFlowRate",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:L-PER-SEC",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "note": ""
+  },
+  {
+   "variable": "global_radiation",
+   "unit_symbol": "W/m2",
+   "value": 0.0,
+   "resultTime": "2021-01-01T00:00:00.000000",
+   "sensor": "bx_ws700_ara_flatroof",
+   "sensor_type": "Lufft_WS-700",
+   "site": "ara_flatroof",
+   "observedProperty": "qudt:Irradiance",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:W-PER-M2",
+   "feature_gwsw": null,
+   "note": "FoI = physical sensor site (per decision); measurand is atmospheric, not the site."
+  },
+  {
+   "variable": "headspace_temperature",
+   "unit_symbol": "°C",
+   "value": 7.6875,
+   "resultTime": "2021-01-01T00:00:33.000000",
+   "sensor": "bt_dl916_inflow_ara",
+   "sensor_type": "DS18B20",
+   "site": "inflow_ara",
+   "observedProperty": "qudt:Temperature",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "note": "sewer headspace air temperature"
+  },
+  {
+   "variable": "overflow_temperature",
+   "unit_symbol": "°C",
+   "value": 4.0,
+   "resultTime": "2021-01-01T00:01:02.000000",
+   "sensor": "bm_dl290_rubbasin_ara",
+   "sensor_type": "Decagon_ECTM",
+   "site": "rubbasin_ara",
+   "observedProperty": "qudt:Temperature",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "note": ""
+  },
+  {
+   "variable": "precipitation_type",
+   "unit_symbol": "-",
+   "value": 0.0,
+   "resultTime": "2021-01-01T00:00:00.000000",
+   "sensor": "bx_ws700_ara_flatroof",
+   "sensor_type": "Lufft_WS-700",
+   "site": "ara_flatroof",
+   "observedProperty": "ex:property/precipitation-type",
+   "property_source": "mint",
+   "decision": "mint",
+   "unit": null,
+   "feature_gwsw": null,
+   "note": "FoI = physical sensor site (per decision); measurand is atmospheric, not the site. Categorical (Lufft code: 0 no rain / 60 rain / ...)."
+  },
+  {
+   "variable": "pressure",
+   "unit_symbol": "bar",
+   "value": 263.79341794404,
+   "resultTime": "2021-01-01T00:01:52.000000",
+   "sensor": "bp_dl326_wildbach_kempttalstr",
+   "sensor_type": "Keller_PR36XKY",
+   "site": "wildbach_kempttalstr",
+   "observedProperty": "qudt:Pressure",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:BAR",
+   "feature_gwsw": "gwsw:Beek",
+   "note": "water-column pressure (level proxy)"
+  },
+  {
+   "variable": "rainfall_cumsum",
+   "unit_symbol": "mm",
+   "value": 4454.6,
+   "resultTime": "2021-01-01T00:02:43.000000",
+   "sensor": "bn_dl259_rub_morg",
+   "sensor_type": "DavisRainGauge",
+   "site": "rub_morg",
+   "observedProperty": "gemet:637",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "note": "FoI = physical sensor site (per decision); measurand is atmospheric, not the site. Cumulative total — possibly derived; expert check."
+  },
+  {
+   "variable": "rainfall_intensity",
+   "unit_symbol": "mm/h",
+   "value": 0.0,
+   "resultTime": "2021-01-01T00:02:43.000000",
+   "sensor": "bn_dl259_rub_morg",
+   "sensor_type": "DavisRainGauge",
+   "site": "rub_morg",
+   "observedProperty": "ex:property/rainfall-intensity",
+   "property_source": "mint",
+   "decision": "mint",
+   "unit": "unit:MilliM-PER-HR",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "note": "FoI = physical sensor site (per decision); measurand is atmospheric, not the site. No QUDT/GEMET rainfall-intensity concept."
+  },
+  {
+   "variable": "relative_air_pressure",
+   "unit_symbol": "hPa",
+   "value": 1006.9,
+   "resultTime": "2021-01-01T00:00:00.000000",
+   "sensor": "bx_ws700_ara_flatroof",
+   "sensor_type": "Lufft_WS-700",
+   "site": "ara_flatroof",
+   "observedProperty": "qudt:AtmosphericPressure",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:HectoPA",
+   "feature_gwsw": null,
+   "note": "FoI = physical sensor site (per decision); measurand is atmospheric, not the site."
+  },
+  {
+   "variable": "relative_humidity",
+   "unit_symbol": "%",
+   "value": 85.5604,
+   "resultTime": "2021-01-01T00:00:00.000000",
+   "sensor": "bt_dl906_pumpwgeeren_geerenstr",
+   "sensor_type": "Sensirion_SHT21",
+   "site": "pumpwgeeren_geerenstr",
+   "observedProperty": "qudt:RelativeHumidity",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:PERCENT",
+   "feature_gwsw": "gwsw:Rioolgemaal",
+   "note": "FoI = physical sensor site (per decision); measurand is atmospheric, not the site."
+  },
+  {
+   "variable": "soil_temperature",
+   "unit_symbol": "°C",
+   "value": 10.09,
+   "resultTime": "2021-01-01T00:00:00.000000",
+   "sensor": "bt_uit01_t1_rumpisweg",
+   "sensor_type": "TSIC",
+   "site": "rumpisweg",
+   "observedProperty": "qudt:Temperature",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature_gwsw": "gwsw:Rioolput",
+   "note": ""
+  },
+  {
+   "variable": "surface_velocity",
+   "unit_symbol": "m/s",
+   "value": 1.357,
+   "resultTime": "2021-01-01T00:00:00.000000",
+   "sensor": "bf_f07_23_bahnhofstr",
+   "sensor_type": "Sommer_SQ3",
+   "site": "23_bahnhofstr",
+   "observedProperty": "qudt:Velocity",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:M-PER-SEC",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "note": "second parameter (surface); Velocity per the Graz expert decision"
+  },
+  {
+   "variable": "water_level",
+   "unit_symbol": "mm",
+   "value": 123.0,
+   "resultTime": "2021-01-01T00:00:25.000000",
+   "sensor": "bl_dl256_rubbasin_ara",
+   "sensor_type": "Maxbotix-MB7389-WR_3V_DL",
+   "site": "rubbasin_ara",
+   "observedProperty": "gemet:9190",
+   "property_source": "gemet",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "note": ""
+  },
+  {
+   "variable": "water_temperature",
+   "unit_symbol": "°C",
+   "value": 11.1875,
+   "resultTime": "2021-01-01T00:00:33.000000",
+   "sensor": "bt_dl916_inflow_ara",
+   "sensor_type": "DS18B20",
+   "site": "inflow_ara",
+   "observedProperty": "qudt:Temperature",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "note": ""
+  },
+  {
+   "variable": "water_temperature2",
+   "unit_symbol": "°C",
+   "value": 4.125,
+   "resultTime": "2021-01-01T00:00:58.000000",
+   "sensor": "bt_dl949_rw22a_bahnhofstr",
+   "sensor_type": "DS18B20",
+   "site": "rw22a_bahnhofstr",
+   "observedProperty": "qudt:Temperature",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature_gwsw": "gwsw:Rioolput",
+   "note": ""
+  },
+  {
+   "variable": "wind_direction",
+   "unit_symbol": "°",
+   "value": 281.1,
+   "resultTime": "2021-01-01T00:00:00.000000",
+   "sensor": "bx_ws700_ara_flatroof",
+   "sensor_type": "Lufft_WS-700",
+   "site": "ara_flatroof",
+   "observedProperty": "ex:property/wind-direction",
+   "property_source": "mint",
+   "decision": "mint",
+   "unit": "unit:DEG",
+   "feature_gwsw": null,
+   "note": "FoI = physical sensor site (per decision); measurand is atmospheric, not the site. No QUDT/GEMET concept; qudt:Angle is the dimensional fallback."
+  },
+  {
+   "variable": "wind_speed",
+   "unit_symbol": "m/s",
+   "value": 1.2,
+   "resultTime": "2021-01-01T00:00:00.000000",
+   "sensor": "bx_ws700_ara_flatroof",
+   "sensor_type": "Lufft_WS-700",
+   "site": "ara_flatroof",
+   "observedProperty": "qudt:Speed",
+   "property_source": "qudt",
+   "decision": "reuse",
+   "unit": "unit:M-PER-SEC",
+   "feature_gwsw": null,
+   "note": "FoI = physical sensor site (per decision); measurand is atmospheric, not the site."
+  }
+ ],
+ "excluded": [
+  {
+   "variable": "battery_charge",
+   "unit": "%",
+   "reason": "internal parameter"
+  },
+  {
+   "variable": "battery_voltage",
+   "unit": "V",
+   "reason": "internal parameter"
+  },
+  {
+   "variable": "bucket_content",
+   "unit": "mm",
+   "reason": "internal (weighing-gauge fill, used to derive rainfall)"
+  },
+  {
+   "variable": "csq",
+   "unit": "-",
+   "reason": "internal (cellular signal quality)"
+  },
+  {
+   "variable": "device_temperature",
+   "unit": "-",
+   "reason": "internal (logger temperature)"
+  },
+  {
+   "variable": "error_message",
+   "unit": "-",
+   "reason": "internal (error code)"
+  },
+  {
+   "variable": "eui",
+   "unit": "-",
+   "reason": "internal (device identifier)"
+  },
+  {
+   "variable": "frame_counter",
+   "unit": "-",
+   "reason": "internal (transmission counter)"
+  },
+  {
+   "variable": "status",
+   "unit": "-",
+   "reason": "internal (debug status)"
+  },
+  {
+   "variable": "timestamp_ms",
+   "unit": "ms",
+   "reason": "internal (µC relative timestamp)"
+  },
+  {
+   "variable": "bandwidthclass",
+   "unit": "-",
+   "reason": "measurement-quality information"
+  },
+  {
+   "variable": "gain",
+   "unit": "-",
+   "reason": "measurement-quality (radar signal)"
+  },
+  {
+   "variable": "nos",
+   "unit": "-",
+   "reason": "measurement-quality (number of samples)"
+  },
+  {
+   "variable": "opposite_direction_ratio",
+   "unit": "%",
+   "reason": "measurement-quality"
+  },
+  {
+   "variable": "pmr",
+   "unit": "-",
+   "reason": "measurement-quality (peak-over-main ratio)"
+  },
+  {
+   "variable": "trials",
+   "unit": "-",
+   "reason": "measurement-quality"
+  },
+  {
+   "variable": "rssi",
+   "unit": "dBm",
+   "reason": "signal-transmission (received signal strength)"
+  },
+  {
+   "variable": "sf",
+   "unit": "-",
+   "reason": "signal-transmission (spreading factor)"
+  },
+  {
+   "variable": "snr",
+   "unit": "dB",
+   "reason": "signal-transmission / quality (signal-to-noise)"
+  }
+ ],
+ "sites": [
+  {
+   "site": "115a_chueferistr",
+   "gwsw_tentative": "gwsw:Rioolleiding",
+   "options": "Rioolleiding | Leiding",
+   "evidence": "The site is on private ground and the sewer pipe recieves sewer water from sk102_wermatswilstr.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "11_veloweg",
+   "gwsw_tentative": "untyped",
+   "options": "untyped | Rioolput (temperature sensor, location unclear)",
+   "evidence": "temperature sensor in veloweg",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "11e_russikerstr",
+   "gwsw_tentative": "gwsw:Rioolleiding",
+   "options": "Rioolleiding | Transportleiding",
+   "evidence": "The site is located near the entrance of Fehraltorf(from Russikon). It contains the full amount of what is flowing from Russikon. There is a radar flow measurment device as well as a correlation wedge sensor which both measuring the flow",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "11h_veloweg",
+   "gwsw_tentative": "untyped",
+   "options": "untyped | Rioolput (temperature sensor, location unclear)",
+   "evidence": "temperature sensor in veloweg",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "124a_chueferi",
+   "gwsw_tentative": "untyped",
+   "options": "untyped | Rioolput (temperature sensor, location unclear)",
+   "evidence": "temperature sensor in veloweg",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "137_schutzengasse",
+   "gwsw_tentative": "gwsw:Rioolleiding",
+   "options": "Rioolleiding | Leiding",
+   "evidence": "Waste water channel which comes from the center of the village and going to 138.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "138a_venturi",
+   "gwsw_tentative": "gwsw:Rioolleiding",
+   "options": "Rioolleiding | Overstortconstructie",
+   "evidence": "Site at Usterstrasse besides Nivus-Sensor. After, there is a Venturi-Chanel installed.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "156a_geerenstr",
+   "gwsw_tentative": "gwsw:Rioolleiding",
+   "options": "Rioolleiding | Rioolput",
+   "evidence": "temperature and level measurement near post",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "15a_russikerstr",
+   "gwsw_tentative": "gwsw:Rioolleiding",
+   "options": "Rioolleiding | Leiding",
+   "evidence": "Waste water channel which evacuates waste water from the eastern region of the village and from Russikon.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "162_luppmenweg",
+   "gwsw_tentative": "gwsw:Rioolput",
+   "options": "Rioolput | Leiding",
+   "evidence": "manhole between rub128 and manhole 164. It is acting as an additional temperature Sensor manhole along the main flow line",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "164_luppmenweg",
+   "gwsw_tentative": "gwsw:Rioolput",
+   "options": "Rioolput | Leiding",
+   "evidence": "manhole below Luppmenweg 100 m before manhole 166 and Site is acting as a reference site for Temperature",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "166_luppmenweg",
+   "gwsw_tentative": "gwsw:Rioolput",
+   "options": "Rioolput | Leiding",
+   "evidence": "below Luppmenweg at manhole 166",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "22a_bahnhofstr",
+   "gwsw_tentative": "gwsw:Rioolput",
+   "options": "Rioolput | Leiding",
+   "evidence": "below Bahnhofstrasse in manhole 22a",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "23_bahnhofstr",
+   "gwsw_tentative": "gwsw:Rioolleiding",
+   "options": "Rioolleiding | Transportleiding",
+   "evidence": "Dauermessstelle near Post office, pipe diameter 1m, slope 1.3%",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "3r_rub_morg_overflow",
+   "gwsw_tentative": "gwsw:Overstortleiding",
+   "options": "Overstortleiding | Overstortput",
+   "evidence": "Overflow chanel from Rub Morgenthal to the creek Rohrbach. Manhole is located in the middle of Rub Morgenthal and Rohrbach",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "40d_imberg",
+   "gwsw_tentative": "gwsw:Kolk",
+   "options": "Kolk | Rioolput",
+   "evidence": "The gully is a few meters to the north-east of the roundabout.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "40g_csovoland",
+   "gwsw_tentative": "gwsw:Overstortput",
+   "options": "Overstortput | Rioolleiding",
+   "evidence": "The site is in a residential area. The sewer recieves sewer water if it overflows at ra40a_sbwvoland.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "450a_usterstr",
+   "gwsw_tentative": "gwsw:Bergbezinkbassin",
+   "options": "Bergbezinkbassin | Bergingsbassin",
+   "evidence": "This site is a little rain water retention tank",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "450b_usterstr",
+   "gwsw_tentative": "gwsw:Bergbezinkbassin",
+   "options": "Bergbezinkbassin | Bergingsbassin",
+   "evidence": "This site is a little rain water retention tank",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "47a_zurcherstr",
+   "gwsw_tentative": "gwsw:Rioolleiding",
+   "options": "Rioolleiding | Rioolput",
+   "evidence": "Flow meter site with additional tempsensor besides Zurcherstrasse",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "48sbw_notuberlauf",
+   "gwsw_tentative": "gwsw:Overstortput",
+   "options": "Overstortput | Overstortleiding",
+   "evidence": "This site is an overflow of a main waste water channel to the WWTP.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "50sbw_acherm",
+   "gwsw_tentative": "gwsw:Rioolleiding",
+   "options": "Rioolleiding | Leiding",
+   "evidence": "The site is accessed from the road, in front of the car mechanic Achermann. The sewer pipe comes from the nearby Ruti and right after the site the sewer water goes to the main pipe through an inverted syphon.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "555_mesikerstr",
+   "gwsw_tentative": "gwsw:Rioolleiding",
+   "options": "Rioolleiding | Transportleiding",
+   "evidence": "The site is located near the entrance of Fehraltorf (from Rumlikon). It contains the full amount of what is flowing from Rumlikon.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "581a_wildbach",
+   "gwsw_tentative": "gwsw:Rioolleiding",
+   "options": "Rioolleiding | Leiding",
+   "evidence": "The site is beside a residential area and the sewer brings down wastewater from the residential area Zelgli along the small river Wildbach.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "585sbw_amwildbach",
+   "gwsw_tentative": "gwsw:Beek",
+   "options": "Beek | Rivier | Waterloop",
+   "evidence": "The site is along the river Wildbach and comes from the site 581a_wildbach. A water level sensor is installed.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "58sbw_undermulistr",
+   "gwsw_tentative": "gwsw:Overstortconstructie",
+   "options": "Overstortconstructie | Overstortput",
+   "evidence": "Measurment site in front of the gate valves. Overflow to the RKB ARA possible when level of wall (on the right) is reached. This depends on the gate position and the inflow.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "594_undermulistr",
+   "gwsw_tentative": "gwsw:Rioolleiding",
+   "options": "Rioolleiding | Transportleiding",
+   "evidence": "The site is located in the main flow chanel a few 100m in front of the WWTP. There is a Temperature measurement device and a conductivity meter installed",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "597sbw_ara",
+   "gwsw_tentative": "gwsw:Rioolleiding",
+   "options": "Rioolleiding | Rioolgemaal",
+   "evidence": "The site is a few meters away from the WWTP and is the inflow from the industry area nearby. A pump brings regularely waste water through this pipe (visible in data).",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "607sbw_kempttalerstr",
+   "gwsw_tentative": "gwsw:Rioolleiding",
+   "options": "Rioolleiding | Transportleiding",
+   "evidence": "measuring the level of the sewer coming down from Feldstrasse",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "7_kempttalstr",
+   "gwsw_tentative": "gwsw:Rioolleiding",
+   "options": "Rioolleiding | Transportleiding",
+   "evidence": "The sensor is measuring the level in the sewer with DN450 diameter.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "airport_speck",
+   "gwsw_tentative": "untyped",
+   "options": "untyped (open field / airstrip)",
+   "evidence": "At the side of the dirt road on the south side of the airstrip.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "ara_flatroof",
+   "gwsw_tentative": "untyped",
+   "options": "untyped (rooftop weather station)",
+   "evidence": "flatroof of office building from wastewater treatment plant Fehraltorf",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "coop_grundstr",
+   "gwsw_tentative": "untyped",
+   "options": "untyped (rooftop weather station)",
+   "evidence": "Measurment site at the flatroof of the Coop building",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "electrosuisse_luppmenstr",
+   "gwsw_tentative": "untyped",
+   "options": "untyped (rooftop weather station)",
+   "evidence": "Flatroof of Electrosuisse",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "gerber_zurcherstr",
+   "gwsw_tentative": "gwsw:Rioolleiding",
+   "options": "Rioolleiding | Rioolgemaal",
+   "evidence": "measurment site between Gerber Gemusebau und Pumpwerk Ruti",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "inflow_ara",
+   "gwsw_tentative": "gwsw:Rioolleiding",
+   "options": "Rioolleiding | Uitlaatconstructie",
+   "evidence": "This is the main channel which enters the WWTP (between 598_SBW and RK59).",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "luppmen_usterstr",
+   "gwsw_tentative": "gwsw:Rivier",
+   "options": "Rivier | Waterloop | Beek",
+   "evidence": "The site is the river Luppmen flowing underneath the Usterstrasse.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "outflow_ara",
+   "gwsw_tentative": "gwsw:Uitlaatconstructie",
+   "options": "Uitlaatconstructie | Rioolleiding",
+   "evidence": "Outflow from WWTP",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "pumpwau_rumlikerstr",
+   "gwsw_tentative": "untyped",
+   "options": "untyped | Rioolgemaal (weather sensor on pump-station roof)",
+   "evidence": "flatroof of pumping station Au",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "pumpwgeeren_geerenstr",
+   "gwsw_tentative": "gwsw:Rioolgemaal",
+   "options": "Rioolgemaal | Gemaal",
+   "evidence": "measurment site at the Pumpwerk Geeren",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "ra40a_sbwvoland",
+   "gwsw_tentative": "gwsw:Overstortput",
+   "options": "Overstortput | Overstortconstructie",
+   "evidence": "The site is right in front of the bakery Voland. Here is an overflow for stormwater into the sewer water network. There are two sensors, a moisture sensor and a water level sensor.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "rohrbach_fehraltorferstr",
+   "gwsw_tentative": "gwsw:Beek",
+   "options": "Beek | Rivier",
+   "evidence": "the site is located under the bridge from Fehraltorferstrasse",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "rub128basin_usterstr",
+   "gwsw_tentative": "gwsw:Bergbezinkbassin",
+   "options": "Bergbezinkbassin | Bergingsbassin",
+   "evidence": "This US sensor measures the water level of the retention basin which gets filled during larger rain events.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "rub128inflow_usterstr",
+   "gwsw_tentative": "gwsw:Rioolleiding",
+   "options": "Rioolleiding | Overstortput",
+   "evidence": "This is the inflow of the overflow site which is used in rain events. Here an ultrasound sensor and a moisture sensor are installed.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "rub_morg",
+   "gwsw_tentative": "gwsw:Bergbezinkbassin",
+   "options": "Bergbezinkbassin | Bergingsbassin",
+   "evidence": "Here is a retention basin which retains water coming from Russikon in case of a rain event.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "rubbasin_ara",
+   "gwsw_tentative": "gwsw:Bergbezinkbassin",
+   "options": "Bergbezinkbassin | Kolk",
+   "evidence": "This is the gully to enter the retention basin in front of the ara.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "rubmorg_inflow",
+   "gwsw_tentative": "gwsw:Bergbezinkbassin",
+   "options": "Bergbezinkbassin | Overstortconstructie",
+   "evidence": "Here is a retention basin which retains water coming from Russikon in case of a rain event and is limited by a vortex throttle and the overflow beside",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "rubpw80sbw_industry",
+   "gwsw_tentative": "gwsw:Rioolgemaal",
+   "options": "Rioolgemaal | Pompput",
+   "evidence": "Site at pump house at industry. Installed nearly on top of the pump. Detection of pump possible.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "rubpw80sbwbasin_industry",
+   "gwsw_tentative": "gwsw:Bergbezinkbassin",
+   "options": "Bergbezinkbassin | Bergingsbassin",
+   "evidence": "Level meter which is measuring the level of the basin in case of a rain event. In dry condition the stormwater retention tank is empty",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "rumpisweg",
+   "gwsw_tentative": "gwsw:Rioolput",
+   "options": "Rioolput | Rioolleiding | (unclear)",
+   "evidence": "measurement site at rumpisweg in Fehraltorf",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "rw137_schutzengasse",
+   "gwsw_tentative": "gwsw:Rioolput",
+   "options": "Rioolput | Overstortput",
+   "evidence": "Stormwater manhole besides manhole 22a that overflows in the combined sewer network",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "rw22a_bahnhofstr",
+   "gwsw_tentative": "gwsw:Rioolput",
+   "options": "Rioolput | Overstortput",
+   "evidence": "Stormwater manhole besides manhole 22a that overflows in the combined sewer network",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "rw47a_zurcherstr",
+   "gwsw_tentative": "gwsw:Rioolput",
+   "options": "Rioolput | Overstortput",
+   "evidence": "Stormwater manhole besides manhole 22a that overflows in the combined sewer network",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "school_chatzenrainstr",
+   "gwsw_tentative": "untyped",
+   "options": "untyped (open field)",
+   "evidence": "The location is in front of the sports ground on the open field with a fence around it.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "schutzenhaus_burgweg",
+   "gwsw_tentative": "untyped",
+   "options": "untyped (roadside / field)",
+   "evidence": "the location is at the side of the small dirtroad around the old schutzenhaus from fehraltorf.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "sk102_wermatswilstr",
+   "gwsw_tentative": "gwsw:Overstortput",
+   "options": "Overstortput | Rioolput",
+   "evidence": "The site is an overflow combined with a screen to extrac small debris. The gully is slightly off the street on a small private visitor parking. Emergency overflow at sheet metal at 0.99 m and at screen (ordinary overflow) at 1.15 m measuring distance.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "sk_ara",
+   "gwsw_tentative": "gwsw:Rioolleiding",
+   "options": "Rioolleiding | Leiding",
+   "evidence": "WWTP-employees use this channel for storage and unwanted wastewater in case of illegaldischarge.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "voland_unterdorf",
+   "gwsw_tentative": "untyped",
+   "options": "untyped (lamp post — repeater + temp sensor)",
+   "evidence": "lamp post used as a repeater location and for temperature measurment",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "vs22_kempttalstr",
+   "gwsw_tentative": "gwsw:Overstortconstructie",
+   "options": "Overstortconstructie | Rioolput",
+   "evidence": "This site is a diversion point where the waste water flows either down to the train station or it continues to ra40a.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "wildbach_kempttalstr",
+   "gwsw_tentative": "gwsw:Beek",
+   "options": "Beek | Rivier | Waterloop",
+   "evidence": "The site is the river wildbach flowing underneath the Kempttalstrasse.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  },
+  {
+   "site": "wildbach_rumlikonstr",
+   "gwsw_tentative": "gwsw:Beek",
+   "options": "Beek | Rivier | Waterloop",
+   "evidence": "The site is the river wildbach flowing underneath the Rumlikonstrasse.",
+   "street": null,
+   "status": "expert-pending",
+   "expert_decision": ""
+  }
+ ]
+}

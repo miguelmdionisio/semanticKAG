@@ -1,0 +1,17 @@
+# Main configuration without sampling, compact candidate menus.
+
+model = "claude-sonnet-4-6"
+max_rows = 1000
+temperature = 0.0
+
+[retrieval]
+k = 30
+menu_format = "shared"
+
+[enrichment]
+enabled = true
+include_metadata = true
+model = "claude-sonnet-4-6"
+
+[resolution]
+classify_columns = true

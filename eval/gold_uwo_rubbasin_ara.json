@@ -1,0 +1,84 @@
+{
+ "dataset": "uwo_rubbasin_ara",
+ "root": "data\\04 - UWO\\wide\\rubbasin_ara",
+ "observations": [
+  {
+   "type": "water_level",
+   "file": "bl_dl256_rubbasin_ara.csv",
+   "column": "water_level",
+   "sensor": "bl_dl256_rubbasin_ara",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "rubbasin_ara",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "dielectric_permittivity",
+   "file": "bm_dl291_rubbasin_ara.csv",
+   "column": "dielectric_permittivity",
+   "sensor": "bm_dl291_rubbasin_ara",
+   "observedProperty": "qudt:RelativePermittivity",
+   "decision": "reuse",
+   "unit": "unit:UNITLESS",
+   "feature": "rubbasin_ara",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). dimensionless (soil-moisture proxy)"
+  },
+  {
+   "type": "overflow_temperature",
+   "file": "bm_dl290_rubbasin_ara.csv",
+   "column": "overflow_temperature",
+   "sensor": "bm_dl290_rubbasin_ara",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "rubbasin_ara",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "dielectric_permittivity",
+   "file": "bm_dl290_rubbasin_ara.csv",
+   "column": "dielectric_permittivity",
+   "sensor": "bm_dl290_rubbasin_ara",
+   "observedProperty": "qudt:RelativePermittivity",
+   "decision": "reuse",
+   "unit": "unit:UNITLESS",
+   "feature": "rubbasin_ara",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). dimensionless (soil-moisture proxy)"
+  },
+  {
+   "type": "water_level",
+   "file": "bl_plsRKBA1201_rubbasin_ara.csv",
+   "column": "water_level",
+   "sensor": "bl_plsRKBA1201_rubbasin_ara",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "rubbasin_ara",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "flow_rate",
+   "file": "bf_plsRKBA1101_rubbasin_ara_overflow.csv",
+   "column": "flow_rate",
+   "sensor": "bf_plsRKBA1101_rubbasin_ara_overflow",
+   "observedProperty": "qudt:VolumeFlowRate",
+   "decision": "reuse",
+   "unit": "unit:L-PER-SEC",
+   "feature": "rubbasin_ara",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  }
+ ]
+}

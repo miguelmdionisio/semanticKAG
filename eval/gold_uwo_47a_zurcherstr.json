@@ -1,0 +1,45 @@
+{
+ "dataset": "uwo_47a_zurcherstr",
+ "root": "data\\04 - UWO\\wide\\47a_zurcherstr",
+ "observations": [
+  {
+   "type": "flow_rate",
+   "file": "bf_f12_47a_zurcherstr.csv",
+   "column": "flow_rate",
+   "sensor": "bf_f12_47a_zurcherstr",
+   "observedProperty": "qudt:VolumeFlowRate",
+   "decision": "reuse",
+   "unit": "unit:L-PER-SEC",
+   "feature": "47a_zurcherstr",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "water_level",
+   "file": "bf_f12_47a_zurcherstr.csv",
+   "column": "water_level",
+   "sensor": "bf_f12_47a_zurcherstr",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "47a_zurcherstr",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "surface_velocity",
+   "file": "bf_f12_47a_zurcherstr.csv",
+   "column": "surface_velocity",
+   "sensor": "bf_f12_47a_zurcherstr",
+   "observedProperty": "qudt:Velocity",
+   "decision": "reuse",
+   "unit": "unit:M-PER-SEC",
+   "feature": "47a_zurcherstr",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). second parameter (surface); Velocity per the Graz expert decision"
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "dataset": "uwo_luppmen_usterstr",
+ "root": "data\\04 - UWO\\wide\\luppmen_usterstr",
+ "observations": [
+  {
+   "type": "water_temperature",
+   "file": "bp_dl327_luppmen_usterstr.csv",
+   "column": "water_temperature",
+   "sensor": "bp_dl327_luppmen_usterstr",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "luppmen_usterstr",
+   "feature_gwsw": "gwsw:Rivier",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "pressure",
+   "file": "bp_dl327_luppmen_usterstr.csv",
+   "column": "pressure",
+   "sensor": "bp_dl327_luppmen_usterstr",
+   "observedProperty": "qudt:Pressure",
+   "decision": "reuse",
+   "unit": "unit:BAR",
+   "feature": "luppmen_usterstr",
+   "feature_gwsw": "gwsw:Rivier",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). water-column pressure (level proxy)"
+  }
+ ]
+}

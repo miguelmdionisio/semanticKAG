@@ -1,0 +1,17 @@
+# Main configuration. CLI flags override these values.
+
+model = "claude-sonnet-4-6"
+max_rows = 1000                 # rows per file written to the graph
+temperature = 0.0               # resolve and enrichment calls
+
+[retrieval]
+k = 30                          # candidates per vocabulary (QUDT, GEMET)
+
+[enrichment]                    # one extra call that rewrites column names into retrieval queries
+enabled = true
+include_metadata = true
+model = "claude-sonnet-4-6"
+
+[resolution]
+classify_columns = true         # demote derived / diagnostic / quality columns
+model_sampling = true           # model sample-based files as sosa:Sample / sosa:Sampling

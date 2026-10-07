@@ -1,0 +1,32 @@
+{
+ "dataset": "uwo_voland_unterdorf",
+ "root": "data\\04 - UWO\\wide\\voland_unterdorf",
+ "observations": [
+  {
+   "type": "relative_humidity",
+   "file": "bt_dl4185_voland_unterdorf.csv",
+   "column": "relative_humidity",
+   "sensor": "bt_dl4185_voland_unterdorf",
+   "observedProperty": "qudt:RelativeHumidity",
+   "decision": "reuse",
+   "unit": "unit:PERCENT",
+   "feature": "voland_unterdorf",
+   "feature_gwsw": null,
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). FoI = physical sensor site (per decision); measurand is atmospheric, not the site."
+  },
+  {
+   "type": "headspace_temperature",
+   "file": "bt_dl4185_voland_unterdorf.csv",
+   "column": "headspace_temperature",
+   "sensor": "bt_dl4185_voland_unterdorf",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "voland_unterdorf",
+   "feature_gwsw": null,
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). sewer headspace air temperature"
+  }
+ ]
+}

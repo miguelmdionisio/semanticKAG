@@ -1,0 +1,17 @@
+# Same as config.toml; a separate file so its runs are tagged __main_sampling.
+
+model = "claude-sonnet-4-6"
+max_rows = 1000
+temperature = 0.0
+
+[retrieval]
+k = 30
+
+[enrichment]
+enabled = true
+include_metadata = true
+model = "claude-sonnet-4-6"
+
+[resolution]
+classify_columns = true
+model_sampling = true

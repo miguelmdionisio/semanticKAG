@@ -1,0 +1,45 @@
+{
+ "dataset": "uwo_40d_imberg",
+ "root": "data\\04 - UWO\\wide\\40d_imberg",
+ "observations": [
+  {
+   "type": "water_temperature",
+   "file": "bt_dl930_40d_imberg.csv",
+   "column": "water_temperature",
+   "sensor": "bt_dl930_40d_imberg",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "40d_imberg",
+   "feature_gwsw": "gwsw:Kolk",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "headspace_temperature",
+   "file": "bt_dl930_40d_imberg.csv",
+   "column": "headspace_temperature",
+   "sensor": "bt_dl930_40d_imberg",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "40d_imberg",
+   "feature_gwsw": "gwsw:Kolk",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). sewer headspace air temperature"
+  },
+  {
+   "type": "water_level",
+   "file": "bl_dl312_40d_imberg.csv",
+   "column": "water_level",
+   "sensor": "bl_dl312_40d_imberg",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "40d_imberg",
+   "feature_gwsw": "gwsw:Kolk",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  }
+ ]
+}

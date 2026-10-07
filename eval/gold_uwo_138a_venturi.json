@@ -1,0 +1,19 @@
+{
+ "dataset": "uwo_138a_venturi",
+ "root": "data\\04 - UWO\\wide\\138a_venturi",
+ "observations": [
+  {
+   "type": "water_level",
+   "file": "bl_ceb60_138a_venturi.csv",
+   "column": "water_level",
+   "sensor": "bl_ceb60_138a_venturi",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "138a_venturi",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  }
+ ]
+}

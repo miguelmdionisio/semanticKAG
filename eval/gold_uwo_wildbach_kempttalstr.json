@@ -1,0 +1,32 @@
+{
+ "dataset": "uwo_wildbach_kempttalstr",
+ "root": "data\\04 - UWO\\wide\\wildbach_kempttalstr",
+ "observations": [
+  {
+   "type": "water_temperature",
+   "file": "bp_dl326_wildbach_kempttalstr.csv",
+   "column": "water_temperature",
+   "sensor": "bp_dl326_wildbach_kempttalstr",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "wildbach_kempttalstr",
+   "feature_gwsw": "gwsw:Beek",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "pressure",
+   "file": "bp_dl326_wildbach_kempttalstr.csv",
+   "column": "pressure",
+   "sensor": "bp_dl326_wildbach_kempttalstr",
+   "observedProperty": "qudt:Pressure",
+   "decision": "reuse",
+   "unit": "unit:BAR",
+   "feature": "wildbach_kempttalstr",
+   "feature_gwsw": "gwsw:Beek",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). water-column pressure (level proxy)"
+  }
+ ]
+}

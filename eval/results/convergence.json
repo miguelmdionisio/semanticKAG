@@ -1,0 +1,118 @@
+{
+ "gemet:637": {
+  "datasets": [
+   "flowbru",
+   "graz",
+   "uwo"
+  ],
+  "columns": 8,
+  "most_common": "gemet:637",
+  "on_most_common": 5,
+  "chosen": {
+   "gemet:637": 5,
+   "qudt:Height": 3
+  },
+  "per_dataset": {
+   "flowbru": {
+    "gemet:637": 2
+   },
+   "graz": {
+    "gemet:637": 3
+   },
+   "uwo": {
+    "qudt:Height": 3
+   }
+  }
+ },
+ "gemet:9190": {
+  "datasets": [
+   "flowbru",
+   "graz",
+   "uwo"
+  ],
+  "columns": 17,
+  "most_common": "gemet:9190",
+  "on_most_common": 17,
+  "chosen": {
+   "gemet:9190": 17
+  },
+  "per_dataset": {
+   "flowbru": {
+    "gemet:9190": 10
+   },
+   "graz": {
+    "gemet:9190": 4
+   },
+   "uwo": {
+    "gemet:9190": 3
+   }
+  }
+ },
+ "qudt:Temperature": {
+  "datasets": [
+   "flowbru",
+   "graz",
+   "uwo"
+  ],
+  "columns": 16,
+  "most_common": "qudt:Temperature",
+  "on_most_common": 13,
+  "chosen": {
+   "qudt:Temperature": 13,
+   "qudt:CelsiusTemperature": 3
+  },
+  "per_dataset": {
+   "flowbru": {
+    "qudt:CelsiusTemperature": 1
+   },
+   "graz": {
+    "qudt:Temperature": 1
+   },
+   "uwo": {
+    "qudt:Temperature": 12,
+    "qudt:CelsiusTemperature": 2
+   }
+  }
+ },
+ "qudt:Velocity": {
+  "datasets": [
+   "graz",
+   "uwo"
+  ],
+  "columns": 4,
+  "most_common": "qudt:Velocity",
+  "on_most_common": 2,
+  "chosen": {
+   "qudt:Velocity": 2,
+   "qudt:LinearVelocity": 2
+  },
+  "per_dataset": {
+   "graz": {
+    "qudt:Velocity": 2
+   },
+   "uwo": {
+    "qudt:LinearVelocity": 2
+   }
+  }
+ },
+ "qudt:VolumeFlowRate": {
+  "datasets": [
+   "graz",
+   "uwo"
+  ],
+  "columns": 4,
+  "most_common": "qudt:VolumeFlowRate",
+  "on_most_common": 4,
+  "chosen": {
+   "qudt:VolumeFlowRate": 4
+  },
+  "per_dataset": {
+   "graz": {
+    "qudt:VolumeFlowRate": 3
+   },
+   "uwo": {
+    "qudt:VolumeFlowRate": 1
+   }
+  }
+ }
+}

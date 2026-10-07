@@ -1,0 +1,19 @@
+{
+ "dataset": "uwo_48sbw_notuberlauf",
+ "root": "data\\04 - UWO\\wide\\48sbw_notuberlauf",
+ "observations": [
+  {
+   "type": "water_level",
+   "file": "bl_dl321_48sbw_notuberlauf.csv",
+   "column": "water_level",
+   "sensor": "bl_dl321_48sbw_notuberlauf",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "48sbw_notuberlauf",
+   "feature_gwsw": "gwsw:Overstortput",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  }
+ ]
+}

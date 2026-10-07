@@ -1,0 +1,19 @@
+{
+ "dataset": "uwo_40g_csovoland",
+ "root": "data\\04 - UWO\\wide\\40g_csovoland",
+ "observations": [
+  {
+   "type": "water_level",
+   "file": "bl_dl316_40g_csovoland.csv",
+   "column": "water_level",
+   "sensor": "bl_dl316_40g_csovoland",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "40g_csovoland",
+   "feature_gwsw": "gwsw:Overstortput",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  }
+ ]
+}

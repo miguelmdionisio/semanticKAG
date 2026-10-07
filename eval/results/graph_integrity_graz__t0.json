@@ -1,0 +1,15 @@
+{
+ "source": "eval\\cache\\graz_profile__t0_main_1.json",
+ "triples": 145763,
+ "observations": 16318,
+ "shape_violations": {},
+ "dangling_references": {},
+ "unreferenced_declarations": {},
+ "quantity_values": 16318,
+ "quantity_values_without_numericValue": 1149,
+ "quantity_values_without_unit": 0,
+ "resultTime_not_xsd_dateTime": 0,
+ "sensors": 9,
+ "properties": 7,
+ "features": 6
+}

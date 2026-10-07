@@ -1,0 +1,45 @@
+{
+ "dataset": "uwo_rubmorg_inflow",
+ "root": "data\\04 - UWO\\wide\\rubmorg_inflow",
+ "observations": [
+  {
+   "type": "water_temperature",
+   "file": "bt_dl926_rubmorg_inflow.csv",
+   "column": "water_temperature",
+   "sensor": "bt_dl926_rubmorg_inflow",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "rubmorg_inflow",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "headspace_temperature",
+   "file": "bt_dl926_rubmorg_inflow.csv",
+   "column": "headspace_temperature",
+   "sensor": "bt_dl926_rubmorg_inflow",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "rubmorg_inflow",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). sewer headspace air temperature"
+  },
+  {
+   "type": "water_level",
+   "file": "bl_dl311_rubmorg_inflow.csv",
+   "column": "water_level",
+   "sensor": "bl_dl311_rubmorg_inflow",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "rubmorg_inflow",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  }
+ ]
+}

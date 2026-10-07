@@ -1,0 +1,32 @@
+{
+ "dataset": "uwo_ra40a_sbwvoland",
+ "root": "data\\04 - UWO\\wide\\ra40a_sbwvoland",
+ "observations": [
+  {
+   "type": "water_level",
+   "file": "bl_lm069_ra40a_sbwvoland.csv",
+   "column": "water_level",
+   "sensor": "bl_lm069_ra40a_sbwvoland",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "ra40a_sbwvoland",
+   "feature_gwsw": "gwsw:Overstortput",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "dielectric_permittivity",
+   "file": "bm_lm067_ra40a_sbwvoland.csv",
+   "column": "dielectric_permittivity",
+   "sensor": "bm_lm067_ra40a_sbwvoland",
+   "observedProperty": "qudt:RelativePermittivity",
+   "decision": "reuse",
+   "unit": "unit:UNITLESS",
+   "feature": "ra40a_sbwvoland",
+   "feature_gwsw": "gwsw:Overstortput",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). dimensionless (soil-moisture proxy)"
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "datasets": {
+  "graz": "graz_profile__main_sampling_1.json",
+  "flowbru_beco": "flowbru_beco_profile__main_sampling_1.json",
+  "flowbru_belliard": "flowbru_belliard_profile__main_sampling_1.json"
+ },
+ "triples": 333273,
+ "queries": {
+  "Q1_shared_properties": {
+   "question": "Which observed properties are measured in more than one dataset?",
+   "sparql": "PREFIX sosa: <http://www.w3.org/ns/sosa/>\nPREFIX qudt: <http://qudt.org/schema/qudt/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT ?property (COUNT(DISTINCT ?ds) AS ?datasets) (COUNT(?obs) AS ?observations)\n       (GROUP_CONCAT(DISTINCT ?ds; separator=\", \") AS ?which)\nWHERE { ?obs a sosa:Observation ; sosa:observedProperty ?property . BIND(REPLACE(STR(?obs), \"^http://example.org/obs/([^/]+)/.*$\", \"$1\") AS ?ds) }\nGROUP BY ?property HAVING (COUNT(DISTINCT ?ds) > 1)\nORDER BY DESC(?datasets) DESC(?observations)",
+   "rows": [
+    {
+     "property": "http://www.eionet.europa.eu/gemet/concept/9190",
+     "datasets": "3",
+     "observations": "14000",
+     "which": "graz, flowbru-beco, flowbru-belliard"
+    },
+    {
+     "property": "http://www.eionet.europa.eu/gemet/concept/637",
+     "datasets": "3",
+     "observations": "5000",
+     "which": "graz, flowbru-beco, flowbru-belliard"
+    }
+   ]
+  },
+  "Q2_water_level_in_metres": {
+   "question": "All water-level observations of every dataset, in metres, whatever unit they were recorded in.",
+   "sparql": "PREFIX sosa: <http://www.w3.org/ns/sosa/>\nPREFIX qudt: <http://qudt.org/schema/qudt/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT ?ds ?unit (COUNT(?obs) AS ?n) (MIN(?m) AS ?min_m) (MAX(?m) AS ?max_m)\nWHERE {\n  ?obs a sosa:Observation ;\n       sosa:observedProperty <http://www.eionet.europa.eu/gemet/concept/9190> ;\n       sosa:hasResult ?r .\n  ?r qudt:numericValue ?v ; qudt:unit ?unit .\n  ?unit qudt:conversionMultiplier ?f .\n  BIND(?v * ?f AS ?m)\n  BIND(REPLACE(STR(?obs), \"^http://example.org/obs/([^/]+)/.*$\", \"$1\") AS ?ds)\n}\nGROUP BY ?ds ?unit ORDER BY ?ds ?unit",
+   "rows": [
+    {
+     "ds": "flowbru-beco",
+     "unit": "http://qudt.org/vocab/unit/M",
+     "n": "1000",
+     "min_m": "13.05499999999999971578290570",
+     "max_m": "13.39499999999999957367435854"
+    },
+    {
+     "ds": "flowbru-beco",
+     "unit": "http://qudt.org/vocab/unit/MilliM",
+     "n": "1000",
+     "min_m": "0.585",
+     "max_m": "0.925"
+    },
+    {
+     "ds": "flowbru-belliard",
+     "unit": "http://qudt.org/vocab/unit/MilliM",
+     "n": "6000",
+     "min_m": "0.008",
+     "max_m": "0.3281999999999999886313162278"
+    },
+    {
+     "ds": "graz",
+     "unit": "http://qudt.org/vocab/unit/M",
+     "n": "4000",
+     "min_m": "0.002000000000000000041633363423",
+     "max_m": "0.2700000000000000177635683940"
+    }
+   ]
+  },
+  "Q3_precipitation_sensors": {
+   "question": "Which sensors measure precipitation, in any dataset?",
+   "sparql": "PREFIX sosa: <http://www.w3.org/ns/sosa/>\nPREFIX qudt: <http://qudt.org/schema/qudt/>\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n\nSELECT ?ds ?sensor ?label (COUNT(?obs) AS ?n)\nWHERE {\n  ?obs a sosa:Observation ;\n       sosa:observedProperty <http://www.eionet.europa.eu/gemet/concept/637> ;\n       sosa:madeBySensor ?sensor .\n  OPTIONAL { ?sensor rdfs:label ?label }\n  BIND(REPLACE(STR(?obs), \"^http://example.org/obs/([^/]+)/.*$\", \"$1\") AS ?ds)\n}\nGROUP BY ?ds ?sensor ?label ORDER BY ?ds ?sensor",
+   "rows": [
+    {
+     "ds": "flowbru-beco",
+     "sensor": "http://example.org/sensor/flowbru-beco/rain-gauge",
+     "label": "Pluviometer Ecluse",
+     "n": "1000"
+    },
+    {
+     "ds": "flowbru-belliard",
+     "sensor": "http://example.org/sensor/flowbru-belliard/pluvio-flagey",
+     "label": "Pluvio Flagey",
+     "n": "1000"
+    },
+    {
+     "ds": "graz",
+     "sensor": "http://example.org/sensor/graz/tipping-bucket-0033900601",
+     "label": "Tipping bucket rain gauge 0033900601 (Graz-Stremayrgasse)",
+     "n": "1000"
+    },
+    {
+     "ds": "graz",
+     "sensor": "http://example.org/sensor/graz/tipping-bucket-0033901401",
+     "label": "Tipping bucket rain gauge 0033901401 (Graz-Karl-Morre-school)",
+     "n": "1000"
+    },
+    {
+     "ds": "graz",
+     "sensor": "http://example.org/sensor/graz/tipping-bucket-0033901601",
+     "label": "Tipping bucket rain gauge 0033901601 (Graz-Klusemannstrasse-school)",
+     "n": "1000"
+    }
+   ]
+  }
+ }
+}

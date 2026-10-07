@@ -1,0 +1,2387 @@
+{
+ "baseline": {
+  "pipeline": {
+   "model": "claude-sonnet-4-6",
+   "max_rows": 1000,
+   "retrieval_k": 10,
+   "enrich_enabled": false,
+   "enrich_include_metadata": true,
+   "enrich_model": "claude-sonnet-4-6",
+   "classify_columns": false
+  },
+  "repeats": 3,
+  "summary": {
+   "coverage": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "n_pred": {
+    "mean": 37,
+    "std": 0.0,
+    "runs": [
+     37,
+     37,
+     37
+    ]
+   },
+   "n_spurious": {
+    "mean": 16,
+    "std": 0.0,
+    "runs": [
+     16,
+     16,
+     16
+    ]
+   },
+   "L0": {
+    "mean": 0.5238095238095238,
+    "std": 0.0,
+    "runs": [
+     0.5238095238095238,
+     0.5238095238095238,
+     0.5238095238095238
+    ]
+   },
+   "L1": {
+    "mean": 0.6190476190476191,
+    "std": 0.0,
+    "runs": [
+     0.6190476190476191,
+     0.6190476190476191,
+     0.6190476190476191
+    ]
+   },
+   "L1_strict": {
+    "mean": 0.65,
+    "std": 0.0,
+    "runs": [
+     0.65,
+     0.65,
+     0.65
+    ]
+   },
+   "reuse_mint": {
+    "mean": 0.7619047619047619,
+    "std": 0.0,
+    "runs": [
+     0.7619047619047619,
+     0.7619047619047619,
+     0.7619047619047619
+    ]
+   },
+   "L2": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "L3_f1": {
+    "mean": 0.8685314685314686,
+    "std": 0.09691813224654776,
+    "runs": [
+     0.8363636363636363,
+     0.7692307692307693,
+     1.0
+    ]
+   },
+   "L3_p": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "L3_r": {
+    "mean": 0.78125,
+    "std": 0.15934435979977452,
+    "runs": [
+     0.71875,
+     0.625,
+     1.0
+    ]
+   },
+   "L3_ari": {
+    "mean": 0.8503506672848051,
+    "std": 0.11003186959855803,
+    "runs": [
+     0.812462790236158,
+     0.7385892116182573,
+     1.0
+    ]
+   },
+   "L4": {
+    "mean": 0.34920634920634924,
+    "std": 0.24692617755720708,
+    "runs": [
+     0.0,
+     0.5238095238095238,
+     0.5238095238095238
+    ]
+   },
+   "harmonization": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "n_sensors": {
+    "mean": 11.333333333333334,
+    "std": 0.9428090415820634,
+    "runs": [
+     12,
+     12,
+     10
+    ]
+   },
+   "n_properties": {
+    "mean": 9,
+    "std": 0.0,
+    "runs": [
+     9,
+     9,
+     9
+    ]
+   },
+   "demoted": {
+    "mean": 0,
+    "std": 0.0,
+    "runs": [
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  "retrieval_only": {
+   "n": 21,
+   "top1_any": 0.19047619047619047,
+   "top1_gold_corpus": 0.38095238095238093
+  },
+  "stability": {
+   "hydraulic data/chamber.csv::water_level": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:9190"
+    ],
+    "gold": "gemet:9190",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-analogue.csv::flow_rate": {
+    "correct_runs": 3,
+    "preds": [
+     "qudt:VolumeFlowRate"
+    ],
+    "gold": "qudt:VolumeFlowRate",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-analogue.csv::flow_velocity": {
+    "correct_runs": 0,
+    "preds": [
+     "mint:flow-velocity",
+     "mint:velocity"
+    ],
+    "gold": "qudt:LinearVelocity",
+    "in_menu": false
+   },
+   "hydraulic data/inflow-analogue.csv::water_level": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:9190"
+    ],
+    "gold": "gemet:9190",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-digital.csv::flow_rate": {
+    "correct_runs": 3,
+    "preds": [
+     "qudt:VolumeFlowRate"
+    ],
+    "gold": "qudt:VolumeFlowRate",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-digital.csv::water_level": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:9190"
+    ],
+    "gold": "gemet:9190",
+    "in_menu": true
+   },
+   "hydraulic data/overflow.csv::flow_rate": {
+    "correct_runs": 3,
+    "preds": [
+     "qudt:VolumeFlowRate"
+    ],
+    "gold": "qudt:VolumeFlowRate",
+    "in_menu": true
+   },
+   "hydraulic data/overflow.csv::water_level": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:9190"
+    ],
+    "gold": "gemet:9190",
+    "in_menu": true
+   },
+   "lab data/samples.csv::COD1": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": true
+   },
+   "lab data/samples.csv::COD2": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": false
+   },
+   "lab data/samples.csv::COD3": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": false
+   },
+   "lab data/samples.csv::TSS1": {
+    "correct_runs": 0,
+    "preds": [
+     "mint:total-suspended-solids"
+    ],
+    "gold": "gemet:12220",
+    "in_menu": false
+   },
+   "lab data/samples.csv::TSS2": {
+    "correct_runs": 0,
+    "preds": [
+     "mint:total-suspended-solids"
+    ],
+    "gold": "gemet:12220",
+    "in_menu": false
+   },
+   "lab data/samples.csv::TSS3": {
+    "correct_runs": 0,
+    "preds": [
+     "mint:total-suspended-solids"
+    ],
+    "gold": "gemet:12220",
+    "in_menu": false
+   },
+   "pollutant data/calibrated.csv::COD": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": true
+   },
+   "pollutant data/spectrometer.csv::COD": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": true
+   },
+   "pollutant data/spectrometer.csv::TSS": {
+    "correct_runs": 0,
+    "preds": [
+     "mint:total-suspended-solids"
+    ],
+    "gold": "gemet:12220",
+    "in_menu": false
+   },
+   "pollutant data/spectrometer.csv::temperature": {
+    "correct_runs": 3,
+    "preds": [
+     "qudt:Temperature"
+    ],
+    "gold": "qudt:Temperature",
+    "in_menu": true
+   },
+   "precipitation data/0033900601.csv::0033900601": {
+    "correct_runs": 0,
+    "preds": [
+     "gemet:6947"
+    ],
+    "gold": "gemet:637",
+    "in_menu": false
+   },
+   "precipitation data/0033901401.csv::0033901401": {
+    "correct_runs": 0,
+    "preds": [
+     "gemet:6947"
+    ],
+    "gold": "gemet:637",
+    "in_menu": false
+   },
+   "precipitation data/0033901601.csv::0033901601": {
+    "correct_runs": 0,
+    "preds": [
+     "gemet:6947"
+    ],
+    "gold": "gemet:637",
+    "in_menu": false
+   }
+  },
+  "runs": [
+   {
+    "coverage": 1.0,
+    "n_pred": 37,
+    "n_spurious": 16,
+    "L0": 0.5238095238095238,
+    "L1": 0.6190476190476191,
+    "L1_strict": 0.65,
+    "reuse_mint": 0.7619047619047619,
+    "L2": 1.0,
+    "L3_f1": 0.8363636363636363,
+    "L3_p": 1.0,
+    "L3_r": 0.71875,
+    "L3_ari": 0.812462790236158,
+    "L4": 0.0,
+    "harmonization": 1.0,
+    "n_sensors": 12,
+    "n_properties": 9,
+    "property_sources": {
+     "gemet": 3,
+     "minted": 3,
+     "qudt": 3
+    },
+    "minted": [
+     "precipitation return period",
+     "flow velocity",
+     "total suspended solids"
+    ],
+    "demoted": 0,
+    "wrong_demotions": [],
+    "spurious": [
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::sum_0033900601",
+     "evaluations/precipitation_events.csv::sum_0033901401",
+     "evaluations/precipitation_events.csv::sum_0033901601",
+     "evaluations/precipitation_events.csv::sum_0033931602",
+     "evaluations/precipitation_events.csv::sum_0033970301",
+     "hydraulic data/inflow-digital.csv::flow_velocity"
+    ]
+   },
+   {
+    "coverage": 1.0,
+    "n_pred": 37,
+    "n_spurious": 16,
+    "L0": 0.5238095238095238,
+    "L1": 0.6190476190476191,
+    "L1_strict": 0.65,
+    "reuse_mint": 0.7619047619047619,
+    "L2": 1.0,
+    "L3_f1": 0.7692307692307693,
+    "L3_p": 1.0,
+    "L3_r": 0.625,
+    "L3_ari": 0.7385892116182573,
+    "L4": 0.5238095238095238,
+    "harmonization": 1.0,
+    "n_sensors": 12,
+    "n_properties": 9,
+    "property_sources": {
+     "gemet": 3,
+     "minted": 3,
+     "qudt": 3
+    },
+    "minted": [
+     "precipitation return period",
+     "flow velocity",
+     "total suspended solids"
+    ],
+    "demoted": 0,
+    "wrong_demotions": [],
+    "spurious": [
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::sum_0033900601",
+     "evaluations/precipitation_events.csv::sum_0033901401",
+     "evaluations/precipitation_events.csv::sum_0033901601",
+     "evaluations/precipitation_events.csv::sum_0033931602",
+     "evaluations/precipitation_events.csv::sum_0033970301",
+     "hydraulic data/inflow-digital.csv::flow_velocity"
+    ]
+   },
+   {
+    "coverage": 1.0,
+    "n_pred": 37,
+    "n_spurious": 16,
+    "L0": 0.5238095238095238,
+    "L1": 0.6190476190476191,
+    "L1_strict": 0.65,
+    "reuse_mint": 0.7619047619047619,
+    "L2": 1.0,
+    "L3_f1": 1.0,
+    "L3_p": 1.0,
+    "L3_r": 1.0,
+    "L3_ari": 1.0,
+    "L4": 0.5238095238095238,
+    "harmonization": 1.0,
+    "n_sensors": 10,
+    "n_properties": 9,
+    "property_sources": {
+     "gemet": 3,
+     "minted": 3,
+     "qudt": 3
+    },
+    "minted": [
+     "precipitation return period",
+     "Velocity",
+     "total suspended solids"
+    ],
+    "demoted": 0,
+    "wrong_demotions": [],
+    "spurious": [
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::sum_0033900601",
+     "evaluations/precipitation_events.csv::sum_0033901401",
+     "evaluations/precipitation_events.csv::sum_0033901601",
+     "evaluations/precipitation_events.csv::sum_0033931602",
+     "evaluations/precipitation_events.csv::sum_0033970301",
+     "hydraulic data/inflow-digital.csv::flow_velocity"
+    ]
+   }
+  ]
+ },
+ "noenrich_k30": {
+  "pipeline": {
+   "model": "claude-sonnet-4-6",
+   "max_rows": 1000,
+   "retrieval_k": 30,
+   "enrich_enabled": false,
+   "enrich_include_metadata": true,
+   "enrich_model": "claude-sonnet-4-6",
+   "classify_columns": false
+  },
+  "repeats": 3,
+  "summary": {
+   "coverage": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "n_pred": {
+    "mean": 37,
+    "std": 0.0,
+    "runs": [
+     37,
+     37,
+     37
+    ]
+   },
+   "n_spurious": {
+    "mean": 16,
+    "std": 0.0,
+    "runs": [
+     16,
+     16,
+     16
+    ]
+   },
+   "L0": {
+    "mean": 0.6190476190476191,
+    "std": 0.0,
+    "runs": [
+     0.6190476190476191,
+     0.6190476190476191,
+     0.6190476190476191
+    ]
+   },
+   "L1": {
+    "mean": 0.7142857142857143,
+    "std": 0.06734350297014735,
+    "runs": [
+     0.6190476190476191,
+     0.7619047619047619,
+     0.7619047619047619
+    ]
+   },
+   "L1_strict": {
+    "mean": 0.75,
+    "std": 0.07071067811865477,
+    "runs": [
+     0.65,
+     0.8,
+     0.8
+    ]
+   },
+   "reuse_mint": {
+    "mean": 0.7619047619047619,
+    "std": 0.0673435029701474,
+    "runs": [
+     0.6666666666666666,
+     0.8095238095238095,
+     0.8095238095238095
+    ]
+   },
+   "L2": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "L3_f1": {
+    "mean": 0.9290611028315946,
+    "std": 0.06855310048668184,
+    "runs": [
+     0.9508196721311475,
+     0.8363636363636363,
+     1.0
+    ]
+   },
+   "L3_p": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "L3_r": {
+    "mean": 0.875,
+    "std": 0.11692679333668567,
+    "runs": [
+     0.90625,
+     0.71875,
+     1.0
+    ]
+   },
+   "L3_ari": {
+    "mean": 0.9183165176875075,
+    "std": 0.0784461676312963,
+    "runs": [
+     0.9424867628263648,
+     0.812462790236158,
+     1.0
+    ]
+   },
+   "L4": {
+    "mean": 0.34920634920634924,
+    "std": 0.24692617755720708,
+    "runs": [
+     0.5238095238095238,
+     0.5238095238095238,
+     0.0
+    ]
+   },
+   "harmonization": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "n_sensors": {
+    "mean": 11,
+    "std": 0.816496580927726,
+    "runs": [
+     11,
+     12,
+     10
+    ]
+   },
+   "n_properties": {
+    "mean": 9.333333333333334,
+    "std": 0.4714045207910317,
+    "runs": [
+     10,
+     9,
+     9
+    ]
+   },
+   "demoted": {
+    "mean": 0,
+    "std": 0.0,
+    "runs": [
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  "retrieval_only": {
+   "n": 21,
+   "top1_any": 0.14285714285714285,
+   "top1_gold_corpus": 0.38095238095238093
+  },
+  "stability": {
+   "hydraulic data/chamber.csv::water_level": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:9190"
+    ],
+    "gold": "gemet:9190",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-analogue.csv::flow_rate": {
+    "correct_runs": 3,
+    "preds": [
+     "qudt:VolumeFlowRate"
+    ],
+    "gold": "qudt:VolumeFlowRate",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-analogue.csv::flow_velocity": {
+    "correct_runs": 0,
+    "preds": [
+     "qudt:Velocity"
+    ],
+    "gold": "qudt:LinearVelocity",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-analogue.csv::water_level": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:9190"
+    ],
+    "gold": "gemet:9190",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-digital.csv::flow_rate": {
+    "correct_runs": 3,
+    "preds": [
+     "qudt:VolumeFlowRate"
+    ],
+    "gold": "qudt:VolumeFlowRate",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-digital.csv::water_level": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:9190"
+    ],
+    "gold": "gemet:9190",
+    "in_menu": true
+   },
+   "hydraulic data/overflow.csv::flow_rate": {
+    "correct_runs": 3,
+    "preds": [
+     "qudt:VolumeFlowRate"
+    ],
+    "gold": "qudt:VolumeFlowRate",
+    "in_menu": true
+   },
+   "hydraulic data/overflow.csv::water_level": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:9190"
+    ],
+    "gold": "gemet:9190",
+    "in_menu": true
+   },
+   "lab data/samples.csv::COD1": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": true
+   },
+   "lab data/samples.csv::COD2": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": false
+   },
+   "lab data/samples.csv::COD3": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": false
+   },
+   "lab data/samples.csv::TSS1": {
+    "correct_runs": 0,
+    "preds": [
+     "mint:total-suspended-solids"
+    ],
+    "gold": "gemet:12220",
+    "in_menu": true
+   },
+   "lab data/samples.csv::TSS2": {
+    "correct_runs": 0,
+    "preds": [
+     "mint:total-suspended-solids"
+    ],
+    "gold": "gemet:12220",
+    "in_menu": false
+   },
+   "lab data/samples.csv::TSS3": {
+    "correct_runs": 0,
+    "preds": [
+     "mint:total-suspended-solids"
+    ],
+    "gold": "gemet:12220",
+    "in_menu": false
+   },
+   "pollutant data/calibrated.csv::COD": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": true
+   },
+   "pollutant data/spectrometer.csv::COD": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": true
+   },
+   "pollutant data/spectrometer.csv::TSS": {
+    "correct_runs": 0,
+    "preds": [
+     "mint:total-suspended-solids"
+    ],
+    "gold": "gemet:12220",
+    "in_menu": false
+   },
+   "pollutant data/spectrometer.csv::temperature": {
+    "correct_runs": 3,
+    "preds": [
+     "qudt:Temperature"
+    ],
+    "gold": "qudt:Temperature",
+    "in_menu": true
+   },
+   "precipitation data/0033900601.csv::0033900601": {
+    "correct_runs": 2,
+    "preds": [
+     "gemet:637",
+     "mint:atmospheric-precipitation"
+    ],
+    "gold": "gemet:637",
+    "in_menu": false
+   },
+   "precipitation data/0033901401.csv::0033901401": {
+    "correct_runs": 2,
+    "preds": [
+     "gemet:637",
+     "mint:atmospheric-precipitation"
+    ],
+    "gold": "gemet:637",
+    "in_menu": false
+   },
+   "precipitation data/0033901601.csv::0033901601": {
+    "correct_runs": 2,
+    "preds": [
+     "gemet:637",
+     "mint:atmospheric-precipitation"
+    ],
+    "gold": "gemet:637",
+    "in_menu": false
+   }
+  },
+  "runs": [
+   {
+    "coverage": 1.0,
+    "n_pred": 37,
+    "n_spurious": 16,
+    "L0": 0.6190476190476191,
+    "L1": 0.6190476190476191,
+    "L1_strict": 0.65,
+    "reuse_mint": 0.6666666666666666,
+    "L2": 1.0,
+    "L3_f1": 0.9508196721311475,
+    "L3_p": 1.0,
+    "L3_r": 0.90625,
+    "L3_ari": 0.9424867628263648,
+    "L4": 0.5238095238095238,
+    "harmonization": 1.0,
+    "n_sensors": 11,
+    "n_properties": 10,
+    "property_sources": {
+     "gemet": 3,
+     "minted": 3,
+     "qudt": 4
+    },
+    "minted": [
+     "precipitation return period",
+     "total suspended solids",
+     "atmospheric precipitation"
+    ],
+    "demoted": 0,
+    "wrong_demotions": [],
+    "spurious": [
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::sum_0033900601",
+     "evaluations/precipitation_events.csv::sum_0033901401",
+     "evaluations/precipitation_events.csv::sum_0033901601",
+     "evaluations/precipitation_events.csv::sum_0033931602",
+     "evaluations/precipitation_events.csv::sum_0033970301",
+     "hydraulic data/inflow-digital.csv::flow_velocity"
+    ]
+   },
+   {
+    "coverage": 1.0,
+    "n_pred": 37,
+    "n_spurious": 16,
+    "L0": 0.6190476190476191,
+    "L1": 0.7619047619047619,
+    "L1_strict": 0.8,
+    "reuse_mint": 0.8095238095238095,
+    "L2": 1.0,
+    "L3_f1": 0.8363636363636363,
+    "L3_p": 1.0,
+    "L3_r": 0.71875,
+    "L3_ari": 0.812462790236158,
+    "L4": 0.5238095238095238,
+    "harmonization": 1.0,
+    "n_sensors": 12,
+    "n_properties": 9,
+    "property_sources": {
+     "gemet": 3,
+     "minted": 2,
+     "qudt": 4
+    },
+    "minted": [
+     "precipitation return period",
+     "total suspended solids"
+    ],
+    "demoted": 0,
+    "wrong_demotions": [],
+    "spurious": [
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::sum_0033900601",
+     "evaluations/precipitation_events.csv::sum_0033901401",
+     "evaluations/precipitation_events.csv::sum_0033901601",
+     "evaluations/precipitation_events.csv::sum_0033931602",
+     "evaluations/precipitation_events.csv::sum_0033970301",
+     "hydraulic data/inflow-digital.csv::flow_velocity"
+    ]
+   },
+   {
+    "coverage": 1.0,
+    "n_pred": 37,
+    "n_spurious": 16,
+    "L0": 0.6190476190476191,
+    "L1": 0.7619047619047619,
+    "L1_strict": 0.8,
+    "reuse_mint": 0.8095238095238095,
+    "L2": 1.0,
+    "L3_f1": 1.0,
+    "L3_p": 1.0,
+    "L3_r": 1.0,
+    "L3_ari": 1.0,
+    "L4": 0.0,
+    "harmonization": 1.0,
+    "n_sensors": 10,
+    "n_properties": 9,
+    "property_sources": {
+     "gemet": 3,
+     "minted": 2,
+     "qudt": 4
+    },
+    "minted": [
+     "precipitation return period",
+     "total suspended solids"
+    ],
+    "demoted": 0,
+    "wrong_demotions": [],
+    "spurious": [
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::sum_0033900601",
+     "evaluations/precipitation_events.csv::sum_0033901401",
+     "evaluations/precipitation_events.csv::sum_0033901601",
+     "evaluations/precipitation_events.csv::sum_0033931602",
+     "evaluations/precipitation_events.csv::sum_0033970301",
+     "hydraulic data/inflow-digital.csv::flow_velocity"
+    ]
+   }
+  ]
+ },
+ "enrich_k10": {
+  "pipeline": {
+   "model": "claude-sonnet-4-6",
+   "max_rows": 1000,
+   "retrieval_k": 10,
+   "enrich_enabled": true,
+   "enrich_include_metadata": true,
+   "enrich_model": "claude-sonnet-4-6",
+   "classify_columns": false
+  },
+  "repeats": 3,
+  "summary": {
+   "coverage": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "n_pred": {
+    "mean": 37,
+    "std": 0.0,
+    "runs": [
+     37,
+     37,
+     37
+    ]
+   },
+   "n_spurious": {
+    "mean": 16,
+    "std": 0.0,
+    "runs": [
+     16,
+     16,
+     16
+    ]
+   },
+   "L0": {
+    "mean": 0.8095238095238095,
+    "std": 0.0,
+    "runs": [
+     0.8095238095238095,
+     0.8095238095238095,
+     0.8095238095238095
+    ]
+   },
+   "L1": {
+    "mean": 0.5714285714285714,
+    "std": 0.0,
+    "runs": [
+     0.5714285714285714,
+     0.5714285714285714,
+     0.5714285714285714
+    ]
+   },
+   "L1_strict": {
+    "mean": 0.6,
+    "std": 0.0,
+    "runs": [
+     0.6,
+     0.6,
+     0.6
+    ]
+   },
+   "reuse_mint": {
+    "mean": 0.8095238095238095,
+    "std": 0.0,
+    "runs": [
+     0.8095238095238095,
+     0.8095238095238095,
+     0.8095238095238095
+    ]
+   },
+   "L2": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "L3_f1": {
+    "mean": 0.8909090909090909,
+    "std": 0.07713892158398702,
+    "runs": [
+     1.0,
+     0.8363636363636363,
+     0.8363636363636363
+    ]
+   },
+   "L3_p": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "L3_r": {
+    "mean": 0.8125,
+    "std": 0.13258252147247765,
+    "runs": [
+     1.0,
+     0.71875,
+     0.71875
+    ]
+   },
+   "L3_ari": {
+    "mean": 0.874975193490772,
+    "std": 0.08840588849921113,
+    "runs": [
+     1.0,
+     0.812462790236158,
+     0.812462790236158
+    ]
+   },
+   "L4": {
+    "mean": 0.34920634920634924,
+    "std": 0.24692617755720708,
+    "runs": [
+     0.5238095238095238,
+     0.0,
+     0.5238095238095238
+    ]
+   },
+   "harmonization": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "n_sensors": {
+    "mean": 10.666666666666666,
+    "std": 0.4714045207910317,
+    "runs": [
+     10,
+     11,
+     11
+    ]
+   },
+   "n_properties": {
+    "mean": 9,
+    "std": 0.0,
+    "runs": [
+     9,
+     9,
+     9
+    ]
+   },
+   "demoted": {
+    "mean": 0,
+    "std": 0.0,
+    "runs": [
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  "retrieval_only": {
+   "n": 21,
+   "top1_any": 0.5714285714285714,
+   "top1_gold_corpus": 0.6190476190476191
+  },
+  "stability": {
+   "hydraulic data/chamber.csv::water_level": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:9190"
+    ],
+    "gold": "gemet:9190",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-analogue.csv::flow_rate": {
+    "correct_runs": 3,
+    "preds": [
+     "qudt:VolumeFlowRate"
+    ],
+    "gold": "qudt:VolumeFlowRate",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-analogue.csv::flow_velocity": {
+    "correct_runs": 0,
+    "preds": [
+     "qudt:Velocity"
+    ],
+    "gold": "qudt:LinearVelocity",
+    "in_menu": false
+   },
+   "hydraulic data/inflow-analogue.csv::water_level": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:9190"
+    ],
+    "gold": "gemet:9190",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-digital.csv::flow_rate": {
+    "correct_runs": 3,
+    "preds": [
+     "qudt:VolumeFlowRate"
+    ],
+    "gold": "qudt:VolumeFlowRate",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-digital.csv::water_level": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:9190"
+    ],
+    "gold": "gemet:9190",
+    "in_menu": true
+   },
+   "hydraulic data/overflow.csv::flow_rate": {
+    "correct_runs": 3,
+    "preds": [
+     "qudt:VolumeFlowRate"
+    ],
+    "gold": "qudt:VolumeFlowRate",
+    "in_menu": true
+   },
+   "hydraulic data/overflow.csv::water_level": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:9190"
+    ],
+    "gold": "gemet:9190",
+    "in_menu": true
+   },
+   "lab data/samples.csv::COD1": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": true
+   },
+   "lab data/samples.csv::COD2": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": true
+   },
+   "lab data/samples.csv::COD3": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": true
+   },
+   "lab data/samples.csv::TSS1": {
+    "correct_runs": 0,
+    "preds": [
+     "mint:total-suspended-solids"
+    ],
+    "gold": "gemet:12220",
+    "in_menu": true
+   },
+   "lab data/samples.csv::TSS2": {
+    "correct_runs": 0,
+    "preds": [
+     "mint:total-suspended-solids"
+    ],
+    "gold": "gemet:12220",
+    "in_menu": true
+   },
+   "lab data/samples.csv::TSS3": {
+    "correct_runs": 0,
+    "preds": [
+     "mint:total-suspended-solids"
+    ],
+    "gold": "gemet:12220",
+    "in_menu": true
+   },
+   "pollutant data/calibrated.csv::COD": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": true
+   },
+   "pollutant data/spectrometer.csv::COD": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": true
+   },
+   "pollutant data/spectrometer.csv::TSS": {
+    "correct_runs": 0,
+    "preds": [
+     "mint:total-suspended-solids"
+    ],
+    "gold": "gemet:12220",
+    "in_menu": true
+   },
+   "pollutant data/spectrometer.csv::temperature": {
+    "correct_runs": 0,
+    "preds": [
+     "qudt:CelsiusTemperature"
+    ],
+    "gold": "qudt:Temperature",
+    "in_menu": true
+   },
+   "precipitation data/0033900601.csv::0033900601": {
+    "correct_runs": 0,
+    "preds": [
+     "gemet:6947"
+    ],
+    "gold": "gemet:637",
+    "in_menu": false
+   },
+   "precipitation data/0033901401.csv::0033901401": {
+    "correct_runs": 0,
+    "preds": [
+     "gemet:6947"
+    ],
+    "gold": "gemet:637",
+    "in_menu": false
+   },
+   "precipitation data/0033901601.csv::0033901601": {
+    "correct_runs": 0,
+    "preds": [
+     "gemet:6947"
+    ],
+    "gold": "gemet:637",
+    "in_menu": false
+   }
+  },
+  "runs": [
+   {
+    "coverage": 1.0,
+    "n_pred": 37,
+    "n_spurious": 16,
+    "L0": 0.8095238095238095,
+    "L1": 0.5714285714285714,
+    "L1_strict": 0.6,
+    "reuse_mint": 0.8095238095238095,
+    "L2": 1.0,
+    "L3_f1": 1.0,
+    "L3_p": 1.0,
+    "L3_r": 1.0,
+    "L3_ari": 1.0,
+    "L4": 0.5238095238095238,
+    "harmonization": 1.0,
+    "n_sensors": 10,
+    "n_properties": 9,
+    "property_sources": {
+     "gemet": 3,
+     "minted": 2,
+     "qudt": 4
+    },
+    "minted": [
+     "precipitation return period",
+     "total suspended solids"
+    ],
+    "demoted": 0,
+    "wrong_demotions": [],
+    "spurious": [
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::sum_0033900601",
+     "evaluations/precipitation_events.csv::sum_0033901401",
+     "evaluations/precipitation_events.csv::sum_0033901601",
+     "evaluations/precipitation_events.csv::sum_0033931602",
+     "evaluations/precipitation_events.csv::sum_0033970301",
+     "hydraulic data/inflow-digital.csv::flow_velocity"
+    ]
+   },
+   {
+    "coverage": 1.0,
+    "n_pred": 37,
+    "n_spurious": 16,
+    "L0": 0.8095238095238095,
+    "L1": 0.5714285714285714,
+    "L1_strict": 0.6,
+    "reuse_mint": 0.8095238095238095,
+    "L2": 1.0,
+    "L3_f1": 0.8363636363636363,
+    "L3_p": 1.0,
+    "L3_r": 0.71875,
+    "L3_ari": 0.812462790236158,
+    "L4": 0.0,
+    "harmonization": 1.0,
+    "n_sensors": 11,
+    "n_properties": 9,
+    "property_sources": {
+     "gemet": 3,
+     "minted": 2,
+     "qudt": 4
+    },
+    "minted": [
+     "precipitation return period",
+     "total suspended solids"
+    ],
+    "demoted": 0,
+    "wrong_demotions": [],
+    "spurious": [
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::sum_0033900601",
+     "evaluations/precipitation_events.csv::sum_0033901401",
+     "evaluations/precipitation_events.csv::sum_0033901601",
+     "evaluations/precipitation_events.csv::sum_0033931602",
+     "evaluations/precipitation_events.csv::sum_0033970301",
+     "hydraulic data/inflow-digital.csv::flow_velocity"
+    ]
+   },
+   {
+    "coverage": 1.0,
+    "n_pred": 37,
+    "n_spurious": 16,
+    "L0": 0.8095238095238095,
+    "L1": 0.5714285714285714,
+    "L1_strict": 0.6,
+    "reuse_mint": 0.8095238095238095,
+    "L2": 1.0,
+    "L3_f1": 0.8363636363636363,
+    "L3_p": 1.0,
+    "L3_r": 0.71875,
+    "L3_ari": 0.812462790236158,
+    "L4": 0.5238095238095238,
+    "harmonization": 1.0,
+    "n_sensors": 11,
+    "n_properties": 9,
+    "property_sources": {
+     "gemet": 3,
+     "minted": 2,
+     "qudt": 4
+    },
+    "minted": [
+     "precipitation return period",
+     "total suspended solids"
+    ],
+    "demoted": 0,
+    "wrong_demotions": [],
+    "spurious": [
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::sum_0033900601",
+     "evaluations/precipitation_events.csv::sum_0033901401",
+     "evaluations/precipitation_events.csv::sum_0033901601",
+     "evaluations/precipitation_events.csv::sum_0033931602",
+     "evaluations/precipitation_events.csv::sum_0033970301",
+     "hydraulic data/inflow-digital.csv::flow_velocity"
+    ]
+   }
+  ]
+ },
+ "enrich_k30": {
+  "pipeline": {
+   "model": "claude-sonnet-4-6",
+   "max_rows": 1000,
+   "retrieval_k": 30,
+   "enrich_enabled": true,
+   "enrich_include_metadata": true,
+   "enrich_model": "claude-sonnet-4-6",
+   "classify_columns": false
+  },
+  "repeats": 3,
+  "summary": {
+   "coverage": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "n_pred": {
+    "mean": 37,
+    "std": 0.0,
+    "runs": [
+     37,
+     37,
+     37
+    ]
+   },
+   "n_spurious": {
+    "mean": 16,
+    "std": 0.0,
+    "runs": [
+     16,
+     16,
+     16
+    ]
+   },
+   "L0": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "L1": {
+    "mean": 0.7142857142857143,
+    "std": 0.0,
+    "runs": [
+     0.7142857142857143,
+     0.7142857142857143,
+     0.7142857142857143
+    ]
+   },
+   "L1_strict": {
+    "mean": 0.75,
+    "std": 0.0,
+    "runs": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "reuse_mint": {
+    "mean": 0.8095238095238095,
+    "std": 0.0,
+    "runs": [
+     0.8095238095238095,
+     0.8095238095238095,
+     0.8095238095238095
+    ]
+   },
+   "L2": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "L3_f1": {
+    "mean": 0.9836065573770492,
+    "std": 0.02318382889136224,
+    "runs": [
+     1.0,
+     1.0,
+     0.9508196721311475
+    ]
+   },
+   "L3_p": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "L3_r": {
+    "mean": 0.96875,
+    "std": 0.04419417382415922,
+    "runs": [
+     1.0,
+     1.0,
+     0.90625
+    ]
+   },
+   "L3_ari": {
+    "mean": 0.9808289209421216,
+    "std": 0.027112000008978458,
+    "runs": [
+     1.0,
+     1.0,
+     0.9424867628263648
+    ]
+   },
+   "L4": {
+    "mean": 0.0,
+    "std": 0.0,
+    "runs": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "harmonization": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "n_sensors": {
+    "mean": 10.333333333333334,
+    "std": 0.4714045207910317,
+    "runs": [
+     10,
+     10,
+     11
+    ]
+   },
+   "n_properties": {
+    "mean": 9,
+    "std": 0.0,
+    "runs": [
+     9,
+     9,
+     9
+    ]
+   },
+   "demoted": {
+    "mean": 0,
+    "std": 0.0,
+    "runs": [
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  "retrieval_only": {
+   "n": 21,
+   "top1_any": 0.5714285714285714,
+   "top1_gold_corpus": 0.6190476190476191
+  },
+  "stability": {
+   "hydraulic data/chamber.csv::water_level": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:9190"
+    ],
+    "gold": "gemet:9190",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-analogue.csv::flow_rate": {
+    "correct_runs": 3,
+    "preds": [
+     "qudt:VolumeFlowRate"
+    ],
+    "gold": "qudt:VolumeFlowRate",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-analogue.csv::flow_velocity": {
+    "correct_runs": 0,
+    "preds": [
+     "qudt:Velocity"
+    ],
+    "gold": "qudt:LinearVelocity",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-analogue.csv::water_level": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:9190"
+    ],
+    "gold": "gemet:9190",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-digital.csv::flow_rate": {
+    "correct_runs": 3,
+    "preds": [
+     "qudt:VolumeFlowRate"
+    ],
+    "gold": "qudt:VolumeFlowRate",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-digital.csv::water_level": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:9190"
+    ],
+    "gold": "gemet:9190",
+    "in_menu": true
+   },
+   "hydraulic data/overflow.csv::flow_rate": {
+    "correct_runs": 3,
+    "preds": [
+     "qudt:VolumeFlowRate"
+    ],
+    "gold": "qudt:VolumeFlowRate",
+    "in_menu": true
+   },
+   "hydraulic data/overflow.csv::water_level": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:9190"
+    ],
+    "gold": "gemet:9190",
+    "in_menu": true
+   },
+   "lab data/samples.csv::COD1": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": true
+   },
+   "lab data/samples.csv::COD2": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": true
+   },
+   "lab data/samples.csv::COD3": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": true
+   },
+   "lab data/samples.csv::TSS1": {
+    "correct_runs": 0,
+    "preds": [
+     "mint:total-suspended-solids"
+    ],
+    "gold": "gemet:12220",
+    "in_menu": true
+   },
+   "lab data/samples.csv::TSS2": {
+    "correct_runs": 0,
+    "preds": [
+     "mint:total-suspended-solids"
+    ],
+    "gold": "gemet:12220",
+    "in_menu": true
+   },
+   "lab data/samples.csv::TSS3": {
+    "correct_runs": 0,
+    "preds": [
+     "mint:total-suspended-solids"
+    ],
+    "gold": "gemet:12220",
+    "in_menu": true
+   },
+   "pollutant data/calibrated.csv::COD": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": true
+   },
+   "pollutant data/spectrometer.csv::COD": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": true
+   },
+   "pollutant data/spectrometer.csv::TSS": {
+    "correct_runs": 0,
+    "preds": [
+     "mint:total-suspended-solids"
+    ],
+    "gold": "gemet:12220",
+    "in_menu": true
+   },
+   "pollutant data/spectrometer.csv::temperature": {
+    "correct_runs": 0,
+    "preds": [
+     "qudt:CelsiusTemperature"
+    ],
+    "gold": "qudt:Temperature",
+    "in_menu": true
+   },
+   "precipitation data/0033900601.csv::0033900601": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:637"
+    ],
+    "gold": "gemet:637",
+    "in_menu": true
+   },
+   "precipitation data/0033901401.csv::0033901401": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:637"
+    ],
+    "gold": "gemet:637",
+    "in_menu": true
+   },
+   "precipitation data/0033901601.csv::0033901601": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:637"
+    ],
+    "gold": "gemet:637",
+    "in_menu": true
+   }
+  },
+  "runs": [
+   {
+    "coverage": 1.0,
+    "n_pred": 37,
+    "n_spurious": 16,
+    "L0": 1.0,
+    "L1": 0.7142857142857143,
+    "L1_strict": 0.75,
+    "reuse_mint": 0.8095238095238095,
+    "L2": 1.0,
+    "L3_f1": 1.0,
+    "L3_p": 1.0,
+    "L3_r": 1.0,
+    "L3_ari": 1.0,
+    "L4": 0.0,
+    "harmonization": 1.0,
+    "n_sensors": 10,
+    "n_properties": 9,
+    "property_sources": {
+     "gemet": 3,
+     "minted": 2,
+     "qudt": 4
+    },
+    "minted": [
+     "precipitation return period",
+     "total suspended solids"
+    ],
+    "demoted": 0,
+    "wrong_demotions": [],
+    "spurious": [
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::sum_0033900601",
+     "evaluations/precipitation_events.csv::sum_0033901401",
+     "evaluations/precipitation_events.csv::sum_0033901601",
+     "evaluations/precipitation_events.csv::sum_0033931602",
+     "evaluations/precipitation_events.csv::sum_0033970301",
+     "hydraulic data/inflow-digital.csv::flow_velocity"
+    ]
+   },
+   {
+    "coverage": 1.0,
+    "n_pred": 37,
+    "n_spurious": 16,
+    "L0": 1.0,
+    "L1": 0.7142857142857143,
+    "L1_strict": 0.75,
+    "reuse_mint": 0.8095238095238095,
+    "L2": 1.0,
+    "L3_f1": 1.0,
+    "L3_p": 1.0,
+    "L3_r": 1.0,
+    "L3_ari": 1.0,
+    "L4": 0.0,
+    "harmonization": 1.0,
+    "n_sensors": 10,
+    "n_properties": 9,
+    "property_sources": {
+     "gemet": 3,
+     "minted": 2,
+     "qudt": 4
+    },
+    "minted": [
+     "precipitation return period",
+     "total suspended solids"
+    ],
+    "demoted": 0,
+    "wrong_demotions": [],
+    "spurious": [
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::sum_0033900601",
+     "evaluations/precipitation_events.csv::sum_0033901401",
+     "evaluations/precipitation_events.csv::sum_0033901601",
+     "evaluations/precipitation_events.csv::sum_0033931602",
+     "evaluations/precipitation_events.csv::sum_0033970301",
+     "hydraulic data/inflow-digital.csv::flow_velocity"
+    ]
+   },
+   {
+    "coverage": 1.0,
+    "n_pred": 37,
+    "n_spurious": 16,
+    "L0": 1.0,
+    "L1": 0.7142857142857143,
+    "L1_strict": 0.75,
+    "reuse_mint": 0.8095238095238095,
+    "L2": 1.0,
+    "L3_f1": 0.9508196721311475,
+    "L3_p": 1.0,
+    "L3_r": 0.90625,
+    "L3_ari": 0.9424867628263648,
+    "L4": 0.0,
+    "harmonization": 1.0,
+    "n_sensors": 11,
+    "n_properties": 9,
+    "property_sources": {
+     "gemet": 3,
+     "minted": 2,
+     "qudt": 4
+    },
+    "minted": [
+     "precipitation return period",
+     "total suspended solids"
+    ],
+    "demoted": 0,
+    "wrong_demotions": [],
+    "spurious": [
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::duration_at_max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::max_return_period_0033900601",
+     "evaluations/precipitation_events.csv::max_return_period_0033901401",
+     "evaluations/precipitation_events.csv::max_return_period_0033901601",
+     "evaluations/precipitation_events.csv::max_return_period_0033931602",
+     "evaluations/precipitation_events.csv::max_return_period_0033970301",
+     "evaluations/precipitation_events.csv::sum_0033900601",
+     "evaluations/precipitation_events.csv::sum_0033901401",
+     "evaluations/precipitation_events.csv::sum_0033901601",
+     "evaluations/precipitation_events.csv::sum_0033931602",
+     "evaluations/precipitation_events.csv::sum_0033970301",
+     "hydraulic data/inflow-digital.csv::flow_velocity"
+    ]
+   }
+  ]
+ },
+ "main": {
+  "pipeline": {
+   "model": "claude-sonnet-4-6",
+   "max_rows": 1000,
+   "retrieval_k": 30,
+   "enrich_enabled": true,
+   "enrich_include_metadata": true,
+   "enrich_model": "claude-sonnet-4-6",
+   "classify_columns": true
+  },
+  "repeats": 3,
+  "summary": {
+   "coverage": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "n_pred": {
+    "mean": 22,
+    "std": 0.0,
+    "runs": [
+     22,
+     22,
+     22
+    ]
+   },
+   "n_spurious": {
+    "mean": 1,
+    "std": 0.0,
+    "runs": [
+     1,
+     1,
+     1
+    ]
+   },
+   "L0": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "L1": {
+    "mean": 0.7142857142857143,
+    "std": 0.0,
+    "runs": [
+     0.7142857142857143,
+     0.7142857142857143,
+     0.7142857142857143
+    ]
+   },
+   "L1_strict": {
+    "mean": 0.75,
+    "std": 0.0,
+    "runs": [
+     0.75,
+     0.75,
+     0.75
+    ]
+   },
+   "reuse_mint": {
+    "mean": 0.8095238095238095,
+    "std": 0.0,
+    "runs": [
+     0.8095238095238095,
+     0.8095238095238095,
+     0.8095238095238095
+    ]
+   },
+   "L2": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "L3_f1": {
+    "mean": 0.8363636363636363,
+    "std": 0.0,
+    "runs": [
+     0.8363636363636363,
+     0.8363636363636363,
+     0.8363636363636363
+    ]
+   },
+   "L3_p": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "L3_r": {
+    "mean": 0.71875,
+    "std": 0.0,
+    "runs": [
+     0.71875,
+     0.71875,
+     0.71875
+    ]
+   },
+   "L3_ari": {
+    "mean": 0.812462790236158,
+    "std": 0.0,
+    "runs": [
+     0.812462790236158,
+     0.812462790236158,
+     0.812462790236158
+    ]
+   },
+   "L4": {
+    "mean": 0.34920634920634924,
+    "std": 0.24692617755720708,
+    "runs": [
+     0.5238095238095238,
+     0.5238095238095238,
+     0.0
+    ]
+   },
+   "harmonization": {
+    "mean": 1.0,
+    "std": 0.0,
+    "runs": [
+     1.0,
+     1.0,
+     1.0
+    ]
+   },
+   "n_sensors": {
+    "mean": 9,
+    "std": 0.0,
+    "runs": [
+     9,
+     9,
+     9
+    ]
+   },
+   "n_properties": {
+    "mean": 7,
+    "std": 0.0,
+    "runs": [
+     7,
+     7,
+     7
+    ]
+   },
+   "demoted": {
+    "mean": 15,
+    "std": 0.0,
+    "runs": [
+     15,
+     15,
+     15
+    ]
+   }
+  },
+  "retrieval_only": {
+   "n": 21,
+   "top1_any": 0.5714285714285714,
+   "top1_gold_corpus": 0.6190476190476191
+  },
+  "stability": {
+   "hydraulic data/chamber.csv::water_level": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:9190"
+    ],
+    "gold": "gemet:9190",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-analogue.csv::flow_rate": {
+    "correct_runs": 3,
+    "preds": [
+     "qudt:VolumeFlowRate"
+    ],
+    "gold": "qudt:VolumeFlowRate",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-analogue.csv::flow_velocity": {
+    "correct_runs": 0,
+    "preds": [
+     "qudt:Velocity"
+    ],
+    "gold": "qudt:LinearVelocity",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-analogue.csv::water_level": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:9190"
+    ],
+    "gold": "gemet:9190",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-digital.csv::flow_rate": {
+    "correct_runs": 3,
+    "preds": [
+     "qudt:VolumeFlowRate"
+    ],
+    "gold": "qudt:VolumeFlowRate",
+    "in_menu": true
+   },
+   "hydraulic data/inflow-digital.csv::water_level": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:9190"
+    ],
+    "gold": "gemet:9190",
+    "in_menu": true
+   },
+   "hydraulic data/overflow.csv::flow_rate": {
+    "correct_runs": 3,
+    "preds": [
+     "qudt:VolumeFlowRate"
+    ],
+    "gold": "qudt:VolumeFlowRate",
+    "in_menu": true
+   },
+   "hydraulic data/overflow.csv::water_level": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:9190"
+    ],
+    "gold": "gemet:9190",
+    "in_menu": true
+   },
+   "lab data/samples.csv::COD1": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": true
+   },
+   "lab data/samples.csv::COD2": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": true
+   },
+   "lab data/samples.csv::COD3": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": true
+   },
+   "lab data/samples.csv::TSS1": {
+    "correct_runs": 0,
+    "preds": [
+     "mint:total-suspended-solids"
+    ],
+    "gold": "gemet:12220",
+    "in_menu": true
+   },
+   "lab data/samples.csv::TSS2": {
+    "correct_runs": 0,
+    "preds": [
+     "mint:total-suspended-solids"
+    ],
+    "gold": "gemet:12220",
+    "in_menu": true
+   },
+   "lab data/samples.csv::TSS3": {
+    "correct_runs": 0,
+    "preds": [
+     "mint:total-suspended-solids"
+    ],
+    "gold": "gemet:12220",
+    "in_menu": true
+   },
+   "pollutant data/calibrated.csv::COD": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": true
+   },
+   "pollutant data/spectrometer.csv::COD": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:1536"
+    ],
+    "gold": "gemet:1536",
+    "in_menu": true
+   },
+   "pollutant data/spectrometer.csv::TSS": {
+    "correct_runs": 0,
+    "preds": [
+     "mint:total-suspended-solids"
+    ],
+    "gold": "gemet:12220",
+    "in_menu": true
+   },
+   "pollutant data/spectrometer.csv::temperature": {
+    "correct_runs": 0,
+    "preds": [
+     "qudt:CelsiusTemperature"
+    ],
+    "gold": "qudt:Temperature",
+    "in_menu": true
+   },
+   "precipitation data/0033900601.csv::0033900601": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:637"
+    ],
+    "gold": "gemet:637",
+    "in_menu": true
+   },
+   "precipitation data/0033901401.csv::0033901401": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:637"
+    ],
+    "gold": "gemet:637",
+    "in_menu": true
+   },
+   "precipitation data/0033901601.csv::0033901601": {
+    "correct_runs": 3,
+    "preds": [
+     "gemet:637"
+    ],
+    "gold": "gemet:637",
+    "in_menu": true
+   }
+  },
+  "runs": [
+   {
+    "coverage": 1.0,
+    "n_pred": 22,
+    "n_spurious": 1,
+    "L0": 1.0,
+    "L1": 0.7142857142857143,
+    "L1_strict": 0.75,
+    "reuse_mint": 0.8095238095238095,
+    "L2": 1.0,
+    "L3_f1": 0.8363636363636363,
+    "L3_p": 1.0,
+    "L3_r": 0.71875,
+    "L3_ari": 0.812462790236158,
+    "L4": 0.5238095238095238,
+    "harmonization": 1.0,
+    "n_sensors": 9,
+    "n_properties": 7,
+    "property_sources": {
+     "gemet": 3,
+     "qudt": 3,
+     "minted": 1
+    },
+    "minted": [
+     "total suspended solids"
+    ],
+    "demoted": 15,
+    "wrong_demotions": [],
+    "spurious": [
+     "hydraulic data/inflow-digital.csv::flow_velocity"
+    ]
+   },
+   {
+    "coverage": 1.0,
+    "n_pred": 22,
+    "n_spurious": 1,
+    "L0": 1.0,
+    "L1": 0.7142857142857143,
+    "L1_strict": 0.75,
+    "reuse_mint": 0.8095238095238095,
+    "L2": 1.0,
+    "L3_f1": 0.8363636363636363,
+    "L3_p": 1.0,
+    "L3_r": 0.71875,
+    "L3_ari": 0.812462790236158,
+    "L4": 0.5238095238095238,
+    "harmonization": 1.0,
+    "n_sensors": 9,
+    "n_properties": 7,
+    "property_sources": {
+     "gemet": 3,
+     "qudt": 3,
+     "minted": 1
+    },
+    "minted": [
+     "total suspended solids"
+    ],
+    "demoted": 15,
+    "wrong_demotions": [],
+    "spurious": [
+     "hydraulic data/inflow-digital.csv::flow_velocity"
+    ]
+   },
+   {
+    "coverage": 1.0,
+    "n_pred": 22,
+    "n_spurious": 1,
+    "L0": 1.0,
+    "L1": 0.7142857142857143,
+    "L1_strict": 0.75,
+    "reuse_mint": 0.8095238095238095,
+    "L2": 1.0,
+    "L3_f1": 0.8363636363636363,
+    "L3_p": 1.0,
+    "L3_r": 0.71875,
+    "L3_ari": 0.812462790236158,
+    "L4": 0.0,
+    "harmonization": 1.0,
+    "n_sensors": 9,
+    "n_properties": 7,
+    "property_sources": {
+     "gemet": 3,
+     "qudt": 3,
+     "minted": 1
+    },
+    "minted": [
+     "total suspended solids"
+    ],
+    "demoted": 15,
+    "wrong_demotions": [],
+    "spurious": [
+     "hydraulic data/inflow-digital.csv::flow_velocity"
+    ]
+   }
+  ]
+ }
+}

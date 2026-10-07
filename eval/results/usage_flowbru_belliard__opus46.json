@@ -1,0 +1,29 @@
+[
+ {
+  "model": "claude-sonnet-4-6",
+  "tool": "enrich_queries",
+  "seconds": 4.5,
+  "input_tokens": 25,
+  "output_tokens": 359,
+  "cache_write": 1435,
+  "cache_read": 0
+ },
+ {
+  "model": "claude-opus-4-6",
+  "tool": "resolve_dataset",
+  "seconds": 23.7,
+  "input_tokens": 24,
+  "output_tokens": 2396,
+  "cache_write": 27147,
+  "cache_read": 0
+ },
+ {
+  "model": "claude-opus-4-6",
+  "tool": "resolve_dataset",
+  "seconds": 23.6,
+  "input_tokens": 24,
+  "output_tokens": 2396,
+  "cache_write": 0,
+  "cache_read": 27147
+ }
+]

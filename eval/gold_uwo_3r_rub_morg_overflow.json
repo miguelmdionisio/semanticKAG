@@ -1,0 +1,19 @@
+{
+ "dataset": "uwo_3r_rub_morg_overflow",
+ "root": "data\\04 - UWO\\wide\\3r_rub_morg_overflow",
+ "observations": [
+  {
+   "type": "flow_rate",
+   "file": "bf_plsRKBM1101_3r_rub_morg_overflow.csv",
+   "column": "flow_rate",
+   "sensor": "bf_plsRKBM1101_3r_rub_morg_overflow",
+   "observedProperty": "qudt:VolumeFlowRate",
+   "decision": "reuse",
+   "unit": "unit:L-PER-SEC",
+   "feature": "3r_rub_morg_overflow",
+   "feature_gwsw": "gwsw:Overstortleiding",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  }
+ ]
+}

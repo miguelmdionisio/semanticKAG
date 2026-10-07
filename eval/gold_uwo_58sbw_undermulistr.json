@@ -1,0 +1,71 @@
+{
+ "dataset": "uwo_58sbw_undermulistr",
+ "root": "data\\04 - UWO\\wide\\58sbw_undermulistr",
+ "observations": [
+  {
+   "type": "water_level",
+   "file": "bl_ceb5f_58sbw_undermulistr.csv",
+   "column": "water_level",
+   "sensor": "bl_ceb5f_58sbw_undermulistr",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "58sbw_undermulistr",
+   "feature_gwsw": "gwsw:Overstortconstructie",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "water_temperature",
+   "file": "bt_dl937_58sbw_undermulistr.csv",
+   "column": "water_temperature",
+   "sensor": "bt_dl937_58sbw_undermulistr",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "58sbw_undermulistr",
+   "feature_gwsw": "gwsw:Overstortconstructie",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "headspace_temperature",
+   "file": "bt_dl937_58sbw_undermulistr.csv",
+   "column": "headspace_temperature",
+   "sensor": "bt_dl937_58sbw_undermulistr",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "58sbw_undermulistr",
+   "feature_gwsw": "gwsw:Overstortconstructie",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). sewer headspace air temperature"
+  },
+  {
+   "type": "overflow_temperature",
+   "file": "bm_dl892_58sbw_undermulistr.csv",
+   "column": "overflow_temperature",
+   "sensor": "bm_dl892_58sbw_undermulistr",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "58sbw_undermulistr",
+   "feature_gwsw": "gwsw:Overstortconstructie",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "dielectric_permittivity",
+   "file": "bm_dl892_58sbw_undermulistr.csv",
+   "column": "dielectric_permittivity",
+   "sensor": "bm_dl892_58sbw_undermulistr",
+   "observedProperty": "qudt:RelativePermittivity",
+   "decision": "reuse",
+   "unit": "unit:UNITLESS",
+   "feature": "58sbw_undermulistr",
+   "feature_gwsw": "gwsw:Overstortconstructie",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). dimensionless (soil-moisture proxy)"
+  }
+ ]
+}

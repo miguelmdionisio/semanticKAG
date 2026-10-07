@@ -1,0 +1,19 @@
+{
+ "dataset": "uwo_airport_speck",
+ "root": "data\\04 - UWO\\wide\\airport_speck",
+ "observations": [
+  {
+   "type": "rainfall_intensity",
+   "file": "bn_r04_airport_speck.csv",
+   "column": "rainfall_intensity",
+   "sensor": "bn_r04_airport_speck",
+   "observedProperty": "ex:property/rainfall-intensity",
+   "decision": "mint",
+   "unit": "unit:MilliM-PER-HR",
+   "feature": "airport_speck",
+   "feature_gwsw": null,
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). FoI = physical sensor site (per decision); measurand is atmospheric, not the site. No QUDT/GEMET rainfall-intensity concept."
+  }
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "dataset": "uwo_rubpw80sbwbasin_industry",
+ "root": "data\\04 - UWO\\wide\\rubpw80sbwbasin_industry",
+ "observations": [
+  {
+   "type": "water_level",
+   "file": "bl_lm064_rubpw80sbwbasin_industry.csv",
+   "column": "water_level",
+   "sensor": "bl_lm064_rubpw80sbwbasin_industry",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "rubpw80sbwbasin_industry",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "dielectric_permittivity",
+   "file": "bm_lm085_rubpw80sbwbasin_industry.csv",
+   "column": "dielectric_permittivity",
+   "sensor": "bm_lm085_rubpw80sbwbasin_industry",
+   "observedProperty": "qudt:RelativePermittivity",
+   "decision": "reuse",
+   "unit": "unit:UNITLESS",
+   "feature": "rubpw80sbwbasin_industry",
+   "feature_gwsw": "gwsw:Bergbezinkbassin",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). dimensionless (soil-moisture proxy)"
+  }
+ ]
+}

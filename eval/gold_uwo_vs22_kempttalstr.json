@@ -1,0 +1,71 @@
+{
+ "dataset": "uwo_vs22_kempttalstr",
+ "root": "data\\04 - UWO\\wide\\vs22_kempttalstr",
+ "observations": [
+  {
+   "type": "water_temperature",
+   "file": "bt_dl931_vs22_kempttalstr.csv",
+   "column": "water_temperature",
+   "sensor": "bt_dl931_vs22_kempttalstr",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "vs22_kempttalstr",
+   "feature_gwsw": "gwsw:Overstortconstructie",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "headspace_temperature",
+   "file": "bt_dl931_vs22_kempttalstr.csv",
+   "column": "headspace_temperature",
+   "sensor": "bt_dl931_vs22_kempttalstr",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "vs22_kempttalstr",
+   "feature_gwsw": "gwsw:Overstortconstructie",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). sewer headspace air temperature"
+  },
+  {
+   "type": "overflow_temperature",
+   "file": "bm_dl333_vs22_kempttalstr.csv",
+   "column": "overflow_temperature",
+   "sensor": "bm_dl333_vs22_kempttalstr",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "vs22_kempttalstr",
+   "feature_gwsw": "gwsw:Overstortconstructie",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  },
+  {
+   "type": "dielectric_permittivity",
+   "file": "bm_dl333_vs22_kempttalstr.csv",
+   "column": "dielectric_permittivity",
+   "sensor": "bm_dl333_vs22_kempttalstr",
+   "observedProperty": "qudt:RelativePermittivity",
+   "decision": "reuse",
+   "unit": "unit:UNITLESS",
+   "feature": "vs22_kempttalstr",
+   "feature_gwsw": "gwsw:Overstortconstructie",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). dimensionless (soil-moisture proxy)"
+  },
+  {
+   "type": "water_level",
+   "file": "bl_ce463_vs22_kempttalstr.csv",
+   "column": "water_level",
+   "sensor": "bl_ce463_vs22_kempttalstr",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "vs22_kempttalstr",
+   "feature_gwsw": "gwsw:Overstortconstructie",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  }
+ ]
+}

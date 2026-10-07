@@ -1,0 +1,551 @@
+{
+ "temperature": 0.0,
+ "n": 22,
+ "recall": {
+  "raw/hybrid": {
+   "1": 0.13636363636363635,
+   "5": 0.3181818181818182,
+   "10": 0.3181818181818182,
+   "20": 0.36363636363636365,
+   "30": 0.4090909090909091,
+   "50": 0.45454545454545453
+  },
+  "raw+meta/dense": {
+   "1": 0.13636363636363635,
+   "5": 0.3181818181818182,
+   "10": 0.4090909090909091,
+   "20": 0.5454545454545454,
+   "30": 0.6363636363636364,
+   "50": 0.7272727272727273
+  },
+  "raw+meta/bm25": {
+   "1": 0.13636363636363635,
+   "5": 0.3181818181818182,
+   "10": 0.5,
+   "20": 0.5909090909090909,
+   "30": 0.5909090909090909,
+   "50": 0.5909090909090909
+  },
+  "raw+meta/hybrid": {
+   "1": 0.36363636363636365,
+   "5": 0.45454545454545453,
+   "10": 0.5,
+   "20": 0.5454545454545454,
+   "30": 0.6363636363636364,
+   "50": 0.7727272727272727
+  },
+  "enr/hybrid": {
+   "1": 0.36363636363636365,
+   "5": 0.7727272727272727,
+   "10": 0.7727272727272727,
+   "20": 1.0,
+   "30": 1.0,
+   "50": 1.0
+  },
+  "enr+meta/dense": {
+   "1": 0.6363636363636364,
+   "5": 0.6818181818181818,
+   "10": 0.8636363636363636,
+   "20": 0.9545454545454546,
+   "30": 1.0,
+   "50": 1.0
+  },
+  "enr+meta/bm25": {
+   "1": 0.09090909090909091,
+   "5": 0.7272727272727273,
+   "10": 0.7272727272727273,
+   "20": 0.8636363636363636,
+   "30": 0.8636363636363636,
+   "50": 0.8636363636363636
+  },
+  "enr+meta/hybrid": {
+   "1": 0.5909090909090909,
+   "5": 0.8181818181818182,
+   "10": 0.8636363636363636,
+   "20": 0.8636363636363636,
+   "30": 1.0,
+   "50": 1.0
+  },
+  "raw+meta+unit/hybrid": {
+   "1": 0.3181818181818182,
+   "5": 0.4090909090909091,
+   "10": 0.5,
+   "20": 0.5454545454545454,
+   "30": 0.7272727272727273,
+   "50": 0.7727272727272727
+  },
+  "raw+meta+unit+desc/hybrid": {
+   "1": 0.13636363636363635,
+   "5": 0.36363636363636365,
+   "10": 0.45454545454545453,
+   "20": 0.5,
+   "30": 0.5454545454545454,
+   "50": 0.7272727272727273
+  },
+  "enr+meta+unit/hybrid": {
+   "1": 0.5909090909090909,
+   "5": 0.7272727272727273,
+   "10": 0.8636363636363636,
+   "20": 0.8636363636363636,
+   "30": 1.0,
+   "50": 1.0
+  }
+ },
+ "enrichment": {
+  "columns": 37,
+  "identical_3_runs": 32,
+  "identical_with_without_metadata": 37,
+  "differing": {
+   "evaluations/precipitation_events.csv::duration_at_max_return_period_0033900601": {
+    "meta_1": "precipitation event duration",
+    "meta_2": "precipitation duration",
+    "meta_3": "precipitation duration",
+    "nometa": "precipitation event duration"
+   },
+   "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901401": {
+    "meta_1": "precipitation event duration",
+    "meta_2": "precipitation duration",
+    "meta_3": "precipitation duration",
+    "nometa": "precipitation event duration"
+   },
+   "evaluations/precipitation_events.csv::duration_at_max_return_period_0033901601": {
+    "meta_1": "precipitation event duration",
+    "meta_2": "precipitation duration",
+    "meta_3": "precipitation duration",
+    "nometa": "precipitation event duration"
+   },
+   "evaluations/precipitation_events.csv::duration_at_max_return_period_0033931602": {
+    "meta_1": "precipitation event duration",
+    "meta_2": "precipitation duration",
+    "meta_3": "precipitation duration",
+    "nometa": "precipitation event duration"
+   },
+   "evaluations/precipitation_events.csv::duration_at_max_return_period_0033970301": {
+    "meta_1": "precipitation event duration",
+    "meta_2": "precipitation duration",
+    "meta_3": "precipitation duration",
+    "nometa": "precipitation event duration"
+   }
+  }
+ },
+ "rows": [
+  {
+   "key": "hydraulic data/chamber.csv::water_level",
+   "gold": "gemet:9190",
+   "phrase": "water level",
+   "unit": "m",
+   "ranks": {
+    "raw/hybrid": 3,
+    "raw+meta/dense": 1,
+    "raw+meta/bm25": 6,
+    "raw+meta/hybrid": 1,
+    "enr/hybrid": 2,
+    "enr+meta/dense": 1,
+    "enr+meta/bm25": 5,
+    "enr+meta/hybrid": 1,
+    "raw+meta+unit/hybrid": 1,
+    "raw+meta+unit+desc/hybrid": 1,
+    "enr+meta+unit/hybrid": 1
+   }
+  },
+  {
+   "key": "hydraulic data/inflow-analogue.csv::flow_rate",
+   "gold": "qudt:VolumeFlowRate",
+   "phrase": "volumetric flow rate",
+   "unit": "L/s",
+   "ranks": {
+    "raw/hybrid": 1,
+    "raw+meta/dense": 21,
+    "raw+meta/bm25": 1,
+    "raw+meta/hybrid": 5,
+    "enr/hybrid": 1,
+    "enr+meta/dense": 1,
+    "enr+meta/bm25": 2,
+    "enr+meta/hybrid": 1,
+    "raw+meta+unit/hybrid": 6,
+    "raw+meta+unit+desc/hybrid": 8,
+    "enr+meta+unit/hybrid": 1
+   }
+  },
+  {
+   "key": "hydraulic data/inflow-analogue.csv::flow_velocity",
+   "gold": "qudt:Velocity",
+   "phrase": "flow velocity",
+   "unit": "m/s",
+   "ranks": {
+    "raw/hybrid": 32,
+    "raw+meta/dense": 109,
+    "raw+meta/bm25": 13,
+    "raw+meta/hybrid": 22,
+    "enr/hybrid": 11,
+    "enr+meta/dense": 6,
+    "enr+meta/bm25": 13,
+    "enr+meta/hybrid": 5,
+    "raw+meta+unit/hybrid": 21,
+    "raw+meta+unit+desc/hybrid": 44,
+    "enr+meta+unit/hybrid": 6
+   }
+  },
+  {
+   "key": "hydraulic data/inflow-analogue.csv::water_level",
+   "gold": "gemet:9190",
+   "phrase": "water level",
+   "unit": "m",
+   "ranks": {
+    "raw/hybrid": 4,
+    "raw+meta/dense": 4,
+    "raw+meta/bm25": 5,
+    "raw+meta/hybrid": 1,
+    "enr/hybrid": 2,
+    "enr+meta/dense": 1,
+    "enr+meta/bm25": 5,
+    "enr+meta/hybrid": 1,
+    "raw+meta+unit/hybrid": 1,
+    "raw+meta+unit+desc/hybrid": 4,
+    "enr+meta+unit/hybrid": 1
+   }
+  },
+  {
+   "key": "hydraulic data/inflow-digital.csv::flow_rate",
+   "gold": "qudt:VolumeFlowRate",
+   "phrase": "volumetric flow rate",
+   "unit": "L/s",
+   "ranks": {
+    "raw/hybrid": 1,
+    "raw+meta/dense": 8,
+    "raw+meta/bm25": 1,
+    "raw+meta/hybrid": 1,
+    "enr/hybrid": 1,
+    "enr+meta/dense": 1,
+    "enr+meta/bm25": 2,
+    "enr+meta/hybrid": 1,
+    "raw+meta+unit/hybrid": 2,
+    "raw+meta+unit+desc/hybrid": 4,
+    "enr+meta+unit/hybrid": 1
+   }
+  },
+  {
+   "key": "hydraulic data/inflow-digital.csv::flow_velocity",
+   "gold": "qudt:Velocity",
+   "phrase": "flow velocity",
+   "unit": "m/s",
+   "ranks": {
+    "raw/hybrid": 23,
+    "raw+meta/dense": 37,
+    "raw+meta/bm25": 13,
+    "raw+meta/hybrid": 14,
+    "enr/hybrid": 11,
+    "enr+meta/dense": 6,
+    "enr+meta/bm25": 13,
+    "enr+meta/hybrid": 5,
+    "raw+meta+unit/hybrid": 14,
+    "raw+meta+unit+desc/hybrid": 23,
+    "enr+meta+unit/hybrid": 6
+   }
+  },
+  {
+   "key": "hydraulic data/inflow-digital.csv::water_level",
+   "gold": "gemet:9190",
+   "phrase": "water level",
+   "unit": "m",
+   "ranks": {
+    "raw/hybrid": 2,
+    "raw+meta/dense": 2,
+    "raw+meta/bm25": 7,
+    "raw+meta/hybrid": 1,
+    "enr/hybrid": 2,
+    "enr+meta/dense": 1,
+    "enr+meta/bm25": 5,
+    "enr+meta/hybrid": 1,
+    "raw+meta+unit/hybrid": 1,
+    "raw+meta+unit+desc/hybrid": 5,
+    "enr+meta+unit/hybrid": 1
+   }
+  },
+  {
+   "key": "hydraulic data/overflow.csv::flow_rate",
+   "gold": "qudt:VolumeFlowRate",
+   "phrase": "volumetric flow rate",
+   "unit": "L/s",
+   "ranks": {
+    "raw/hybrid": 1,
+    "raw+meta/dense": 7,
+    "raw+meta/bm25": 1,
+    "raw+meta/hybrid": 1,
+    "enr/hybrid": 1,
+    "enr+meta/dense": 1,
+    "enr+meta/bm25": 2,
+    "enr+meta/hybrid": 1,
+    "raw+meta+unit/hybrid": 1,
+    "raw+meta+unit+desc/hybrid": 2,
+    "enr+meta+unit/hybrid": 1
+   }
+  },
+  {
+   "key": "hydraulic data/overflow.csv::water_level",
+   "gold": "gemet:9190",
+   "phrase": "water level",
+   "unit": "m",
+   "ranks": {
+    "raw/hybrid": 3,
+    "raw+meta/dense": 2,
+    "raw+meta/bm25": 7,
+    "raw+meta/hybrid": 2,
+    "enr/hybrid": 2,
+    "enr+meta/dense": 1,
+    "enr+meta/bm25": 5,
+    "enr+meta/hybrid": 1,
+    "raw+meta+unit/hybrid": 2,
+    "raw+meta+unit+desc/hybrid": 7,
+    "enr+meta+unit/hybrid": 1
+   }
+  },
+  {
+   "key": "lab data/samples.csv::COD1",
+   "gold": "gemet:1536",
+   "phrase": "chemical oxygen demand",
+   "unit": "mg/L",
+   "ranks": {
+    "raw/hybrid": 139,
+    "raw+meta/dense": 1,
+    "raw+meta/bm25": 4,
+    "raw+meta/hybrid": 1,
+    "enr/hybrid": 1,
+    "enr+meta/dense": 1,
+    "enr+meta/bm25": 2,
+    "enr+meta/hybrid": 1,
+    "raw+meta+unit/hybrid": 1,
+    "raw+meta+unit+desc/hybrid": 2,
+    "enr+meta+unit/hybrid": 1
+   }
+  },
+  {
+   "key": "lab data/samples.csv::COD2",
+   "gold": "gemet:1536",
+   "phrase": "chemical oxygen demand",
+   "unit": "mg/L",
+   "ranks": {
+    "raw/hybrid": 247,
+    "raw+meta/dense": 131,
+    "raw+meta/bm25": 1238,
+    "raw+meta/hybrid": 247,
+    "enr/hybrid": 1,
+    "enr+meta/dense": 1,
+    "enr+meta/bm25": 1,
+    "enr+meta/hybrid": 1,
+    "raw+meta+unit/hybrid": 194,
+    "raw+meta+unit+desc/hybrid": 794,
+    "enr+meta+unit/hybrid": 1
+   }
+  },
+  {
+   "key": "lab data/samples.csv::COD3",
+   "gold": "gemet:1536",
+   "phrase": "chemical oxygen demand",
+   "unit": "mg/L",
+   "ranks": {
+    "raw/hybrid": 159,
+    "raw+meta/dense": 83,
+    "raw+meta/bm25": 1238,
+    "raw+meta/hybrid": 159,
+    "enr/hybrid": 1,
+    "enr+meta/dense": 1,
+    "enr+meta/bm25": 1,
+    "enr+meta/hybrid": 1,
+    "raw+meta+unit/hybrid": 167,
+    "raw+meta+unit+desc/hybrid": 778,
+    "enr+meta+unit/hybrid": 1
+   }
+  },
+  {
+   "key": "lab data/samples.csv::TSS1",
+   "gold": "gemet:12220",
+   "phrase": "total suspended solids",
+   "unit": "mg/L",
+   "ranks": {
+    "raw/hybrid": 677,
+    "raw+meta/dense": 22,
+    "raw+meta/bm25": 494,
+    "raw+meta/hybrid": 30,
+    "enr/hybrid": 2,
+    "enr+meta/dense": 2,
+    "enr+meta/bm25": 5,
+    "enr+meta/hybrid": 1,
+    "raw+meta+unit/hybrid": 32,
+    "raw+meta+unit+desc/hybrid": 82,
+    "enr+meta+unit/hybrid": 1
+   }
+  },
+  {
+   "key": "lab data/samples.csv::TSS2",
+   "gold": "gemet:12220",
+   "phrase": "total suspended solids",
+   "unit": "mg/L",
+   "ranks": {
+    "raw/hybrid": 828,
+    "raw+meta/dense": 1221,
+    "raw+meta/bm25": 494,
+    "raw+meta/hybrid": 828,
+    "enr/hybrid": 2,
+    "enr+meta/dense": 1,
+    "enr+meta/bm25": 5,
+    "enr+meta/hybrid": 2,
+    "raw+meta+unit/hybrid": 649,
+    "raw+meta+unit+desc/hybrid": 700,
+    "enr+meta+unit/hybrid": 3
+   }
+  },
+  {
+   "key": "lab data/samples.csv::TSS3",
+   "gold": "gemet:12220",
+   "phrase": "total suspended solids",
+   "unit": "mg/L",
+   "ranks": {
+    "raw/hybrid": 826,
+    "raw+meta/dense": 1213,
+    "raw+meta/bm25": 494,
+    "raw+meta/hybrid": 826,
+    "enr/hybrid": 2,
+    "enr+meta/dense": 1,
+    "enr+meta/bm25": 5,
+    "enr+meta/hybrid": 2,
+    "raw+meta+unit/hybrid": 706,
+    "raw+meta+unit+desc/hybrid": 723,
+    "enr+meta+unit/hybrid": 3
+   }
+  },
+  {
+   "key": "pollutant data/calibrated.csv::COD",
+   "gold": "gemet:1536",
+   "phrase": "chemical oxygen demand",
+   "unit": "mg/L",
+   "ranks": {
+    "raw/hybrid": 646,
+    "raw+meta/dense": 1,
+    "raw+meta/bm25": 3,
+    "raw+meta/hybrid": 1,
+    "enr/hybrid": 1,
+    "enr+meta/dense": 1,
+    "enr+meta/bm25": 2,
+    "enr+meta/hybrid": 1,
+    "raw+meta+unit/hybrid": 1,
+    "raw+meta+unit+desc/hybrid": 1,
+    "enr+meta+unit/hybrid": 1
+   }
+  },
+  {
+   "key": "pollutant data/spectrometer.csv::COD",
+   "gold": "gemet:1536",
+   "phrase": "chemical oxygen demand",
+   "unit": "mg/L",
+   "ranks": {
+    "raw/hybrid": 376,
+    "raw+meta/dense": 3,
+    "raw+meta/bm25": 3,
+    "raw+meta/hybrid": 1,
+    "enr/hybrid": 1,
+    "enr+meta/dense": 1,
+    "enr+meta/bm25": 2,
+    "enr+meta/hybrid": 1,
+    "raw+meta+unit/hybrid": 1,
+    "raw+meta+unit+desc/hybrid": 1,
+    "enr+meta+unit/hybrid": 1
+   }
+  },
+  {
+   "key": "pollutant data/spectrometer.csv::TSS",
+   "gold": "gemet:12220",
+   "phrase": "total suspended solids",
+   "unit": "mg/L",
+   "ranks": {
+    "raw/hybrid": 759,
+    "raw+meta/dense": 67,
+    "raw+meta/bm25": 492,
+    "raw+meta/hybrid": 96,
+    "enr/hybrid": 2,
+    "enr+meta/dense": 14,
+    "enr+meta/bm25": 5,
+    "enr+meta/hybrid": 2,
+    "raw+meta+unit/hybrid": 113,
+    "raw+meta+unit+desc/hybrid": 355,
+    "enr+meta+unit/hybrid": 2
+   }
+  },
+  {
+   "key": "pollutant data/spectrometer.csv::temperature",
+   "gold": "qudt:Temperature",
+   "phrase": "water temperature",
+   "unit": "°C",
+   "ranks": {
+    "raw/hybrid": 11,
+    "raw+meta/dense": 39,
+    "raw+meta/bm25": 6,
+    "raw+meta/hybrid": 10,
+    "enr/hybrid": 4,
+    "enr+meta/dense": 23,
+    "enr+meta/bm25": 18,
+    "enr+meta/hybrid": 8,
+    "raw+meta+unit/hybrid": 10,
+    "raw+meta+unit+desc/hybrid": 12,
+    "enr+meta+unit/hybrid": 8
+   }
+  },
+  {
+   "key": "precipitation data/0033900601.csv::0033900601",
+   "gold": "gemet:637",
+   "phrase": "precipitation depth",
+   "unit": "mm",
+   "ranks": {
+    "raw/hybrid": 3678,
+    "raw+meta/dense": 16,
+    "raw+meta/bm25": 4863,
+    "raw+meta/hybrid": 39,
+    "enr/hybrid": 19,
+    "enr+meta/dense": 12,
+    "enr+meta/bm25": 4868,
+    "enr+meta/hybrid": 29,
+    "raw+meta+unit/hybrid": 28,
+    "raw+meta+unit+desc/hybrid": 39,
+    "enr+meta+unit/hybrid": 27
+   }
+  },
+  {
+   "key": "precipitation data/0033901401.csv::0033901401",
+   "gold": "gemet:637",
+   "phrase": "precipitation depth",
+   "unit": "mm",
+   "ranks": {
+    "raw/hybrid": 3804,
+    "raw+meta/dense": 15,
+    "raw+meta/bm25": 4863,
+    "raw+meta/hybrid": 36,
+    "enr/hybrid": 19,
+    "enr+meta/dense": 10,
+    "enr+meta/bm25": 4868,
+    "enr+meta/hybrid": 27,
+    "raw+meta+unit/hybrid": 28,
+    "raw+meta+unit+desc/hybrid": 39,
+    "enr+meta+unit/hybrid": 28
+   }
+  },
+  {
+   "key": "precipitation data/0033901601.csv::0033901601",
+   "gold": "gemet:637",
+   "phrase": "precipitation depth",
+   "unit": "mm",
+   "ranks": {
+    "raw/hybrid": 3424,
+    "raw+meta/dense": 17,
+    "raw+meta/bm25": 4863,
+    "raw+meta/hybrid": 42,
+    "enr/hybrid": 19,
+    "enr+meta/dense": 10,
+    "enr+meta/bm25": 4868,
+    "enr+meta/hybrid": 28,
+    "raw+meta+unit/hybrid": 30,
+    "raw+meta+unit+desc/hybrid": 48,
+    "enr+meta+unit/hybrid": 27
+   }
+  }
+ ]
+}

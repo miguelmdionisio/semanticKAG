@@ -1,0 +1,58 @@
+{
+ "dataset": "uwo_pumpwgeeren_geerenstr",
+ "root": "data\\04 - UWO\\wide\\pumpwgeeren_geerenstr",
+ "observations": [
+  {
+   "type": "rainfall_intensity",
+   "file": "bn_dl801_pumpwgeeren_geerenstr.csv",
+   "column": "rainfall_intensity",
+   "sensor": "bn_dl801_pumpwgeeren_geerenstr",
+   "observedProperty": "ex:property/rainfall-intensity",
+   "decision": "mint",
+   "unit": "unit:MilliM-PER-HR",
+   "feature": "pumpwgeeren_geerenstr",
+   "feature_gwsw": "gwsw:Rioolgemaal",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). FoI = physical sensor site (per decision); measurand is atmospheric, not the site. No QUDT/GEMET rainfall-intensity concept."
+  },
+  {
+   "type": "rainfall_cumsum",
+   "file": "bn_dl801_pumpwgeeren_geerenstr.csv",
+   "column": "rainfall_cumsum",
+   "sensor": "bn_dl801_pumpwgeeren_geerenstr",
+   "observedProperty": "gemet:637",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "pumpwgeeren_geerenstr",
+   "feature_gwsw": "gwsw:Rioolgemaal",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). FoI = physical sensor site (per decision); measurand is atmospheric, not the site. Cumulative total — possibly derived; expert check."
+  },
+  {
+   "type": "ambient_air_temperature",
+   "file": "bt_dl906_pumpwgeeren_geerenstr.csv",
+   "column": "ambient_air_temperature",
+   "sensor": "bt_dl906_pumpwgeeren_geerenstr",
+   "observedProperty": "qudt:Temperature",
+   "decision": "reuse",
+   "unit": "unit:DEG_C",
+   "feature": "pumpwgeeren_geerenstr",
+   "feature_gwsw": "gwsw:Rioolgemaal",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). FoI = physical sensor site (per decision); measurand is atmospheric, not the site."
+  },
+  {
+   "type": "relative_humidity",
+   "file": "bt_dl906_pumpwgeeren_geerenstr.csv",
+   "column": "relative_humidity",
+   "sensor": "bt_dl906_pumpwgeeren_geerenstr",
+   "observedProperty": "qudt:RelativeHumidity",
+   "decision": "reuse",
+   "unit": "unit:PERCENT",
+   "feature": "pumpwgeeren_geerenstr",
+   "feature_gwsw": "gwsw:Rioolgemaal",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed). FoI = physical sensor site (per decision); measurand is atmospheric, not the site."
+  }
+ ]
+}

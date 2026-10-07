@@ -1,0 +1,19 @@
+{
+ "dataset": "uwo_115a_chueferistr",
+ "root": "data\\04 - UWO\\wide\\115a_chueferistr",
+ "observations": [
+  {
+   "type": "water_level",
+   "file": "bl_dl317_115a_chueferistr.csv",
+   "column": "water_level",
+   "sensor": "bl_dl317_115a_chueferistr",
+   "observedProperty": "gemet:9190",
+   "decision": "reuse",
+   "unit": "unit:MilliM",
+   "feature": "115a_chueferistr",
+   "feature_gwsw": "gwsw:Rioolleiding",
+   "accept": [],
+   "note": "GWSW class tentative (UWO site sheet not expert-reviewed)."
+  }
+ ]
+}
